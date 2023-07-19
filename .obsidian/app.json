@@ -1,0 +1,10 @@
+{
+  "trashOption": "none",
+  "foldHeading": true,
+  "useTab": false,
+  "showInlineTitle": false,
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./attachments",
+  "showUnsupportedFiles": true
+}
