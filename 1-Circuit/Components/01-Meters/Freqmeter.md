@@ -1,0 +1,6 @@
+Property: (default value)
+
+- Filter: (0.1. V)
+   Filter out any voltage change below this value.
+
+#Component

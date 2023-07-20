@@ -1,0 +1,9 @@
+Rail:
+
+This is a simple voltage source.
+
+It is always ON.
+
+It is possible to change voltage in "Voltage" property above.
+
+#Component

@@ -6,14 +6,18 @@
       {
         "id": "03a224d4dba15f6d",
         "type": "tabs",
-        "dimension": 53.656658968437256,
+        "dimension": 47.119179163378064,
         "children": [
           {
             "id": "5f92d456b2df4977",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1-Circuit/Component list.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -21,18 +25,14 @@
       {
         "id": "b68db5c4c25dc3ef",
         "type": "tabs",
-        "dimension": 46.343341031562744,
+        "dimension": 52.88082083662194,
         "children": [
           {
             "id": "6f3dedf9bb0d743c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-Circuit/Components/Components.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 245.5
   },
   "right": {
     "id": "c6a4303aeafd9f06",
@@ -101,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1-Circuit/Component list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1-Circuit/Component list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1-Circuit/Component list.md"
+              }
             }
           }
         ],
@@ -165,47 +169,47 @@
     "1-Circuit/Component list.md",
     "1-Circuit/Components/01-Meters/Logic Analyzer.md",
     "1-Circuit/Components/01-Meters/Oscilloscope.md",
+    "1-Circuit/Components/01-Meters/Ampmeter.md",
+    "1-Circuit/Components/01-Meters/Probe.md",
+    "1-Circuit/Components/01-Meters/Voltmeter.md",
+    "1-Circuit/Components/01-Meters/Freqmeter.md",
     "1-Circuit/Components/02-Sources/Clock.md",
     "1-Circuit/Components/02-Sources/Wave Gen.md",
+    "1-Circuit/Components/02-Sources/Battery.md",
+    "1-Circuit/Components/02-Sources/Current Source.md",
+    "1-Circuit/Components/02-Sources/Fixed Volt.md",
+    "1-Circuit/Components/02-Sources/Rail.md",
+    "1-Circuit/Components/02-Sources/Ground.md",
+    "1-Circuit/Components/02-Sources/Voltage Source.md",
+    "1-Circuit/Components/03-Switches/Push.md",
+    "1-Circuit/Components/03-Switches/Switch.md",
+    "1-Circuit/Components/03-Switches/Switchdip.md",
+    "1-Circuit/Components/03-Switches/Relay.md",
+    "1-Circuit/Components/03-Switches/KeyPad.md",
     "1-Circuit/Components/04-Passive/1-Resistors/Potentiometer.md",
     "1-Circuit/Components/04-Passive/1-Resistors/Variable Resistor.md",
+    "1-Circuit/Components/04-Passive/1-Resistors/Resistor.md",
+    "1-Circuit/Components/04-Passive/1-Resistors/Resistor Dip.md",
     "1-Circuit/Components/04-Passive/2-Resistive Sensors/Force Strain Gauge.md",
-    "1-Circuit/Components/04-Passive/2-Resistive Sensors/LDR.md",
-    "1-Circuit/Components/04-Passive/2-Resistive Sensors/RTD.md",
-    "1-Circuit/Components/04-Passive/2-Resistive Sensors/Resistive Sensors.md",
-    "1-Circuit/Components/04-Passive/2-Resistive Sensors/Thermistor.md",
-    "1-Circuit/Components/08-Logic/7 segment BCD.md",
-    "1-Circuit/Components/11-Other/Dial.md",
-    "1-Circuit/Components/11-Other/Text Component.md",
-    "1-Circuit/Components/Components.md",
-    "1-Circuit/Components/Dialed.md",
-    "1-Circuit/Linking Components.md",
-    "1-Circuit/Modular/MCU Monitor.md",
-    "1-Circuit/Modular/Mcu/Fuses.md",
-    "1-Circuit/Modular/Mcu/MCU Clock.md",
-    "1-Circuit/Modular/Mcu/MCUs.md",
-    "1-Circuit/Modular/Mcu/Sleep.md",
-    "1-Circuit/Modular/Modular.md",
-    "1-Circuit/Modular/Mpu/MPUs.md",
-    "images/val.png",
-    "images/track1.png",
-    "images/osc-4.png",
-    "images/osc-3.png",
-    "images/osc-1.png",
-    "images/osc-0.png",
+    "images/audio_out.png",
+    "images/steeper.png",
+    "images/servo.png",
+    "images/dcmotor.png",
+    "images/ssd1306.png",
+    "images/ili9341.png",
+    "images/pcd8544.png",
+    "images/ks0108.png",
+    "images/hd44780_20x4.png",
+    "images/hd44780.png",
+    "1-Circuit/Components/06-Outputs/4-Other Output",
+    "1-Circuit/Components/06-Outputs/3-Motors",
+    "1-Circuit/Components/06-Outputs/2-Displays",
+    "1-Circuit/Components/06-Outputs/1-Leds",
+    "1-Circuit/attachments",
     "netlify.toml",
-    "images/potentiometer.png",
-    "images/oscope.png",
-    "images/lanalizer.png",
     "1-Circuit/Components/01-Meters/Oscilloscope",
-    "images/rnd.png",
     "1-Circuit/Components/05-Active/3-Other Active",
     "1-Circuit/Components/05-Active/2-Transistors",
-    "1-Circuit/Components/05-Active/1-Rectifiers",
-    "1-Circuit/Components/04-Passive/3-Reactive",
-    "1-Circuit/Components/04-Passive/2-Resistive Sensors",
-    "1-Circuit/Components/04-Passive/1-Resistors",
-    "1-Circuit/Components/11-Other",
-    "1-Circuit/Components/10-Graphical"
+    "1-Circuit/Components/05-Active/1-Rectifiers"
   ]
 }

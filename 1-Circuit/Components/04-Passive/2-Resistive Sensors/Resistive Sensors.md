@@ -5,3 +5,4 @@ A resistive sensor is a device that converts measured physical quantities such a
 [[RTD]]
 [[Force Strain Gauge]]
 
+#hub

@@ -1,0 +1,5 @@
+Property: (default value)
+
+- Resistance: (100 Ω)
+
+#Component 

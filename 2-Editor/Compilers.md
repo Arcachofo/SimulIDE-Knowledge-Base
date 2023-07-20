@@ -92,3 +92,6 @@ For example, in this case the files generated will be in buildpath, so you need 
 **syntax:** syntax file used for highlighting.
 Syntax files are located at: SimulIDE_1.x.x/data/codeeditor/syntax/
 You can add your custom syntax files in that folder and use in your compiler definitions.
+
+
+#tutorial

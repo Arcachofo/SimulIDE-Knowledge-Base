@@ -1,0 +1,13 @@
+Property: (default value)
+
+- PNP: (yes)
+   PNP or NPN.
+
+- Gain: (100)
+   Current gain.
+    
+- Threshold: (0.670736 V)
+   Base-Emitter diode threshold.
+
+
+#Component 
