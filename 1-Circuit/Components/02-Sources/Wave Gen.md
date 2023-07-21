@@ -42,4 +42,6 @@ Property: (default value)
 - **Semi amplitude:** (2.5 V)
    Half wave amplitude. 
 
+---
+
 #Component

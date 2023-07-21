@@ -8,7 +8,7 @@ Mechanism to link components to perform certain actions:
     Calls: 
     *setLinkedValue( (int)v, 0 )*
 
-- **[[Text Component]]**
+- **[[Text]] Component**
     Shows value label from linked components.
     Syntax: *$dataN*   (N = component index).
 

@@ -54,7 +54,6 @@
    > ![[opamp.png]] [[OpAmp]]
    > ![[voltreg.png]] [[Volt Regulator]]
    > ![[1to3-c.png]] [[Analog Mux]]
-
 ---
 ## Outputs
    ### Leds
@@ -81,23 +80,75 @@
    > ![[lamp.png]] [[Incandescent Lamp]]
 ---
 ## Micro
-   [[AVR]]
-   [[PIC]]
-   [[I51]]
-   [[MCS65]]
-   [[Z80]]
-   [[Arduino]]
-   [[Shields]]
+   > ![[ic_comp.png]] [[AVR]]
+   > ![[ic_comp.png]] [[PIC]]
+   > ![[ic_comp.png]] [[I51]]
+   > ![[ic_comp.png]] [[MCS65]]
+   > ![[ic_comp.png]] [[Z80]]
+   > ![[board.png]] [[Arduino]]
+   > ![[shield.png]] [[Shields]]
    ### Sensors
+   > ![[sr04_ico.png]] [[HC-SR04]]
+   > ![[dht22.png]] [[DHT22-11]]
+   > ![[ic_comp.png]] [[DS1621]]
+   > ![[ic_comp.png]] [[DS18B20]]
    ### Peripherals
+   > ![[serialport.png]] [[Serial Port]]
+   > ![[touch.png]] [[TouchPad (resistive)]]
+   > ![[ky-023.png]] [[KY-023]]
+   > ![[ky-040.png]] [[Rotary Encoder (relative)]]
+   > ![[dsxxx_ico.png]] [[DS1307]]
+   > ![[esp01_ico.png]] [[ESPp1 (TCP)]]
 ---
 ## Logic
+### Gates
+> ![[buffer.png]] [[Buffer]]
+> ![[andgate.png]] [[And Gate]]
+> ![[orgate.png]] [[Or Gate]]
+> ![[xorgate.png]] [[Xor Gate]]
+### Arithmetic
+> ![[2to1.png]] [[Counter]]
+> ![[2to2.png]] [[Full Adder]]
+> ![[1to3.png]] [[Shift Reg]]
+> ![[subc.png]] [[Function]]
+### Memory
+> ![[2to2.png]] [[FlipFlop D]]
+> ![[2to2.png]] [[FlipFlop T]]
+> ![[2to2.png]] [[FlipFlop RS]]
+> ![[2to2.png]] [[FlipFlop JK]]
+> ![[subc.png]] [[Latch]]
+> ![[2to3g.png]] [[RAM-ROM]]
+> ![[2to3g.png]] [[Dynamic RAM]]
+> ![[2to3.png]] [[I2C RAM]]
+### Converters
+> ![[mux.png]] [[Mux]]
+> ![[demux.png]] [[Demux]]
+> ![[2to3g.png]] [[Decoder (4 to 10-16)]]
+> ![[3to2g.png]] [[Encoder (10-16 to 4)]]
+> ![[2to3g.png]] [[BCD to 7S]]
+> ![[2to3g.png]] [[I2C to Parallel]]
+### Other Logic
+> ![[1to3.png]] [[ADC]]
+> ![[3to1.png]] [[DAC]]
+> ![[7segbcd.png]] [[7 segment BCD]]
+> ![[ic2.png]] [[LM555]]
 ---
 ## Connectors
+> ![[bus.png]] [[Bus]]
+> ![[tunnel.png]] [[Tunnel]]
+> ![[socket.png]] [[Socket]]
+> ![[header.png]] [[Header]]
 ---
 ## Graphical
+> ![[image.png]] [[Image]]
+> ![[text.png]] [[Text]]
+> ![[ellipse.png]] [[Elipse]]
+> ![[line.png]] [[Line]]
 ---
 ## Other
+> ![[resistordip.png]] [[Package]]
+> ![[dial.png]] [[Dial]]
 
+---
 
 #hub

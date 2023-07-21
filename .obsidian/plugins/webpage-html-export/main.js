@@ -8595,7 +8595,7 @@ function setupResize(setupOnNode)
 			docWidthTestEl.remove();
 		}
 
-		let letHideRightThreshold = sidebarWidth * sidebarCount + lineWidth / 2;
+		let letHideRightThreshold = 905; //sidebarWidth * sidebarCount + lineWidth / 2;
 
 		if (window.innerWidth < letHideRightThreshold)
 		{
