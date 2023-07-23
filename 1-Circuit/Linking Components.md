@@ -49,5 +49,13 @@ Mechanism to link components to perform certain actions:
 
 [[Linked Dev]]
 
+---
+
+## Resources:
+
+- [Forum discussion](https://simulide.forumotion.com/t1556-linking-components)
+- Video [Linking Text component to To other components.](https://youtu.be/k7gzxlZPyco)
+
+---
 
 #tutorial

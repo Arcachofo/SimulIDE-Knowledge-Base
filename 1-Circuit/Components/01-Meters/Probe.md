@@ -1,7 +1,10 @@
 ## Description:
-Hover at Wires or Pins to get voltage.
 
-As digital probe: Orange = High State.
+Hover or connect to Wires or Pins to get voltage.
+
+**As digital probe: **
+- Orange = High State.
+- Blue = Low State
 
 ---
 
@@ -10,7 +13,7 @@ Property: (default value)
 
 - **Show Voltage:** (yes)
    Show voltage value in circuit.
-
+<br>
 - **Threshold:** (2.5 V)
    Digital threshold to determine High/Low states.
 

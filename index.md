@@ -1,11 +1,12 @@
 ## Sections:
-- [[Components]]
-- [[File explorer]]
+- [[Basic use]]
 - [[Circuit canvas]]
+- [[Components]]
 - [[Code Editor]]
+- [[File explorer]]
 
 ## Relevant topics:
-- [[MCUs]]
+- [[MCUs | Microcontrollers]]
 - [[Oscilloscope]]
 - [[Logic Analyzer]]
 - [[Subcircuits]]

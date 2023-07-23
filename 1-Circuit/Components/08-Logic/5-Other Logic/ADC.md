@@ -8,8 +8,8 @@ Main:
    Voltage asigned to the maximum value.
 
 Electric:
-![[Logic Properties#Outputs]]
-![[Logic Properties#Edges]]
+![[Logic Components#Outputs]]
+![[Logic Components#Edges]]
 
 
 #Component 

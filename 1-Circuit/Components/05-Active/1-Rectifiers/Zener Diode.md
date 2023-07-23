@@ -1,31 +1,15 @@
-Blinks if maximum current is exceeded.
+## Description:
 
-Property: (default value)
+Configurable zener diode.
 
-Main:
-- Model: (Diode Default)
-   Diode model determined by set of parameters.
-   Add new models at file: data/diodes.model
+See [[Diode]]
 
-Electric:
-- Fordward Voltage: (0.634767 V)
-   Voltage drop when fordward biased.
+---
 
-- Max Current: (1 A)
-   Maximum current (it will blink if exeeded).
+## Resources:
 
-- Resistance: (0.05 Ω)
-   Series resistance.
+- [Wikipedia](https://en.wikipedia.org/wiki/Zener_diode)
 
-Advanced:
-- Breakdwn Voltage (5.6 V)
-    Breakdown voltage when reverse biased.
-
-- Saturation Surrent: (171.435 nA)
-   Minority charge carriers current when reverse biased.
-
-- Emission Coefficient: (2)
-   Ideality factor.
-
+---
 
 #Component 

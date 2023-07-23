@@ -1,12 +1,27 @@
+## Description:
+
+Triode for Alterning Current.
+
+---
+
+## Properties:
 Property: (default value)
 
-- Gate Resistance: (500 Ω)
+- **Gate Resistance:** (500 Ω)
    Gate to to MT1 Resistance.
-
-- Holding Current: (0.01 A)
+<br>
+- **Trigger Current:** (0.01 A)
    Minimum current to start conducing.
-
-- Holding Current: (0.0082 A)
+<br>
+- **Holding Current:** (0.0082 A)
    Minimum current to keep conducing.
+
+---
+
+## Resources:
+
+- [Wikipedia](https://en.wikipedia.org/wiki/TRIAC)
+
+---
 
 #Component 

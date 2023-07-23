@@ -1,5 +1,16 @@
-[[Component list]]
+## Description:
+The [[Component list]] is the Right Panel, there you can grab components and drop into the [[Circuit canvas]].
+
+Once in the circuit, each component has:
+- [[Component context menu | Context menu]] (right-click) with all the actions available for that component.
+- [[Properties dialog ]] (double-click) to configure all the settings available for that component.
+
+---
+
+## Linking Components:
 [[Linking Components]]
+
+---
 
 ## Customizable Components:
 
@@ -34,13 +45,13 @@ You need to add them to the component list. This is done in a xml file like this
 
 ---
 
-## Made of Subcircuits:
+### Made of Subcircuits:
 ![[Subcircuits]]
 
 
 ---
 
-## Modular Components:
+### Modular Components:
 ![[Modular]]
 
 

@@ -1,19 +1,9 @@
-Blinks if reactive step is too long or if polarity is wrong.
+## Description:
 
+Simple polarized capacitor.
 
-Property: (default value)
+See [[Capacitor]].
 
-- Capacitance: (10 uF)
-
-- Resistance: (1e-6 Ω)
-
-- Initial Voltage: (0 V)
-   Voltage at simulation start (initial charge).
-
-- Auto Step: (0 steps)
-   Resize Reactive step automatically.
-   The value sets the number of sub-steps.
-   0 to disable.
-
+---
 
 #Component 

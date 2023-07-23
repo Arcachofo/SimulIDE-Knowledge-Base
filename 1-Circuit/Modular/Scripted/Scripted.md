@@ -1,3 +1,5 @@
+## Description:
+
 With Scripted Components it is possible to define the behaviour of the device in a script.
 
 These components are defined in 3 files:
@@ -121,23 +123,15 @@ linkable, properties and ioport (or other peripherals) are optional
     void setVoltage( double volt )
     void changeCallBack( eElement@ e, bool en )
 ```
+
 ---
-<br>
 
-# ScriptPerif:
+## Resources:
 
-### Peipheral interface for scripts.
+- [Forum discussion,](https://simulide.forumotion.com/t990-scripted-components)
+- Video: [Creating Scripted Components Part I](https://youtu.be/vJLfuVwbvGE)
+- [[Scripted Dev]].
 
-**Mandatory functions to implement:**
-
-Register C++ objects and functions:
-```c
-    void registerScript( ScriptCpu* cpu )
-```
-Register Script functions:
-```c
-    void startScript()
-```
-
+---
 
 #tutorial

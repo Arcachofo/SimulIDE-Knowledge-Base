@@ -6,7 +6,7 @@
       {
         "id": "03a224d4dba15f6d",
         "type": "tabs",
-        "dimension": 28.999999999999996,
+        "dimension": 58.07174887892377,
         "children": [
           {
             "id": "5f92d456b2df4977",
@@ -14,25 +14,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Modular/1-Mcu/MCUs.md",
-                "mode": "source",
-                "source": true
+                "file": "index.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
         ]
       },
       {
-        "id": "de4107a21e8b4ebe",
+        "id": "2bcdfc495161beff",
         "type": "tabs",
-        "dimension": 71,
+        "dimension": 41.92825112107623,
         "children": [
           {
-            "id": "9cf4d2206cd4ca03",
+            "id": "7fee4320dc9e3847",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "c4107885302ee073",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Circuit/Components/05-Active/1-Rectifiers/SCR.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -85,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.5
+    "width": 200
   },
   "right": {
     "id": "c6a4303aeafd9f06",
@@ -101,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           }
         ],
@@ -159,11 +175,11 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "9cf4d2206cd4ca03",
+  "active": "5f92d456b2df4977",
   "lastOpenFiles": [
-    "1-Circuit/Modular/1-Mcu/MCUs.md",
+    "1-Circuit/Circuit Tool bar.md",
     "1-Circuit/Circuit canvas.md",
-    "1-Circuit/Component list.md",
+    "1-Circuit/Circuit context menu.md",
     "1-Circuit/Components/01-Meters/Ampmeter.md",
     "1-Circuit/Components/01-Meters/Freqmeter.md",
     "1-Circuit/Components/01-Meters/Logic Analyzer.md",
@@ -187,6 +203,11 @@
     "1-Circuit/Components/04-Passive/1-Resistors/Resistor Dip.md",
     "1-Circuit/Components/04-Passive/1-Resistors/Resistor.md",
     "1-Circuit/Components/04-Passive/1-Resistors/Variable Resistor.md",
+    "images/pausesim.png",
+    "images/poweroff.png",
+    "Application",
+    "images/gui-basic-use.png",
+    "images/s100-gui-end.png",
     "1-Circuit/Components/08-Logic/2-Arithmetic/Counter.md.KTwEOm",
     "1-Circuit/Components/08-Logic/2-Arithmetic/Counter.md.MhnEpD",
     "1-Circuit/Components/08-Logic/2-Arithmetic/Counter.md.NYwbLz",
@@ -196,16 +217,11 @@
     "images/text.png",
     "images/rectangle.png",
     "images/line.png",
-    "images/ellipse.png",
-    "images/3to1.png",
-    "images/ic2.png",
-    "images/7segbcd.png",
     "1-Circuit/Components/08-Logic/5-Other Logic",
     "1-Circuit/Components/08-Logic/4-Converters",
     "1-Circuit/Components/08-Logic/3-Memory",
     "1-Circuit/Components/08-Logic/2-Arithmetic",
     "1-Circuit/Components/08-Logic/1-Gates",
-    "1-Circuit/Components/7-Micro/9-Peripherals",
-    "1-Circuit/Components/7-Micro/8-Sensors"
+    "1-Circuit/Components/7-Micro/9-Peripherals"
   ]
 }
