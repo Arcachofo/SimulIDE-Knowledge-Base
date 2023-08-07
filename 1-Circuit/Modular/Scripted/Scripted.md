@@ -2,17 +2,26 @@
 
 With Scripted Components it is possible to define the behaviour of the device in a script.
 
-These components are defined in 3 files:
-Component name = *comp_name* 
+Scripted Components are a type of [[Modular]] Components, but with an extra file containing the script:
+- Definition file.
+- Package file.
+- Script file.
 
-**Component file:** *comp_name*.mcu  
+Let's say our component name is *"comp_name"* , then our files would be:
+
+**Definition file:** *comp_name*.mcu  
 **Package file:** *comp_name*.package  
-**Script file:** *comp_name*.as (defined in component file)
+**Script file:** *file*.as (defined in component file)
 <br>
 
-## Component file:
+## Definition file:
+
+This file describes which kind of component it is and the  parts or modules it contains.
+
+For example, in the file below we can see that **core**  is set to *"scripted"* , so this is an Scripted  component, and the **script** is in *"file.as"* :
+
 ```xml
-    <iou name="comp_name" core="scripted" script="comp_name.as" linkable="true" >
+    <iou name="comp_name" core="scripted" script="file.as" >
 
       <properties name="group name">
         <property name="prop1" type="double" />
@@ -23,7 +32,8 @@ Component name = *comp_name*
 
     </iou>
 ```
-linkable, properties and ioport (or other peripherals) are optional
+
+We can also see That there is a property group with 2 properties and an IO Port with 4 pins.
 
 **Script must implement property getters and setters:**
 ```c
@@ -123,6 +133,14 @@ linkable, properties and ioport (or other peripherals) are optional
     void setVoltage( double volt )
     void changeCallBack( eElement@ e, bool en )
 ```
+
+---
+## The script language
+
+https://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html
+
+[[Arrays]]
+
 
 ---
 

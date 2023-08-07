@@ -2,7 +2,7 @@
 
 Hover or connect to Wires or Pins to get voltage.
 
-**As digital probe: **
+**As digital probe:**
 - Orange = High State.
 - Blue = Low State
 

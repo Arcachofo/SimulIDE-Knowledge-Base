@@ -1,6 +1,6 @@
 ## Description:
 
-Diode for Alterning Current.
+Diode for Alternating Current.
 
 ---
 

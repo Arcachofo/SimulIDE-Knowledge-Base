@@ -35,11 +35,10 @@ Property: (default value)
 - **Always On:** (yes)
    Removes the button and keeps always active.
 
-
 ### Electric:
 - **Middle Voltage:** (0 V)
    Central voltage of the wave.
-
+<br>
 - **Semi amplitude:** (2.5 V)
    Half wave amplitude. 
 

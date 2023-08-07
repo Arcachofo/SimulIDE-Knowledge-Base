@@ -1,6 +1,6 @@
 ## Description:
 
-Group of resistors in a DIP configuration.
+Set of resistors in a DIP configuration.
 
 ---
 

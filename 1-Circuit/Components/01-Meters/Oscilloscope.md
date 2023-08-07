@@ -1,7 +1,5 @@
 ## Description:
 
-Component group: Meters.
-
 Oscilloscope has 4 channels identified with different colors and frequency indicators for each channel.
 
 There is one input pin per channel and one for reference voltage (last one besides Expand button).
@@ -10,7 +8,7 @@ Connecting the inputs and running the simulation you will see the wave forms:
 
 ![[osc-1.png]]
 
-<br>
+---
 
 ## Properties:
 
@@ -21,7 +19,7 @@ Opening the properties (double-click) you can configure:
 
 ![[osc-0.png]]
 
-<br>
+---
 
 ## Expanded mode:
 
@@ -30,30 +28,48 @@ This floating window is resizable and you can close it like any other window:
 
 ![[osc-3.png]]
 
-<br>
+---
 
 ## Controls:
 
 From top to bottom, you can find the following controls:
 
-**Channel Buttons:**
+## Channel Buttons:
 With this row of buttons you can select the "active" channel.
 When you select a channel, value boxes will change to the channel color.
 Al changes done in **Time Pos**, **Volt Div** and **Volt Pos**, will be applied only to selected channel.
 To apply changes to all channels, click on "**All**" button.
 ![[osc-4.png]]
-**Time controls** (horizontal):
+
+---
+
+## Time controls:
 With these you can zoom-in or zoom-out in time (for all channels) and set the horizontal position of each channel.
 - **Time Div:** size of one horizontal division in the screen.
 - **Time Pos:** relative position in time for selected channel.
 
-**Voltage controls** (vertical):
+**You can also use the mouse in Oscilloscope screen:**
+- **Mouse wheel** to zoom in/out.
+- **Left-Click** and move to change position.
+- **Middle-Click** reposition time reference.
+- **Cursor** shows voltages for each channel and time value.
+
+![[val.png]]
+
+---
+
+## Voltage controls:
+
 To configure vertical size and position for each channel.
 - **Volt Div:** size of one vertical division in the screen.
 - **Volt Pos:** relative vertical position for selected channel.
 
 You can edit time and voltage values with the dial, or set a value in the corresponding box.
 You can enter a multiplier after the value in value boxes, for example type: "**10m**" + **Enter**, to set 10 miliseconds or 10 miliVolts.
+
+---
+
+## Other controls:
 
 **Filter:** Any voltage change below this value will not trigger.
 **Auto:** Auto-resize channel to fit in the screen.
@@ -68,14 +84,10 @@ You can enter a multiplier after the value in value boxes, for example type: "**
 
 ![[track1.png]]
 
-<br>
+---
 
-**You can also use the mouse in Oscilloscope screen:**
-- **Mouse wheel** to zoom in/out.
-- **Left-Click** and move to change position.
-- **Middle-Click** reposition time reference.
-- **Cursor** shows voltages for each channel and time value.
+## Resources:
 
-![[val.png]]
+---
 
 #Component

@@ -25,9 +25,10 @@ Property: (default value)
 ### Parameters:
 - **Ref. Temperature:** (20 ºC)
    Reference Temperature.
-
+<br>
 - **Temperature:** (20 ºC)
    Current Temperature.
+
 ---
 
 #Component

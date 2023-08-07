@@ -1,10 +1,18 @@
+## Description:
+
+Configurable servo motor.
+
+---
+
+## Properties:
+
 Property: (default value)
 
-Main:
-- Speed: (0.2 sec/60º)
+## Main:
+- **Speed:** (0.2 sec/60º)
    Time to rotate 60º.
 
-Electric:
-include logicinputs
+## Electric:
+![[Logic Components#Inputs]]
 
 #Component 

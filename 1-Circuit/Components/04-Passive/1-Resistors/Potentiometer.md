@@ -7,6 +7,7 @@ Use the dial to adjust the value.
 ---
 
 ## Properties:
+
 Property: (default value)
 
 - **Resistance:** (100 Ω)

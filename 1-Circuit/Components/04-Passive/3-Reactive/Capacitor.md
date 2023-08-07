@@ -24,4 +24,10 @@ Property: (default value)
 
 ---
 
+## Resources:
+
+- Video: [Capacitor Auto-step SimulIDE 1.0.0](https://www.youtube.com/watch?v=9AuXlBCEd_c&list=PL0YDA67EjDEEasQXWilro9SEyDHN-H6ug&index=2&pp=iAQB)
+
+---
+
 #Component 

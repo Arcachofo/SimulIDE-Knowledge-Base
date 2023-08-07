@@ -1,5 +1,4 @@
 ## Description:
-Simple Clock source.
 
 Turn On/Off with the letf buttton.
 

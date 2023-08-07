@@ -1,6 +1,6 @@
 ## Description:
 
-Interactive Light Dependet Resistor.
+Interactive Light Dependent Resistor.
 
 Use the dial to adjust the value.
 
@@ -21,7 +21,6 @@ Property: (default value)
 <br>
 - **Dial Step:** (0 Lux)
    Minimum step when rotating the dial.
-
 
 ### Parameters:
 - **Gamma:** (0.8582)

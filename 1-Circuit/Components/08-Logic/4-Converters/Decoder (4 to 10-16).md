@@ -1,16 +1,21 @@
+## Description:
+
 Converts from binary to decimal.
+
+---
+
+## Properties:
 
 Property: (default value)
 
-Main:
-- 16 Bits: (no)
+### Main:
+- **16 Bits:** (no)
    8 or 16 outputs.
-
-- Invert Outputs: (no)
+<br>
+- **Invert Outputs:** (no)
    Invert output pins.
 
-
-Electric:
+### Electric:
 ![[Logic Components#Inputs]]
 ![[Logic Components#Outputs]]
 ![[Logic Components#Edges]]

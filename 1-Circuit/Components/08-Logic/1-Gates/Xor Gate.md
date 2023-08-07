@@ -1,8 +1,16 @@
+## Description:
+
+Configurable XOr Gate.
+
+---
+
+## Properties:
+
 Property: (default value)
 
-Main:
+### Main:
 #include gateinputs
-Electric:
+### Electric:
 ![[Logic Components#Inputs]]
 ![[Logic Components#Outputs]]
 ![[Logic Components#Edges]]

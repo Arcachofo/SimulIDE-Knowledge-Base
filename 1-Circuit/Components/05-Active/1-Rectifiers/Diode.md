@@ -26,7 +26,7 @@ Property: (default value)
 
 ### Advanced:
 - **Breakdown Voltage:** (0 V)
-    Breakdown voltage when reverse biased.
+   Breakdown voltage when reverse biased.
 <br>
 - **Saturation Current:** (171.435 nA)
    Minority charge carriers current when reverse biased.

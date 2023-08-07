@@ -2,7 +2,7 @@
 
 Variable Voltage Source.
 
-Turn On/Off with the letf buttton.
+Turn On/Off with the left buttton.
 Adjust voltage using the dial.
 Button shows voltage output at this moment.
 

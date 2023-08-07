@@ -1,23 +1,33 @@
+## Description:
+
+Resistive touchpad.
+
+---
+
+## Properties:
+
 Property: (default value)
 
-Main:
-- Width (240 pixels)
+### Main:
+- **Width:** (240 pixels)
+<br>
+- **Height:** (320 pixels)
+<br>
+- **Transparent:** (no)
 
-- Height: (320 pixels)
-
-- Transparent (no)
-
-Electric:
-- RxMin: (100 Ω)
+### Electric:
+- **RxMin:** (100 Ω)
    Minimum resistance in X axis (right side).
-
-- RxMax: (100 Ω)
+<br>
+- **RxMax:** (100 Ω)
    Maximum resistance in X axis (left side).
-
-- RyMin: (100 Ω)
+<br>
+- **RyMin:** (100 Ω)
    Minimum resistance in Y axis (top side).
-
-- RyMax: (100 Ω)
+<br>
+- **RyMax:** (100 Ω)
    Maximum resistance in Y axis (bottom side).
+
+---
 
 #Component 

@@ -1,14 +1,23 @@
+## Description:
+
+Configurable header connector.
+
+---
+
+## Properties:
+
 Property: (default value)
 
-- Id: ()
+- **Id:** ()
    Identifier, all Tunnels with this Id will be connected togeter.
-
-- Rotated: (false) ( Only 1.0.0 )
+<br>
+- **Rotated:** (false) ( Only 1.0.0 )
    Yes: pin to the right.
    No: pin to the left.
-
-- Bus (false)
+<br>
+- **Bus:** (false)
    This tunnel connects to a Bus.
 
+---
 
 #Component 

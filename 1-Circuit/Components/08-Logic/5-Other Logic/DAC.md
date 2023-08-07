@@ -1,13 +1,19 @@
+## Description:
+
+---
+
+## Properties:
+
 Property: (default value)
 
-Main:
-- Size: (8 Bits)
+### Main:
+- **Size:** (8 Bits)
    Number of output pins.
-
-- Reference Voltage: (5 V)
+<br>
+- **Reference Voltage:** (5 V)
    Voltage asigned to the maximum value.
 
-Electric:
+### Electric:
 ![[Logic Components#Inputs]]
 ![[Logic Components#Edges]]
 

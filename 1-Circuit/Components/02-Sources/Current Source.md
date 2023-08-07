@@ -2,7 +2,7 @@
 
 Variable Current Source.
 
-Turn On/Off with the letf button.
+Turn On/Off with the left button.
 Adjust current using the dial.
 Button shows current output at this moment.
 

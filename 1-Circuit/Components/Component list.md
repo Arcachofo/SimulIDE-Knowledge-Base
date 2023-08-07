@@ -98,7 +98,7 @@
    > ![[ky-023.png]] [[KY-023]]
    > ![[ky-040.png]] [[Rotary Encoder (relative)]]
    > ![[dsxxx_ico.png]] [[DS1307]]
-   > ![[esp01_ico.png]] [[ESPp1 (TCP)]]
+   > ![[esp01_ico.png]] [[ESP01 (TCP)]]
 ---
 ## Logic
 ### Gates

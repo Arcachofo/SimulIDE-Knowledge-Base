@@ -4,47 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "03a224d4dba15f6d",
+        "id": "955fd7ff7a165815",
         "type": "tabs",
-        "dimension": 58.07174887892377,
+        "dimension": 81.13553113553114,
         "children": [
           {
-            "id": "5f92d456b2df4977",
+            "id": "2a8af5c7d541a06f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
       },
       {
-        "id": "2bcdfc495161beff",
+        "id": "5ecad85e12683e1d",
         "type": "tabs",
-        "dimension": 41.92825112107623,
+        "dimension": 18.864468864468865,
         "children": [
           {
-            "id": "7fee4320dc9e3847",
+            "id": "1ee61610ba6908ad",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
-            }
-          },
-          {
-            "id": "c4107885302ee073",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-Circuit/Components/05-Active/1-Rectifiers/SCR.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ]
@@ -113,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -162,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,53 +156,53 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "5f92d456b2df4977",
+  "active": "2a8af5c7d541a06f",
   "lastOpenFiles": [
+    "README.md",
+    "index.md",
+    "images/zener.png",
+    "images/xorgate.png",
+    "images/ws2812.png",
+    "images/wavegen.png",
+    "images/wav.png",
+    "images/voltsource.png",
+    "images/voltreg.png",
+    "images/voltmeter.png",
+    "images/varresistor.png",
+    "images/val.png",
+    "images",
+    "Application/Message panel.md",
+    "Application/Dependecies.md",
+    "Application/Basic use.md",
+    "Application",
+    "4-Dev/Source Code.md",
+    "4-Dev/Scripted Dev.md",
+    "4-Dev/Linked Dev.md",
+    "4-Dev",
+    "3-Files/File explorer.md",
+    "3-Files",
+    "2-Editor/Find-replace.md",
+    "2-Editor/Editor Tool bar.md",
+    "2-Editor/Debugger.md",
+    "2-Editor/Compilers.md",
+    "2-Editor/Code Editor.md",
+    "2-Editor",
+    "1-Circuit/Circuit context menu.md",
     "1-Circuit/Circuit Tool bar.md",
     "1-Circuit/Circuit canvas.md",
-    "1-Circuit/Circuit context menu.md",
-    "1-Circuit/Components/01-Meters/Ampmeter.md",
-    "1-Circuit/Components/01-Meters/Freqmeter.md",
-    "1-Circuit/Components/01-Meters/Logic Analyzer.md",
-    "1-Circuit/Components/01-Meters/Oscilloscope.md",
-    "1-Circuit/Components/01-Meters/Probe.md",
-    "1-Circuit/Components/01-Meters/Voltmeter.md",
-    "1-Circuit/Components/02-Sources/Battery.md",
-    "1-Circuit/Components/02-Sources/Clock.md",
-    "1-Circuit/Components/02-Sources/Current Source.md",
-    "1-Circuit/Components/02-Sources/Fixed Volt.md",
-    "1-Circuit/Components/02-Sources/Ground.md",
-    "1-Circuit/Components/02-Sources/Rail.md",
-    "1-Circuit/Components/02-Sources/Voltage Source.md",
-    "1-Circuit/Components/02-Sources/Wave Gen.md",
-    "1-Circuit/Components/03-Switches/KeyPad.md",
-    "1-Circuit/Components/03-Switches/Push.md",
-    "1-Circuit/Components/03-Switches/Relay.md",
-    "1-Circuit/Components/03-Switches/Switch.md",
-    "1-Circuit/Components/03-Switches/Switchdip.md",
-    "1-Circuit/Components/04-Passive/1-Resistors/Potentiometer.md",
-    "1-Circuit/Components/04-Passive/1-Resistors/Resistor Dip.md",
-    "1-Circuit/Components/04-Passive/1-Resistors/Resistor.md",
-    "1-Circuit/Components/04-Passive/1-Resistors/Variable Resistor.md",
-    "images/pausesim.png",
-    "images/poweroff.png",
-    "Application",
-    "images/gui-basic-use.png",
-    "images/s100-gui-end.png",
-    "1-Circuit/Components/08-Logic/2-Arithmetic/Counter.md.KTwEOm",
-    "1-Circuit/Components/08-Logic/2-Arithmetic/Counter.md.MhnEpD",
-    "1-Circuit/Components/08-Logic/2-Arithmetic/Counter.md.NYwbLz",
-    "1-Circuit/attachments/2to3.png",
-    "images/dial.png",
-    "images/image.png",
-    "images/text.png",
-    "images/rectangle.png",
-    "images/line.png",
+    "1-Circuit/Components/Properties dialog.md",
+    "1-Circuit/Components/Component context menu.md",
+    "1-Circuit/Components/Component list.md",
+    "1-Circuit/Components/7-Micro/9-Peripherals/TouchPad (resistive).md",
+    "1-Circuit/Components/7-Micro/9-Peripherals/Serial Port.md",
+    "1-Circuit/Components/7-Micro/9-Peripherals/Rotary Encoder (relative).md",
+    "1-Circuit/Components/7-Micro/9-Peripherals/KY-023.md",
+    "1-Circuit/Components/7-Micro/9-Peripherals/ESP01 (TCP).md",
+    "1-Circuit/Components/7-Micro/9-Peripherals/DS1307.md",
+    "1-Circuit/Components/7-Micro/9-Peripherals",
+    "1-Circuit/Components/7-Micro/8-Sensors",
     "1-Circuit/Components/08-Logic/5-Other Logic",
     "1-Circuit/Components/08-Logic/4-Converters",
-    "1-Circuit/Components/08-Logic/3-Memory",
-    "1-Circuit/Components/08-Logic/2-Arithmetic",
-    "1-Circuit/Components/08-Logic/1-Gates",
-    "1-Circuit/Components/7-Micro/9-Peripherals"
+    "1-Circuit/Components/08-Logic/3-Memory"
   ]
 }

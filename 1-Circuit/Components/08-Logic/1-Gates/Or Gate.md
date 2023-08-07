@@ -1,11 +1,19 @@
+## Description:
+
+Configurable Or Gate.
+
+---
+
+## Properties:
+
 Property: (default value)
 
-Main:
-- Input Size: (2)
+### Main:
+- **Input Size:** (2)
    Number of input pins.
 
 #include gateinputs
-Electric:
+### Electric:
 ![[Logic Components#Inputs]]
 ![[Logic Components#Outputs]]
 ![[Logic Components#Edges]]

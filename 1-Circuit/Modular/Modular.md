@@ -13,7 +13,13 @@ You need at least 2 files:
 - Definition file.
 - Package file.
 
-This is an example of an definition file for an imaginary Microcontroller with 32 bytes of RAM, 256 of PGM, one Port and one Timer:
+---
+
+## Definition file:
+
+This file describes which kind of component it is and the  parts or modules it contains.
+
+This is an example of an definition file for an imaginary Microcontroller with 32 bytes of RAM, 256 of PGM, a group of Registers, one Port and one Timer:
 
 ```xml
 <mcu name="Mcu1" core="Pic14" data="32" prog="256" progword="2" inst_cycle="4">
@@ -45,6 +51,11 @@ This is an example of an definition file for an imaginary Microcontroller with 3
                        clockpin="PORTP2"
   </timer>
 ```
+
+---
+
+## Package file:
+
 
 ---
 

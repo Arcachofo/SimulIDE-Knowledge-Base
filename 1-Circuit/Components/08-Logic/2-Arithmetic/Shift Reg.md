@@ -1,14 +1,21 @@
+## Description:
+
+8 bit shift register.
+
+---
+
+## Properties:
+
 Property: (default value)
 
-Main:
-- Clock Inverted: (no)
+### Main:
+- **Clock Inverted:** (no)
    Invert Clock pin.
-
-- Reset Inverted: (yes)
+<br>
+- **Reset Inverted:** (yes)
    Invert Reset pin.
 
-
-Electric:
+### Electric:
 ![[Logic Components#Inputs]]
 ![[Logic Components#Outputs]]
 ![[Logic Components#Edges]]

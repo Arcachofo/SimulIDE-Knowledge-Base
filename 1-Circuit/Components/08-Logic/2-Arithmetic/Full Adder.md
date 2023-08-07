@@ -1,6 +1,14 @@
+## Description:
+
+Configurable full adder.
+
+---
+
+## Properties:
+
 Property: (default value)
 
-Electric:
+### Electric:
 ![[Logic Components#Inputs]]
 ![[Logic Components#Outputs]]
 ![[Logic Components#Edges]]

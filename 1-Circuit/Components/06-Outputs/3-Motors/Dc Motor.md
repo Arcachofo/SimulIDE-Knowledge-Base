@@ -1,19 +1,28 @@
+## Description:
+
+Configurable DC motor.
+
 It shows graphic indication or rotation speed and direction:
 Green: below nominal speed.
 Red: nominal speed is exeeded.
 
 For simplicity and speed, Motor Coil is modelled as a resistor.
 
+---
+
+## Properties:
+
 Property: (default value)
 
-- Nominal Speed: (60 RPM)
+- **Nominal Speed:** (60 RPM)
    Speed at nominal voltage.
-
-- Nominal Voltage: (5 V)
+<br>
+- **Nominal Voltage:** (5 V)
    Voltage to reach nominal speed.
-
-- Resistance: (100 Ω)
+<br>
+- **Resistance:** (100 Ω)
    Resistance of the winding.
 
+---
 
 #Component 
