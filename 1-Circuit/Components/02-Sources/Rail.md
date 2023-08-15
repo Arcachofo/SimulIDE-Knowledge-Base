@@ -1,5 +1,3 @@
-## Description:
-
 Connection to voltage rail.
 This is a simple voltage source.
 

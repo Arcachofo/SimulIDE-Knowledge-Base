@@ -1,5 +1,3 @@
-## Description:
-
 Configurable diode.
 
 Blinks if maximum current is exceeded.

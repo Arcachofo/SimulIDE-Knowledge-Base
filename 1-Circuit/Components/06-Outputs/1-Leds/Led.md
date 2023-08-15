@@ -1,5 +1,3 @@
-## Description:
-
 Simple configurable light emitting diode.
 
 Blinks if maximum current is exceeded.

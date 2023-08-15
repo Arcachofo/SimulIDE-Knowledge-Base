@@ -1,5 +1,3 @@
-## Description:
-
 Silicon controlled rectifier.
 
 ---

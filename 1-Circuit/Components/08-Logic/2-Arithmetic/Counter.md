@@ -1,5 +1,4 @@
-## Description:
-
+Binary counter.
 Sets the output High after a number of clock pulses.
 
 ---

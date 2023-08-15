@@ -1,5 +1,3 @@
-## Description:
-
 Set of resistors in a DIP configuration.
 
 ---

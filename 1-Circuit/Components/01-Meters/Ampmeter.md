@@ -1,6 +1,4 @@
-## Description:
-
-Circuit Current meter with output pin.
+Current meter with output pin.
 
 ---
 

@@ -6,7 +6,7 @@
       {
         "id": "955fd7ff7a165815",
         "type": "tabs",
-        "dimension": 81.13553113553114,
+        "dimension": 56.46743978590544,
         "children": [
           {
             "id": "2a8af5c7d541a06f",
@@ -19,12 +19,12 @@
         ]
       },
       {
-        "id": "5ecad85e12683e1d",
+        "id": "1ac2a63e88e48384",
         "type": "tabs",
-        "dimension": 18.864468864468865,
+        "dimension": 43.53256021409456,
         "children": [
           {
-            "id": "1ee61610ba6908ad",
+            "id": "9e33f8415384f602",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "tag:#Component",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 298.5
   },
   "right": {
     "id": "c6a4303aeafd9f06",
@@ -91,6 +91,14 @@
         "id": "c521b6e69e1788a8",
         "type": "tabs",
         "children": [
+          {
+            "id": "dbbddc4cf788ae5e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
           {
             "id": "eaeb2da330cc891b",
             "type": "leaf",
@@ -128,22 +136,13 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "dbbddc4cf788ae5e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 293.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,7 +155,7 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "2a8af5c7d541a06f",
+  "active": "9e33f8415384f602",
   "lastOpenFiles": [
     "README.md",
     "index.md",
@@ -182,27 +181,27 @@
     "3-Files/File explorer.md",
     "3-Files",
     "2-Editor/Find-replace.md",
-    "2-Editor/Editor Tool bar.md",
     "2-Editor/Debugger.md",
-    "2-Editor/Compilers.md",
+    "2-Editor/Compiler.md",
     "2-Editor/Code Editor.md",
     "2-Editor",
     "1-Circuit/Circuit context menu.md",
     "1-Circuit/Circuit Tool bar.md",
     "1-Circuit/Circuit canvas.md",
+    "1-Circuit/Component.md",
+    "1-Circuit/Components/Custom Components.md",
     "1-Circuit/Components/Properties dialog.md",
     "1-Circuit/Components/Component context menu.md",
     "1-Circuit/Components/Component list.md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/TouchPad (resistive).md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/Serial Port.md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/Rotary Encoder (relative).md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/KY-023.md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/ESP01 (TCP).md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/DS1307.md",
+    "1-Circuit/Components/Modular Components/Scripted/Scripted.md",
+    "1-Circuit/Components/Modular Components/Scripted/Arrays.md",
+    "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
+    "1-Circuit/Components/Modular Components/Microcontrollers/MCU Sleep.md",
+    "1-Circuit/Components/Modular Components/Microcontrollers/MCU Fuses.md",
+    "1-Circuit/Components/Modular Components/Scripted",
+    "1-Circuit/Components/Modular Components/Microcontrollers",
+    "1-Circuit/Components/Modular Components/2-Microprocessors",
     "1-Circuit/Components/7-Micro/9-Peripherals",
-    "1-Circuit/Components/7-Micro/8-Sensors",
-    "1-Circuit/Components/08-Logic/5-Other Logic",
-    "1-Circuit/Components/08-Logic/4-Converters",
-    "1-Circuit/Components/08-Logic/3-Memory"
+    "1-Circuit/Components/7-Micro/8-Sensors"
   ]
 }

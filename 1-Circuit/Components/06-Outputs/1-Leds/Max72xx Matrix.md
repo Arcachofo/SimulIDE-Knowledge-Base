@@ -1,5 +1,3 @@
-## Description:
-
 Max72xx Led matrix.
 
 ---

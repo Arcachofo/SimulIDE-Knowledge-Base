@@ -1,5 +1,3 @@
-## Description:
-
 Interactive NTC thermistor.
 
 Use the dial to adjust the value.

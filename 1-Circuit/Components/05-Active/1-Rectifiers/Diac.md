@@ -1,5 +1,3 @@
-## Description:
-
 Diode for Alternating Current.
 
 ---

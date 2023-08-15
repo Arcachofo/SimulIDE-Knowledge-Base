@@ -21,4 +21,12 @@ Property: (default value)
 
 ---
 
+# Resources:
+
+## Videos:
+- [Serial Port SimulIDE 1.0.0](https://www.youtube.com/watch?v=O2tBnlhfNcQ)
+- [Connecting Serial Port with socat in Linux.](https://www.youtube.com/watch?v=fUdtJf05RdQ)
+
+---
+
 #Component 

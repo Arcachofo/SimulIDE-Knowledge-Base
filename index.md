@@ -1,11 +1,11 @@
-## Sections:
+# Sections:
 - [[Basic use]]
 - [[Circuit canvas]]
-- [[Components]]
+- [[Component]]s
 - [[Code Editor]]
 - [[File explorer]]
 
-## Relevant topics:
+# Relevant topics:
 - [[MCUs | Microcontrollers]]
 - [[Oscilloscope]]
 - [[Logic Analyzer]]
@@ -13,7 +13,7 @@
 
 ---
 
-## Resources:
+# Resources:
 
 [[Source Code]]
 

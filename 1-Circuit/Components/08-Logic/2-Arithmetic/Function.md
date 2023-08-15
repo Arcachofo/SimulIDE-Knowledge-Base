@@ -1,5 +1,3 @@
-## Description:
-
 Combinational Logic device.
 Set a function for each output clicking in it's button.
 

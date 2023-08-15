@@ -1,5 +1,3 @@
-## Description:
-
 Logic Analyzer  has 8 channels identified with different colors for each channel.
 You can connect inputs to wires or enter a tunnel name in the corresponding box.
 Connecting the inputs and running the simulation you will see the wave forms:

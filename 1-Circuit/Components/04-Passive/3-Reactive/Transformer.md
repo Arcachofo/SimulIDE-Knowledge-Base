@@ -1,5 +1,3 @@
-## Description:
-
 Configurable transformer
 
 ---
@@ -18,6 +16,12 @@ Property: (default value)
 <br>
 - **Secondary:** (1)
    Description of secondary coils.
+
+---
+
+# Resources:
+
+- Video: [Transformer SimulIDE dev.](https://www.youtube.com/watch?v=NpuQUcKUbAg)
 
 ---
 

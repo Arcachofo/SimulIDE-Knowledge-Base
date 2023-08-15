@@ -1,5 +1,3 @@
-## Description:
-
 Configurable Or Gate.
 
 ---

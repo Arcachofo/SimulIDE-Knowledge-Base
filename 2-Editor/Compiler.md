@@ -1,6 +1,16 @@
-SimulIDE 1.x.x has support for some compilers, but you can compile almost anything.
+# Compilers
+
+To be able to compile source files you need to link a compiler to the file by opening "Compiler Settings" in ![[settings.svg]] Settings menu.
+
+Then select a compiler from the list and configure "Tool Path":
+
+![[comp_settings.png]]
+Some compilers are automatically selected depending on the extension.
+<br>
 
 ## Adding Compilers:
+
+If the compiler you want is not included in the list, you can add new compilers.
 
 Compilers are defined in xml files located at:
 SimulIDE_1.x.x/data/codeeditor/compilers/compilers
@@ -9,24 +19,7 @@ SimulIDE_1.x.x/data/codeeditor/compilers/assemblers
 To add a compiler, just add an xml file in any of those folders.
 Your compiler will be added to the list in Compiler Settings dialog.
 
----
-
-**Substitutions:**
-You can use some substitutions in your command arguments and other values.
-For example $FilePath will be replaced with the actual path to the source file.
-
-Example: /home/user/myfile.asm
-
-| Wildcard        | Example               |              Replaced with |
-|-----------------|:---------------------:|---------------------------:|
-| **\$filePath**  | /home/user/myfile.asm |        complete file path  |
-| **\$fileDir**   | /home/user/           |        path to file folder |
-| **\$fileName**  | myfile         |     file name (without extension) |
-| **\$fileExt**   | .asm           |         file extension (with dot) |
-| **\$buildPath** | - |               build path (defined in xml file) |
-| **\$inclPath**  | - |      include path (defined in Settings Dialog) |
-| **\$family**    | - |     device family (defined in Settings Dialog) |
-| **\$device**    | - |       device model (defined i Settings Dialog) |
+In this xml file you define the type of compiler, build path, syntax associated, build steps, etc.
 
 ---
 
@@ -110,9 +103,29 @@ Each step need to have at least a "command".
 
 ---
 
+**Substitutions:**
+You can use some substitutions in your command arguments and other values.
+For example $FilePath will be replaced with the actual path to the source file.
+
+Let's say we have this source file: /home/user/myfile.asm
+Then we can use these substitutions:
+
+| Wildcard        | Example               |              Replaced with |
+|-----------------|:---------------------:|---------------------------:|
+| **\$filePath**  | /home/user/myfile.asm |        complete file path  |
+| **\$fileDir**   | /home/user/           |        path to file folder |
+| **\$fileName**  | myfile         |     file name (without extension) |
+| **\$fileExt**   | .asm           |         file extension (with dot) |
+| **\$buildPath** | - |               build path (defined in xml file) |
+| **\$inclPath**  | - |      include path (defined in Settings Dialog) |
+| **\$family**    | - |     device family (defined in Settings Dialog) |
+| **\$device**    | - |       device model (defined i Settings Dialog) |
+
+---
+
 ## Example:
 
-Compiler xml file for Avr gcc compiler:
+This is the xml file for Avr gcc compiler:
 
 ```xml
 <compiler name="Avrgcc" type="avrgcc" buildPath="build_$fileName" useDevice="true">
@@ -127,6 +140,14 @@ Compiler xml file for Avr gcc compiler:
     />
 <compiler/>
 ```
+
+---
+
+# Resources:
+
+## Videos:
+- [New custom compilers: avr-gcc with and without Makefile](https://www.youtube.com/watch?v=BHAbOa2GAIs)
+- [SDCC Compiler & Debugger](https://www.youtube.com/watch?v=tnMongIYvsA)
 
 ---
 

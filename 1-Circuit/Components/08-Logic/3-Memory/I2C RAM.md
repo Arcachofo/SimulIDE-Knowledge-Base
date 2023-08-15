@@ -1,6 +1,6 @@
-## Description:
+I2C RAM/ROM.
 
-This component can be configured as Ram or Rom.
+This component can be configured as Ram or Rom by setting persistance property.
 You must save the circuit to get data persistance.
 
 You can watch Memory content:

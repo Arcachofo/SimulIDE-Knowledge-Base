@@ -1,5 +1,3 @@
-## Description:
-
 Variable Current Source.
 
 Turn On/Off with the left button.

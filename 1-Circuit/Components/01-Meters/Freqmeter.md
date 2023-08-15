@@ -1,6 +1,4 @@
-## Description:
-
-Circuit Frequency meter.
+Frequency meter.
 
 ---
 

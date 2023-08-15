@@ -1,5 +1,3 @@
-## Description:
-
 Bipolar Junction Transistor.
 
 ---

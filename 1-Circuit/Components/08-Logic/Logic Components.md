@@ -1,5 +1,3 @@
-## Description:
-
 Logic Components work with digital signals: 1 or 0, and are usually made from assemblies of logic gates, often packaged in integrated circuits. Complex devices may have simple electronic representations of Boolean logic functions.
 
 ---
@@ -49,6 +47,9 @@ All Logic Components in SimulIDE have a common set of properties:
 
 ---
 ## Resources:
+
+Videos:
+- [Logic Outputs Edges SimulIDE 1.0.0](https://www.youtube.com/watch?v=rBnwWCic_FM)
 
 Wikipedia:
 - [Digital electronics](https://en.wikipedia.org/wiki/Digital_electronics)

@@ -1,5 +1,3 @@
-## Description:
-
 Configurable zener diode.
 
 See [[Diode]]

@@ -1,6 +1,5 @@
-## Description:
-
 Wave generator.
+
 Turn On/Off with the letf buttton.
 
 ---
@@ -41,6 +40,14 @@ Property: (default value)
 <br>
 - **Semi amplitude:** (2.5 V)
    Half wave amplitude. 
+
+---
+
+# Resources:
+
+## Videos:
+- [Wave Generator wav file SimulIDE dev.](https://www.youtube.com/watch?v=nqUfnXY_VJE)
+- [Bipolar Wave Generator SimulIDE dev.](https://www.youtube.com/watch?v=Ez0m-O1AvVM)
 
 ---
 

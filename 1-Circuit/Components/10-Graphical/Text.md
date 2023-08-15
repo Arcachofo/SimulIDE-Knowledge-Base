@@ -1,5 +1,3 @@
-## Description:
-
 Add a text box to the circuit.
 
 ---

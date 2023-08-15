@@ -1,5 +1,3 @@
-## Description:
-
 Simple voltage source.
 
 Turn On/Off with the letf buttton.

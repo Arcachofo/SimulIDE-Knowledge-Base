@@ -1,5 +1,3 @@
-## Description:
-
 Simple capacitor.
 
 Blinks if reactive step is too long.

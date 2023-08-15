@@ -151,4 +151,10 @@
 
 ---
 
+# Resources:
+
+- Video: [SimulIDE1.0.0 basic use: Component list](https://www.youtube.com/watch?v=E9PQUgfZEjU)
+
+---
+
 #hub

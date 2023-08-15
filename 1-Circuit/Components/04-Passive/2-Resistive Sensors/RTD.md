@@ -1,5 +1,3 @@
-## Description:
-
 Interactive Resistance Temperature Detector.
 
 Use the dial to adjust the value.

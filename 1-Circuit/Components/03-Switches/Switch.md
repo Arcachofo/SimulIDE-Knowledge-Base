@@ -1,5 +1,3 @@
-## Description:
-
 Configurable 2 position switch.
 
 ---

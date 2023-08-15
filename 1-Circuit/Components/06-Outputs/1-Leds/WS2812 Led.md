@@ -1,5 +1,3 @@
-## Description:
-
 WS2812 Led string.
 
 ---

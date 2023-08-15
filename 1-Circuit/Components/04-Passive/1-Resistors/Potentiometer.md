@@ -1,5 +1,3 @@
-## Description:
-
 Interactive potentiometer.
 
 Use the dial to adjust the value.

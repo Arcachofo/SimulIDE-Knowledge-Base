@@ -1,5 +1,3 @@
-## Description:
-
 Converts from decimal to binary.
 
 ---

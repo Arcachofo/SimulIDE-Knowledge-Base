@@ -1,5 +1,3 @@
-## Description:
-
 Interactive Force Sensor.
 
 Use the dial to adjust the value.

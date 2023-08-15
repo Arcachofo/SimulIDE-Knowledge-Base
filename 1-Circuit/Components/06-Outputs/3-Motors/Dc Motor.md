@@ -1,5 +1,3 @@
-## Description:
-
 Configurable DC motor.
 
 It shows graphic indication or rotation speed and direction:

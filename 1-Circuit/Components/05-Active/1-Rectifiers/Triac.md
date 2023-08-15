@@ -1,6 +1,4 @@
-## Description:
-
-Triode for Alterning Current.
+Triode for Alternating Current.
 
 ---
 

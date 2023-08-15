@@ -1,6 +1,4 @@
-## Description:
-
-Configurable header connector.
+Hidden connection.
 
 ---
 

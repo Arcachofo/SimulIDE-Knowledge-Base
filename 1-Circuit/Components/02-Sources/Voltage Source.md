@@ -1,5 +1,3 @@
-## Description:
-
 Variable Voltage Source.
 
 Turn On/Off with the left buttton.

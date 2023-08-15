@@ -1,5 +1,3 @@
-## Description:
-
 Oscilloscope has 4 channels identified with different colors and frequency indicators for each channel.
 
 There is one input pin per channel and one for reference voltage (last one besides Expand button).

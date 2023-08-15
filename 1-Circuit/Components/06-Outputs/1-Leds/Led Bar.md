@@ -1,5 +1,3 @@
-## Description:
-
 Array of [[Led]]s.
 
 Individual leds blink if maximum current is exceeded.

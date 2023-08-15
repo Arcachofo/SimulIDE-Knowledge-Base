@@ -1,5 +1,3 @@
-## Description:
-
 Flipflop "JK" type.
 
 ---

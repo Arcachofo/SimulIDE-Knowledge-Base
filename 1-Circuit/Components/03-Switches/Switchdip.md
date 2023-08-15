@@ -1,5 +1,3 @@
-## Description:
-
 Resizable set of switches.
 
 Click on individual "buttons" to turn ON/OFF:

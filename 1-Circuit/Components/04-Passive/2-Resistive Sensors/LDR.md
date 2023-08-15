@@ -1,5 +1,3 @@
-## Description:
-
 Interactive Light Dependent Resistor.
 
 Use the dial to adjust the value.

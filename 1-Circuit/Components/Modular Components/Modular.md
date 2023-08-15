@@ -9,15 +9,19 @@ These components are created from different "modules", for example: CPU, RAM, RO
 
 All these internal modules are defined in an xml file. There you describe the characteristics of the component and which modules to use and it's characteristics.
 
-You need at least 2 files:
-- Definition file.
-- Package file.
+Creating a modular component involves at least 3 steps (Scripted needs an additional script file):
+
+1. [[Package#Creating Package File|Creating Package File.]]
+2. [[#Creating Definition file.]]
+3. [[Custom Components#Add to component list|Add to component list.]]
 
 ---
 
-## Definition file:
+# Creating Definition file.
 
 This file describes which kind of component it is and the  parts or modules it contains.
+
+Each type of modular component has it's own characteristics and can use certain types of modules, but as a general idea this is the structure:
 
 This is an example of an definition file for an imaginary Microcontroller with 32 bytes of RAM, 256 of PGM, a group of Registers, one Port and one Timer:
 
@@ -54,13 +58,8 @@ This is an example of an definition file for an imaginary Microcontroller with 3
 
 ---
 
-## Package file:
 
 
 ---
-
-## Tools:
-[[MCU Monitor]]
-[[Serial Monitor]]
 
 #tutorial 

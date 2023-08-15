@@ -1,5 +1,3 @@
-## Description:
-
 Connection to Ground.
 This is a 0 V voltage source.
 

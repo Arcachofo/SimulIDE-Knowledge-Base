@@ -1,5 +1,3 @@
-## Description:
-
 Simple inductor.
 
 Blinks if reactive step is too long.

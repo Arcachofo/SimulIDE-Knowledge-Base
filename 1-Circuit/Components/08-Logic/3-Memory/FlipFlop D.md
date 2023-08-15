@@ -1,5 +1,3 @@
-## Description:
-
 Flipflop "D" type.
 
 ---

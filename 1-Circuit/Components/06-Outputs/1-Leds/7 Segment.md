@@ -1,5 +1,3 @@
-## Description:
-
 Configurable seven segment display.
 
 Individual leds blink if maximum current is exceeded.

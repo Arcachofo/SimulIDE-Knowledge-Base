@@ -1,4 +1,9 @@
+# Linking Components
+
+This feature is not available in version 1.0.0.
+
 ## Concept:
+
 Mechanism to link components to perform certain actions:
 - Only some component have the ability to link to other components.
 - Most component can be linked, but only some can perform actions.

@@ -1,5 +1,3 @@
-## Description:
-
 Interactive variable resistor.
 
 Use the dial to adjust the value.

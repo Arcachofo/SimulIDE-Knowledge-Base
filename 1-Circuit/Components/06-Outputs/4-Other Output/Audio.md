@@ -1,5 +1,3 @@
-## Description:
-
 Connection to default audio output in your machine.
 
 If no default audio device is found, you will se an "X" in the symbol.

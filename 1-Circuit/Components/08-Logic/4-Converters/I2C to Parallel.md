@@ -1,5 +1,3 @@
-## Description:
-
 I2C to Parallel interface.
 
 ---

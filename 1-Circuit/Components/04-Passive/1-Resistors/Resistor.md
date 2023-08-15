@@ -1,5 +1,3 @@
-## Description:
-
 Simple resistance.
 
 ---

@@ -1,5 +1,3 @@
-## Description:
-
 Metal-Oxide-Semiconductor Field-effect Transistor.
 
 ---

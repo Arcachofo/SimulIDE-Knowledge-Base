@@ -1,5 +1,3 @@
-## Description:
-
 8 bit shift register.
 
 ---

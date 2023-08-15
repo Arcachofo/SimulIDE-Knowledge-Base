@@ -1,6 +1,4 @@
-## Description:
-
-Circuit Voltage meter with output pin.
+Voltage meter with output pin.
 
 ---
 

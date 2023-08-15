@@ -1,5 +1,3 @@
-## Description:
-
 Step by step Motor.
 
 For simplicity and speed, Motor Coils are modelled as resistors.
