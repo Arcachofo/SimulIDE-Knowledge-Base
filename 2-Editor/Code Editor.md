@@ -1,3 +1,5 @@
+# Code Editor
+
 This is a plain text editor with syntax highlighting, cut, copy, paste, undo, redo and basic auto-indentation.
 
 It is possible to open multiple documents that will be arranged in movable tabs.

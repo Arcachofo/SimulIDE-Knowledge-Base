@@ -1,19 +1,21 @@
-There are also many of these in the default installation, for example Microcontrollers an Microprocessors.
+# Modular Components
+
+These components are created from different "modules", for example: CPU, RAM, ROM, PGM, Ports, Timers, etc.
+
+All these internal modules are defined in an xml file. There you describe the characteristics of the component and which modules to use and it's characteristics.
 
 There are 3 types of Modular Components:
 - [[MCUs]]
 - [[MPUs]]
 - [[Scripted]]
 
-These components are created from different "modules", for example: CPU, RAM, ROM, PGM, Ports, Timers, etc.
-
-All these internal modules are defined in an xml file. There you describe the characteristics of the component and which modules to use and it's characteristics.
-
-Creating a modular component involves at least 3 steps (Scripted needs an additional script file):
+Creating a modular component involves at least these steps (Scripted needs an additional script file):
 
 1. [[Package#Creating Package File|Creating Package File.]]
 2. [[#Creating Definition file.]]
-3. [[Custom Components#Add to component list|Add to component list.]]
+3. [[#Creating component folder]] with all files.
+4. [[#Add to component list]]
+<br>
 
 ---
 
@@ -55,10 +57,43 @@ This is an example of an definition file for an imaginary Microcontroller with 3
                        clockpin="PORTP2"
   </timer>
 ```
+<br>
 
 ---
 
+## Creating component folder 
 
+The simplest way is to use the the component name for the folder and all files as explained [[Custom Components#Creating component folder|here]].
+
+But it is possible to use different file names or use packages from other components.
+To do this, you need to specify paths for these files as explained below.
+<br>
+
+---
+
+## Add to component list.
+
+The simplest method and common options is explained [[Custom Components#Add to component list|here]].
+
+But is is possible to use specific paths for package and definition files.
+Path to all files are relative to "data" folder.
+
+```xml
+<itemlib>  
+  <itemset category="Some Category" type="MCU">  
+	<item name="Name1" package="file1.package" data="fileX.mcu" />  
+	<item name="Name2" package="file2.package" data="fileY.mcu" />  
+  </itemset>
+</itemlib>
+```
+  
+- **package** Is the path to package file, relative to SimulIDE data folder.  
+- **data** Is the path to definition file, relative to SimulIDE data folder.
+<br>
+
+---
+
+# Resources:
 
 ---
 

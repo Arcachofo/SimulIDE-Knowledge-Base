@@ -4,12 +4,13 @@ With Scripted Components it is possible to define the behaviour of the device in
 
 Scripted components are a type of [[Modular]] Components, with an extra file containing the script.
 
-Creating an Scripted component involves 4 steps:
+Creating an Scripted component involves these steps:
 
 1. [[Package#Creating Package File|Creating Package File.]]
 2. [[#Creating Definition file.]]
 3. [[#Creating Script file.]]
-4. [[Custom Components#Add to component list|Add to component list.]]
+4. [[#Creating component folder]] with all files.
+5. [[Modular#Add to component list|Add to component list.]]
 
 ---
 

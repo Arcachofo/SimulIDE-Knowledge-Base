@@ -8,20 +8,19 @@ Once in the circuit, each component has:
 
 ---
 
-## Custom Components:
+# [[Custom Components]]:
 
 You can create your own components for SimulIDE.
 
-
 ---
 
-## Linking Components
+# [[Linking Components]]:
 
 This feature is not available in version 1.0.0
 
 ---
 
-## Resources:
+# Resources:
 
 ---
 

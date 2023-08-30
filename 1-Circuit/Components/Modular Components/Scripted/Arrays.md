@@ -7,7 +7,7 @@ https://www.angelcode.com/angelscript/sdk/docs/manual/doc_datatypes_arrays.html
   
 // An array of integers with 3 elements
   int[] b(3);
-  array<int> b(3);ç
+  array<int> b(3);
 
 // An array of integers with 3 elements, all set to 1 by default
   int[] c(3, 1);

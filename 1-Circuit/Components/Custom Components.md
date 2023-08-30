@@ -1,32 +1,72 @@
+# Custom Components
+
 There are 2 main types of components you can create in SimulIDE:
 
-- [[Subcircuits]]
-- [[Modular]]
+## [[Subcircuits]]:
+These are just circuits hidden inside a package.
+<br>
 
-What they have in common:
-- They use [[Package]]s as graphical representation in the circuit.
-- You need to add them to the component list (Add entry to .xml file). 
+## [[Modular]]:
+These are components created by combining different modules already implemented.
+There are 3 types of Modular Components:
+- [[MCUs]]
+- [[MPUs]]
+- [[Scripted]]
+<br>
+
+All These components use [[Package]]s as graphical representation in the circuit, and some specific files for each type of component.
+
+Creating a custom component involves these steps:
+
+1. [[Package#Creating Package File|Creating Package File.]]
+2. Creating specific files (see each component type).
+3. [[#Creating component folder]] with all files.
+4. [[#Add to component list.]]
+<br>
+
+---
+
+## Creating component folder
+
+The simplest way to do this is using the component name for the folder and all files.
+
+An example is 74 series:
+74HC00 files are in a folder named 74HC00 inside "ICs" folder, and all files use the sane name:
+
+ICs (folder)  
+- 74HC00 (folder) 
+    - 74HC00.sim1
+    - 74HC00.package
+    -  74HC00_LS.package  
+<br>
+
+Each type of component have other options that allow to reuse package or other files in different components (see each component type).
+
+The component folder is usually located inside SimulIDE data folder, but this is not a must.
+<br>
 
 ---
 
 ## Add to component list.
 
-In order to get your subcircuit included in SimulIDE component list you need to add an entry to one of the existing xml files or create a new one.
+In order to get your custom components included in the component list you need to add an entry to one of the existing xml files or create a new one.
 These files are located at: share/simulide/data  
 Please have a look to any existing .xml file in data folder to get an idea.
-  
+
+The simplest method and common options is explained here, but each type of component can have other options (see each component type).
+
 The structure of these xml files is like this:  
 
 ```xml
 <itemlib>  
-  <itemset category="Some Category" type="Subcircuit">  
-	<item name="Name1" package="file1.package" subcircuit="file1.sim1" />  
-	<item name="Name2" package="file2.package" subcircuit="file2.sim1" />  
+  <itemset category="Some Category" type="Some_Type" folder="Some_Folder">  
+	<item name="Name1" info="short explanation about Name1" />  
+	<item name="Name2" info="short explanation about Name2" />  
   </itemset>
 </itemlib>
 ```
   
- Let's explain by levels:
+Let's explain by levels:
 
 **itemlib** Represents a library of components, with 1 or more sets of components.
 
@@ -36,54 +76,24 @@ The structure of these xml files is like this:
     It can be an existing Category or a new one.
     It can address a subcategory: "Category/Subcategory" (Category must exist)
 
-- **type** Is the type of component, in this case it is always "Subcircuit"
+- **type** Is the type of component.
+- **folder** (optional) is the folder containing all components in this **itemset**.
+- **icon** (optional) is the icon used for all the components in this **itemset**.
+    The icon file must be in: data/images/
 
   
-**item** Represents a component to be added to the list
+**item** Represents a component to be added to a Category
 
-- **name** Is the name that will be shown in Component list
-- **package** Is the path to package file, relative to data folder (where the .xml file is located).  
--  **subcircuit** Is the path to subcircuit file, relative to data folder (where the .xml file is located).
+- **name** Is the name that will be shown in the [[Component list]].
 - **info** (optional) Extra information that will be shown besides Component name.
-    
-There is an option to simplify these entries by indicating the folder where subcircuit and package files are located.
-For this option to work, all names must be the same, and files must be in a folder with same name.
- 
-An example is 74 series:
-74HC00 files are in a folder named 74HC00 inside "ICs" folder.
+- **icon** (optional) is the icon used for this component.  The icon file must be in: data/images/
 
-ICs (folder)  
-- 74HC00 (folder) 
-    - 74HC00.sim1
-    - 74HC00.package
-    -  74HC00_LS.package  
-  
-Then the xml file entry looks like this:
 
-```xml
-    <itemset category="IC 74/7400-7499" type="Subcircuit" folder="ICs">  
-        <item name="74HC00"  info="quad 2-input NAND gate" ></item> 
-```
-  
-In this case, **folder** attribute is applied to all components in that **itemset**.
+---
 
-But it is possible to use a different one for each **item**.
+# Resources:
 
-Or set the exact path for **package** and **subcircuit** files:
-  
-```xml
-<itemset category="IC 74/7400-7499" type="Subcircuit" folder="ICs">  
 
-  <item name="74HC00"  info="  quad 2-input NAND gate" />
+---
 
-  <item name="Comp_X" folder="XX" info=" My files in XX folder" />
-  
-  <item name="Comp_Y" package="blah/cY.package" subcircuit="bla2/compY.sim1" 
-                      info=" My files in blah & bla2 folders" >
-  </item>
-  
-</itemset>
-```
-
-Subcircuit and package files are usually located in folders inside data folder, but this is not a must.
-Path to these files are relative to "data" folder.
+#tutorial 

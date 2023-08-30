@@ -6,14 +6,18 @@
       {
         "id": "955fd7ff7a165815",
         "type": "tabs",
-        "dimension": 56.46743978590544,
+        "dimension": 44.96951219512195,
         "children": [
           {
             "id": "2a8af5c7d541a06f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,13 +25,13 @@
       {
         "id": "1ac2a63e88e48384",
         "type": "tabs",
-        "dimension": 43.53256021409456,
+        "dimension": 55.03048780487805,
         "children": [
           {
             "id": "9e33f8415384f602",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -81,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 272.5
   },
   "right": {
     "id": "c6a4303aeafd9f06",
@@ -105,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -137,12 +141,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 200.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +160,8 @@
   },
   "active": "9e33f8415384f602",
   "lastOpenFiles": [
-    "README.md",
     "index.md",
+    "README.md",
     "images/zener.png",
     "images/xorgate.png",
     "images/ws2812.png",
@@ -193,15 +196,15 @@
     "1-Circuit/Components/Properties dialog.md",
     "1-Circuit/Components/Component context menu.md",
     "1-Circuit/Components/Component list.md",
-    "1-Circuit/Components/Modular Components/Scripted/Scripted.md",
-    "1-Circuit/Components/Modular Components/Scripted/Arrays.md",
-    "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
-    "1-Circuit/Components/Modular Components/Microcontrollers/MCU Sleep.md",
-    "1-Circuit/Components/Modular Components/Microcontrollers/MCU Fuses.md",
-    "1-Circuit/Components/Modular Components/Scripted",
-    "1-Circuit/Components/Modular Components/Microcontrollers",
-    "1-Circuit/Components/Modular Components/2-Microprocessors",
+    "1-Circuit/Components/7-Micro/9-Peripherals/TouchPad (resistive).md",
+    "1-Circuit/Components/7-Micro/9-Peripherals/Serial Port.md",
+    "1-Circuit/Components/7-Micro/9-Peripherals/Rotary Encoder (relative).md",
+    "1-Circuit/Components/7-Micro/9-Peripherals/KY-023.md",
+    "1-Circuit/Components/7-Micro/9-Peripherals/ESP01 (TCP).md",
     "1-Circuit/Components/7-Micro/9-Peripherals",
-    "1-Circuit/Components/7-Micro/8-Sensors"
+    "1-Circuit/Components/7-Micro/8-Sensors",
+    "1-Circuit/Components/7-Micro",
+    "1-Circuit/Components/06-Outputs/4-Other Output",
+    "1-Circuit/Components/06-Outputs/3-Motors"
   ]
 }

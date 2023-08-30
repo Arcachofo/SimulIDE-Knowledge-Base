@@ -1,25 +1,42 @@
 # Compilers
 
-To be able to compile source files you need to link a compiler to the file by opening "Compiler Settings" in ![[settings.svg]] Settings menu.
+Compilers are defined in xml files located at:
+SimulIDE_1.x.x/data/codeeditor/compilers/compilers
+SimulIDE_1.x.x/data/codeeditor/compilers/assemblers
 
-Then select a compiler from the list and configure "Tool Path":
+These xml files define the type of compiler, build path, build steps, syntax highlighting, etc.
+
+Note that the compilers included in SimulIDE might not work in your system.
+You probably need to change some setting in the xml file to meet the compiler installed in your system (see below).
+If you have any questions please ask in our [forum](https://simulide.forumotion.com/)
+
+Once you have your compiler configured you can compile files in SimulIDE.
+Some compilers are automatically loaded for some file extensions, for example:
+**.ino** : Arduino compiler.
+**.gcb**: GcBasic compiler.
+**.as** : Script compiler: 
+If not, you need to set a compiler by opening "Compiler Settings" in ![[settings.svg]] Settings menu.
+Then select a compiler from the list and configure "Tool Path" and other options (if needed):
 
 ![[comp_settings.png]]
-Some compilers are automatically selected depending on the extension.
+To load a compiler automatically when you open a file, you can add an indication in the very first line of the file as comment, for example in C/C++:
+
+```
+// Compiler: Avrgcc
+```
+
+Note that you must use the exact same name used in the compiler list.
 <br>
+
+---
 
 ## Adding Compilers:
 
 If the compiler you want is not included in the list, you can add new compilers.
 
-Compilers are defined in xml files located at:
-SimulIDE_1.x.x/data/codeeditor/compilers/compilers
-SimulIDE_1.x.x/data/codeeditor/compilers/assemblers
-
-To add a compiler, just add an xml file in any of those folders.
+To add a compiler, just add an xml file in the folders mentioned above.
 Your compiler will be added to the list in Compiler Settings dialog.
-
-In this xml file you define the type of compiler, build path, syntax associated, build steps, etc.
+<br>
 
 ---
 
@@ -44,6 +61,7 @@ The structure of the xml file is like this:
 
 First the compiler name, type and other characteristics are defined in the field "compiler".
 Then you can add as many build steps as you want in fields "step".
+<br>
 
 ---
 
@@ -81,6 +99,7 @@ Note that you must use this path in your command arguments if needed  (see examp
 **syntax:** syntax file used for highlighting.
 Syntax files are located at: SimulIDE_1.x.x/data/codeeditor/syntax/
 You can add your custom syntax files in that folder and use in your compiler definitions.
+<br>
 
 ---
 
@@ -100,6 +119,7 @@ Each step need to have at least a "command".
 **command:** command to execute.
 **arguments:** arguments to add to the command when compiling.
 **argsDebug:** arguments to add to the command when compiling for debug.
+<br>
 
 ---
 
@@ -120,26 +140,54 @@ Then we can use these substitutions:
 | **\$inclPath**  | - |      include path (defined in Settings Dialog) |
 | **\$family**    | - |     device family (defined in Settings Dialog) |
 | **\$device**    | - |       device model (defined i Settings Dialog) |
+<br>
 
 ---
 
 ## Example:
 
-This is the xml file for Avr gcc compiler:
-
+This is a simplified version of the xml file for Avr gcc compiler:
 ```xml
 <compiler name="Avrgcc" type="avrgcc" buildPath="build_$fileName" useDevice="true">
-    <step 
-        command="avr-gcc"
-        arguments=" -mmcu=$device -Wall -g -Os -o $buildPath$fileName.elf $filePath"
-        argsDebug=" -mmcu=$device -Wall -g -Og -o $buildPath$fileName.elf $filePath"
-    />
-    <step 
-        command="avr-objcopy"
-        arguments=" -j .text -j .data -O ihex $buildPath$fileName.elf $buildPath$fileName.hex"
-    />
+  <step 
+    command="avr-gcc"
+    arguments=" -mmcu=$device -Os -o $buildPath$fileName.elf $filePath"
+    argsDebug=" -mmcu=$device -Og -o $buildPath$fileName.elf $filePath"
+  />
+  <step 
+    command="avr-objcopy"
+    arguments=" ihex $buildPath$fileName.elf $buildPath$fileName.hex"
+  />
 <compiler/>
 ```
+
+Let's say that we are compiling a file with path: */path/toMyproject/mycode.c*
+And we have these settings for the compiler:
+**Tool Path:** */path/to/myCompiler/*
+**Device:**  *atmega8*
+
+It will do these substitutions for the first build step:
+
+buildPath="build\_**$fileName**" is changed to: buildPath="/path/toMyproject/build_**mycode**"
+
+-mmcu=**$device**  is changed to: -mmcu=**atmega8** 
+
+**$buildPath** is changed to: **/path/toMyproject/build_mycode/**
+**$fileName** is changed to: **mycode**
+So **\$buildPath$fileName**.elf  becomes: **/path/toMyproject/build_mycode/mycode**.elf
+
+**$filePath** is changed to: **/path/toMyproject/mycode.c**
+<br>
+
+In this case, because we indicated a buildPath, it will automatically create the build folder: 
+*/path/toMyproject/build_mycode*
+
+And the complete command it will execute for the first build step is this (all in one line):
+
+```xml
+"/path/to/myCompiler/avr-gcc" -mmcu=atmega8 -Os -o /path/toMyproject/build_mycode/mycode.elf "/path/toMyproject/mycode.c"
+```
+<br>
 
 ---
 
