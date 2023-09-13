@@ -6,7 +6,7 @@
       {
         "id": "955fd7ff7a165815",
         "type": "tabs",
-        "dimension": 44.96951219512195,
+        "dimension": 46.246973365617436,
         "children": [
           {
             "id": "2a8af5c7d541a06f",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "1-Circuit/Circuit Tool bar.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,18 @@
       {
         "id": "1ac2a63e88e48384",
         "type": "tabs",
-        "dimension": 55.03048780487805,
+        "dimension": 53.753026634382564,
         "children": [
           {
             "id": "9e33f8415384f602",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1-Circuit/Circuit canvas.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -64,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Component",
+                "query": "compi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1-Circuit/Circuit canvas.md"
+              }
             }
           },
           {
@@ -109,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1-Circuit/Circuit canvas.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1-Circuit/Circuit canvas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +149,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,47 +169,47 @@
   },
   "active": "9e33f8415384f602",
   "lastOpenFiles": [
-    "index.md",
-    "README.md",
+    "1-Circuit/Circuit Tool bar.md",
+    "1-Circuit/Circuit canvas.md",
+    "1-Circuit/Circuit context menu.md",
+    "1-Circuit/Component.md",
+    "1-Circuit/Components/01-Meters/Ampmeter.md",
+    "1-Circuit/Components/01-Meters/Freqmeter.md",
+    "1-Circuit/Components/01-Meters/Logic Analyzer.md",
+    "1-Circuit/Components/01-Meters/Oscilloscope.md",
+    "1-Circuit/Components/01-Meters/Probe.md",
+    "1-Circuit/Components/01-Meters/Voltmeter.md",
+    "1-Circuit/Components/02-Sources/Battery.md",
+    "1-Circuit/Components/02-Sources/Clock.md",
+    "1-Circuit/Components/02-Sources/Current Source.md",
+    "1-Circuit/Components/02-Sources/Fixed Volt.md",
+    "1-Circuit/Components/02-Sources/Ground.md",
+    "1-Circuit/Components/02-Sources/Controlled Source.md",
+    "1-Circuit/Components/02-Sources/Rail.md",
+    "1-Circuit/Components/02-Sources/Voltage Source.md",
+    "1-Circuit/Components/02-Sources/Wave Gen.md",
+    "1-Circuit/Components/03-Switches/KeyPad.md",
+    "1-Circuit/Components/03-Switches/Push.md",
+    "1-Circuit/Components/03-Switches/Relay.md",
+    "1-Circuit/Components/03-Switches/Switch.md",
+    "1-Circuit/Components/03-Switches/Switchdip.md",
+    "1-Circuit/Components/04-Passive/1-Resistors/Potentiometer.md",
+    "1-Circuit/Components/04-Passive/1-Resistors/Resistor Dip.md",
+    "images/powerico.png",
+    "images/pauseico.png",
+    "images/zoomsel.svg",
+    "images/zoomone.svg",
+    "images/zoomfit.svg",
     "images/zener.png",
     "images/xorgate.png",
     "images/ws2812.png",
     "images/wavegen.png",
     "images/wav.png",
-    "images/voltsource.png",
-    "images/voltreg.png",
-    "images/voltmeter.png",
-    "images/varresistor.png",
-    "images/val.png",
     "images",
-    "Application/Message panel.md",
-    "Application/Dependecies.md",
-    "Application/Basic use.md",
     "Application",
-    "4-Dev/Source Code.md",
-    "4-Dev/Scripted Dev.md",
-    "4-Dev/Linked Dev.md",
     "4-Dev",
-    "3-Files/File explorer.md",
     "3-Files",
-    "2-Editor/Find-replace.md",
-    "2-Editor/Debugger.md",
-    "2-Editor/Compiler.md",
-    "2-Editor/Code Editor.md",
     "2-Editor",
-    "1-Circuit/Circuit context menu.md",
-    "1-Circuit/Circuit Tool bar.md",
-    "1-Circuit/Circuit canvas.md",
-    "1-Circuit/Component.md",
-    "1-Circuit/Components/Custom Components.md",
-    "1-Circuit/Components/Properties dialog.md",
-    "1-Circuit/Components/Component context menu.md",
-    "1-Circuit/Components/Component list.md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/TouchPad (resistive).md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/Serial Port.md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/Rotary Encoder (relative).md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/KY-023.md",
-    "1-Circuit/Components/7-Micro/9-Peripherals/ESP01 (TCP).md",
     "1-Circuit/Components/7-Micro/9-Peripherals",
     "1-Circuit/Components/7-Micro/8-Sensors",
     "1-Circuit/Components/7-Micro",

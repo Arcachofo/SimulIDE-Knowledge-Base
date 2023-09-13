@@ -1,4 +1,5 @@
-This feature is not available in version 1.0.0.
+# Scripted Components
+(This feature is not available in version 1.0.0)
 
 With Scripted Components it is possible to define the behaviour of the device in a script.
 

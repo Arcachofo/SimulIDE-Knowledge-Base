@@ -7,7 +7,7 @@ SimulIDE_1.x.x/data/codeeditor/compilers/assemblers
 These xml files define the type of compiler, build path, build steps, syntax highlighting, etc.
 
 Note that the compilers included in SimulIDE might not work in your system.
-You probably need to change some setting in the xml file to meet the compiler installed in your system (see below).
+You probably need to change some setting in the xml file to meet the compiler installed in your system. See [[#File Structure]] below.
 If you have any questions please ask in our [forum](https://simulide.forumotion.com/)
 
 Once you have your compiler configured you can compile files in SimulIDE.
@@ -19,7 +19,7 @@ If not, you need to set a compiler by opening "Compiler Settings" in ![[settings
 Then select a compiler from the list and configure "Tool Path" and other options (if needed):
 
 ![[comp_settings.png]]
-To load a compiler automatically when you open a file, you can add an indication in the very first line of the file as comment, for example in C/C++:
+To load a compiler automatically when you open a file, you can add an indication in the **very first line** of the file as a comment, for example in C/C++:
 
 ```
 // Compiler: Avrgcc
