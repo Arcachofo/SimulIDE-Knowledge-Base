@@ -52,7 +52,7 @@ Right-click in the canvas to open the [[Circuit context menu]].
 
 # Simulating circuits:
 
-When you complete your circuit, click the Power button:  ![[poweroff.png | 20]] in the [[Circuit Tool bar | Tool bar]] to start or stop the simulation.
+When you complete your circuit, click the Power button:  ![[poweroff.png | 20]]  in the [[Circuit Tool bar | Tool bar]] to start or stop the simulation.
 
 You can pause the simulation with the pause button: ![[pausesim.png | 20]]
 

@@ -7,21 +7,41 @@ Configurable transformer
 Property: (default value)
 
 - **Coupling Coefficient:** (0.99)
-   
-- **Base Inductance:** ( 1 H)
+<br>
+- **Base Inductance:** (1 H)
    Inductance used in Primary and Secondary.
 <br>
 - **Primary:** (1)
-   Description of primary coils.
+   Description of primary coils (see below).
 <br>
 - **Secondary:** (1)
-   Description of secondary coils.
+   Description of secondary coils (see below).
+
+---
+
+# Description of coils:
+
+Coils are described by values separated by "**:**" or "**,**"
+
+Each value represents the inductance, for example 1 is one time the base inductance, 2 is two times the base inductance and so on.
+
+A negative value changes the direction of the coil (represented by the dot)
+
+Separator "**:**" is used to separate completely independent coils or group of coils.
+Separator "**,**" is used to separate interconnected coils in a group of coils.
+
+Some examples:
+
+![[trafo0.png]]
+![[trafo1.png]]
+![[trafo2.png]]
+![[trafo3.png]]
 
 ---
 
 # Resources:
 
-- Video: [Transformer SimulIDE dev.](https://www.youtube.com/watch?v=NpuQUcKUbAg)
+- Video: [Transformer SimulIDE dev.](https://www.youtube.com/watch?v=s5aSr4GfpiM)
 
 ---
 

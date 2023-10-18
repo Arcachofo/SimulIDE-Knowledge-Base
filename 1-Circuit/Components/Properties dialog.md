@@ -1,0 +1,2 @@
+# Component Properties dialog
+

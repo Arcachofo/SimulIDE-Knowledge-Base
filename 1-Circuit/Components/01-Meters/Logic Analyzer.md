@@ -1,3 +1,5 @@
+# Logic Analyzer:
+
 Logic Analyzer  has 8 channels identified with different colors for each channel.
 You can connect inputs to wires or enter a tunnel name in the corresponding box.
 Connecting the inputs and running the simulation you will see the wave forms:
@@ -90,6 +92,8 @@ You can combine Condition Trigger, Export Data and a program like [Pulseview](ht
 
 ## Resources:
 
+- Video (english): 
+- Video (spanish): [Analizador Lógico SimulIDE 1.0.0](https://www.youtube.com/watch?v=NZvPPMa1Hfo)
 
 ---
 

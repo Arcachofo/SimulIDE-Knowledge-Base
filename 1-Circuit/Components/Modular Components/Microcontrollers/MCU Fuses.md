@@ -1,3 +1,5 @@
+# MCU fuses (config bits)
+
 ## PIC: 
 fuses based on PGM Address.
 

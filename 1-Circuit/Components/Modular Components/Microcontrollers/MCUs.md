@@ -1,3 +1,7 @@
+# MCU
+
+MCUs are [[Modular Components]], defined in [[MCU definition]] files representing different modules inside the MCU as: cpu, memories, I/O ports, timers, etc.
+
 # Microcontrollers supported:
 
 [[AVR]]
@@ -9,8 +13,6 @@
 
 [[MCU Monitor]]
 [[Serial Monitor]]
-[[MCU Clock]]
-[[MCU Sleep]]
 [[MCU Fuses]]
 
 ---
@@ -77,7 +79,10 @@ These setting are equivalent to configuration bits ([[MCU Fuses]]).
 
 ## Videos:
 - [Microcontrollers basic use SimulIDE 1.0.0](https://www.youtube.com/watch?v=XcCq9B0rIDA)
+- [Microcontroladores SimulIDE 1.0.0 (spanish)](https://www.youtube.com/watch?v=Qzu-brnP15s)
 - [SimulIDE 1.0.0 multiple MCUs](https://www.youtube.com/watch?v=CcFM1lmQD_I)
+
+## [[MCU dev]]
 
 ---
 

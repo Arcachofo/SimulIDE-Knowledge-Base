@@ -6,7 +6,7 @@
       {
         "id": "955fd7ff7a165815",
         "type": "tabs",
-        "dimension": 46.246973365617436,
+        "dimension": 30.730050933786078,
         "children": [
           {
             "id": "2a8af5c7d541a06f",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Circuit Tool bar.md",
+                "file": "2-Editor/Code Editor.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
       {
         "id": "1ac2a63e88e48384",
         "type": "tabs",
-        "dimension": 53.753026634382564,
+        "dimension": 69.26994906621393,
         "children": [
           {
             "id": "9e33f8415384f602",
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Circuit canvas.md",
+                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCU definition.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Circuit/Circuit canvas.md"
+                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCU definition.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Circuit/Circuit canvas.md",
+                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCU definition.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Circuit/Circuit canvas.md",
+                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCU definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5
+    "width": 262.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,17 +174,17 @@
     "1-Circuit/Circuit context menu.md",
     "1-Circuit/Component.md",
     "1-Circuit/Components/01-Meters/Ampmeter.md",
-    "1-Circuit/Components/01-Meters/Freqmeter.md",
     "1-Circuit/Components/01-Meters/Logic Analyzer.md",
+    "1-Circuit/Components/01-Meters/Freqmeter.md",
     "1-Circuit/Components/01-Meters/Oscilloscope.md",
     "1-Circuit/Components/01-Meters/Probe.md",
     "1-Circuit/Components/01-Meters/Voltmeter.md",
     "1-Circuit/Components/02-Sources/Battery.md",
     "1-Circuit/Components/02-Sources/Clock.md",
+    "1-Circuit/Components/02-Sources/Controlled Source.md",
     "1-Circuit/Components/02-Sources/Current Source.md",
     "1-Circuit/Components/02-Sources/Fixed Volt.md",
     "1-Circuit/Components/02-Sources/Ground.md",
-    "1-Circuit/Components/02-Sources/Controlled Source.md",
     "1-Circuit/Components/02-Sources/Rail.md",
     "1-Circuit/Components/02-Sources/Voltage Source.md",
     "1-Circuit/Components/02-Sources/Wave Gen.md",
@@ -195,16 +195,16 @@
     "1-Circuit/Components/03-Switches/Switchdip.md",
     "1-Circuit/Components/04-Passive/1-Resistors/Potentiometer.md",
     "1-Circuit/Components/04-Passive/1-Resistors/Resistor Dip.md",
+    "images/mainmcu.png",
+    "images/trafo3.png",
+    "images/trafo2.png",
+    "images/trafo1.png",
+    "images/trafo0.png",
+    "images/edit_toolbar.png",
+    "images/toolbe.png",
+    "images/circ_toolbar.png",
+    "images/toolbar.png",
     "images/powerico.png",
-    "images/pauseico.png",
-    "images/zoomsel.svg",
-    "images/zoomone.svg",
-    "images/zoomfit.svg",
-    "images/zener.png",
-    "images/xorgate.png",
-    "images/ws2812.png",
-    "images/wavegen.png",
-    "images/wav.png",
     "images",
     "Application",
     "4-Dev",

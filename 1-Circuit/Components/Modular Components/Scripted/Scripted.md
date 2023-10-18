@@ -172,7 +172,8 @@ https://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html
 # Resources:
 
 - [Forum discussion,](https://simulide.forumotion.com/t990-scripted-components)
-- Video: [Creating Scripted Components Part I](https://youtu.be/vJLfuVwbvGE)
+- Video (english): [Creating Scripted Components Part I](https://youtu.be/vJLfuVwbvGE)
+- Video (spanish): [Creando componentes script en SimulIDE](https://www.youtube.com/watch?v=xRF0TBUU0JY)
 - [[Scripted Dev]].
 
 ---

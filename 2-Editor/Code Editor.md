@@ -19,7 +19,10 @@ When a file is modified, an asterisk: * will appear in the tab besides the file 
 
 # Tool bar
 
-At the top we find the tool bar with 5 sections:
+![[edit_toolbar.png]]
+<br>
+
+At the top we find the tool bar with 5 sections (from left to right):
 
 ## Settings:
 >  ![[settings.svg]] **Settings:** open settings menu:

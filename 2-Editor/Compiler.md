@@ -1,21 +1,15 @@
 # Compilers
 
-Compilers are defined in xml files located at:
-SimulIDE_1.x.x/data/codeeditor/compilers/compilers
-SimulIDE_1.x.x/data/codeeditor/compilers/assemblers
-
-These xml files define the type of compiler, build path, build steps, syntax highlighting, etc.
-
 Note that the compilers included in SimulIDE might not work in your system.
-You probably need to change some setting in the xml file to meet the compiler installed in your system. See [[#File Structure]] below.
+You probably need to change some setting in the xml file to meet the compiler installed in your system, for example executable name or extension (.exe for Windows). 
+See [[#File Structure]] below.
 If you have any questions please ask in our [forum](https://simulide.forumotion.com/)
 
-Once you have your compiler configured you can compile files in SimulIDE.
 Some compilers are automatically loaded for some file extensions, for example:
 **.ino** : Arduino compiler.
 **.gcb**: GcBasic compiler.
 **.as** : Script compiler: 
-If not, you need to set a compiler by opening "Compiler Settings" in ![[settings.svg]] Settings menu.
+If not, you need to set a compiler by opening "Compiler Settings" in ![[settings.svg]] Settings menu in the tool bar.
 Then select a compiler from the list and configure "Tool Path" and other options (if needed):
 
 ![[comp_settings.png]]
@@ -26,11 +20,30 @@ To load a compiler automatically when you open a file, you can add an indication
 ```
 
 Note that you must use the exact same name used in the compiler list.
+
+## Compiling:
+
+Once the compiler is configured you can compile the file by clicking in the compile button in the tool bar: ![[compile.svg]] 
+Have a look at the bottom panel to see if there is some error.
+
+If there are no errors you can upload the hex file generated to a microcontroller in the circuit by clicking the upload button in tool bar: ![[upload.svg]] 
+
+Note that when there are more than one microcontroller in the circuit, the hex file will be uploaded to the "active" microcontroller, which is the one with a yellow dot:
+
+![[mainmcu.png]]
+
+To change the "active" microcontroller, right-click on it to open context menu and select "Main Mcu"
 <br>
 
 ---
 
 ## Adding Compilers:
+
+Compilers are defined in xml files located at:
+SimulIDE_1.x.x/data/codeeditor/compilers/compilers
+SimulIDE_1.x.x/data/codeeditor/compilers/assemblers
+
+These xml files define the type of compiler, build path, build steps, syntax highlighting, etc.
 
 If the compiler you want is not included in the list, you can add new compilers.
 

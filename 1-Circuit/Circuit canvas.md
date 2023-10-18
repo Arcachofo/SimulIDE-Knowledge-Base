@@ -1,6 +1,11 @@
 # Circuit Canvas
 
-Here is where you create your circuits.
+This is the central part of the application, where you create your circuits.
+
+Most actions available are accessible from the context menu or directly by mouse or key actions.
+
+Settings are configured opening the settings dialog from the tool bar in the gear icon.
+<br>
 
 ## Context menu:
 
@@ -53,7 +58,7 @@ Options:
 # Resources:
 
 ## Videos:
-- [SimulIDE1.0.0 basic use: Circuit panel](https://www.youtube.com/watch?v=ZNiwBZmnNyY)
+- [SimulIDE 1.0.0 basic use: Circuit panel](https://www.youtube.com/watch?v=ZNiwBZmnNyY)
 - [Everything about wires. SimulIDE 1.0.0](https://www.youtube.com/watch?v=rwbQDoZ-9hQ)
 
 ---

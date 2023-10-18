@@ -1,6 +1,6 @@
 # Sections:
 - [[Basic use]]
-- [[Circuit canvas]]
+- [[Circuit]]
 - [[Component]]s
 - [[Code Editor]]
 - [[File explorer]]

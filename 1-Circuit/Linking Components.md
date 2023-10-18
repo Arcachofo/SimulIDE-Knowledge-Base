@@ -14,21 +14,18 @@ Mechanism to link components to perform certain actions:
 ## Can link to other Components:
 
 - **[[Dial]]**
-    Calls: 
-    *setLinkedValue( (int)v, 0 )*
+    Send value between Min. Value and Max. Value (in properties)
 
 - **[[Text]] Component**
     Shows value label from linked components.
     Syntax: *$dataN*   (N = component index).
 
-- **[[Led]]**
-    Calls: 
-    *setLinkedValue( double v, int i )*
+- **[[Led]]** / **[[Diode]]**
+    Send value of current flowing through.
+
 
 - **[[Scripted]]**
-    Can call:
-    *setLinkedString( string str, int i )*
-    *setLinkedValue( double v, int i )*
+    Can send any value from the script (double or string)
 <br>
 
 ---
@@ -36,38 +33,34 @@ Mechanism to link components to perform certain actions:
 ## Can be linked:
 
 - **[[Dialed]]** ([[Dial]], [[Potentiometer]], [[Variable Resistor]], [[Resistive Sensors]]):
-    Called:
-    *setLinkedValue( double v, int i=0 )*
-    i = 0: set Dial value (0-1000)
-    else : set value.
+    Can receive a value (resistance, luminance, etc) or dial position:
+    i = 0: set Dial position (0-1000)
+    else : set resistance value.
 
 - **[[Text]] Component**
-    Called:
-    *setLinkedString( QString str, int i )*
-    *setLinkedValue( double v, int i )*
+    Can append or set text:
     i = 0: set text.
     else : append text.
 
 - **[[7 segment BCD]]**
-    Called:
-    *setLinkedValue( double v, int i )*
-    i = 0: display value.
+    Can receive a display value or segment on/off:
+    i = 0: display value (0-F).
     else : 1 bit for each segment.
 
 - **[[Clock]] & [[Wave Gen]]**
-    Called:
-    *setLinkedValue( double v, int i )*
-    Set frequency.
+    Can receive a frequency value.
+
+- **[[Capacitor]]**
+    Can receive a percentage capacitance (0 to 1000 = 0 to 100%).
+
+- **[[Inductor]]**
+    Can receive a  percentage inductance (0 to 1000 = 0 to 100%).
 
 - **[[Controlled Source]]**
-    Called:
-    *setLinkedValue( double v, int i )*
-    Set control voltage or current.
+    Can receive a control voltage or current.
 
 - **[[Scripted]]**
-    Can be called:
-    *setLinkedString( string str, int i )*
-    *setLinkedValue( double v, int i )*
+    Can receive a double or string value.
 <br>
 
 ---

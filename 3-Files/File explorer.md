@@ -1,3 +1,5 @@
+# File explorer
+
 The File explorer is in the left panel, it is divided in 2 sections:
 
 - [[#Bookmarks:]] at the top.
