@@ -6,7 +6,7 @@
       {
         "id": "955fd7ff7a165815",
         "type": "tabs",
-        "dimension": 30.730050933786078,
+        "dimension": 45.67062818336163,
         "children": [
           {
             "id": "2a8af5c7d541a06f",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-Editor/Code Editor.md",
+                "file": "1-Circuit/Components/Modular Components/Modular.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
       {
         "id": "1ac2a63e88e48384",
         "type": "tabs",
-        "dimension": 69.26994906621393,
+        "dimension": 54.32937181663837,
         "children": [
           {
             "id": "9e33f8415384f602",
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCU definition.md",
+                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCU definition.md"
+                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCU definition.md",
+                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCU definition.md",
+                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

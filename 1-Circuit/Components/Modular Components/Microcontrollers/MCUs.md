@@ -1,6 +1,6 @@
 # MCU
 
-MCUs are [[Modular Components]], defined in [[MCU definition]] files representing different modules inside the MCU as: cpu, memories, I/O ports, timers, etc.
+MCUs are [[Modular]] Components, defined in [[MCU definition]] files representing different modules inside the MCU as: cpu, memories, I/O ports, timers, etc.
 
 # Microcontrollers supported:
 
