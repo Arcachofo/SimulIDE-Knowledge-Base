@@ -9,7 +9,7 @@ Executable is in this folder, just double-click it or run from a terminal if you
 You can copy this folder to whatever location you want keeping the internal structure as it is.  
 **Don't move, edit or delete files** unless you know what you are doing.
 
-You don't need to install anything else unless you are compiling yourself. Then you need to install [ these dependencies](Application/Dependecies).
+You don't need to install anything else unless you are compiling yourself. Then you need to install [these dependencies](/Application/Dependecies).
 
 ---
 
@@ -18,7 +18,7 @@ You don't need to install anything else unless you are compiling yourself. Then 
 It is divided into 3 main panels.
 **All panels are resizable and collapsable.**
 
-![](gui-basic-use.png)
+![gui-basic-use](gui-basic-use.png)
 
 ## Left Panel:
 
