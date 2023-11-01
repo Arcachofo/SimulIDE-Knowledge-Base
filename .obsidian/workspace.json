@@ -6,6 +6,7 @@
       {
         "id": "1ac2a63e88e48384",
         "type": "tabs",
+        "dimension": 76.01957585644372,
         "children": [
           {
             "id": "9e33f8415384f602",
@@ -13,10 +14,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Application/Basic use.md",
+                "file": "knowledgebase/Application/Basic use.md",
                 "mode": "source",
                 "source": true
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f39cf9e771185a5d",
+        "type": "tabs",
+        "dimension": 23.980424143556277,
+        "children": [
+          {
+            "id": "98c0569db80621f5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 223.5
   },
   "right": {
     "id": "c6a4303aeafd9f06",
@@ -85,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Application/Basic use.md"
+                "file": "knowledgebase/Application/Basic use.md"
               }
             }
           },
@@ -95,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Application/Basic use.md",
+                "file": "knowledgebase/Application/Basic use.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Application/Basic use.md",
+                "file": "knowledgebase/Application/Basic use.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +165,23 @@
   },
   "active": "9e33f8415384f602",
   "lastOpenFiles": [
+    "knowledgebase/4-Dev/Linked Dev.md",
+    "knowledgebase/4-Dev/MCU dev.md",
+    "knowledgebase/4-Dev/MCU Clock.md",
+    "knowledgebase/Application/Basic use.md",
+    "knowledgebase/start.md",
+    "knowledgebase/1-Circuit/Components/01-Meters/Probe.md",
+    "knowledgebase/1-Circuit/Components/01-Meters/index.html",
+    "knowledgebase/1-Circuit/Components/01-Meters/probe.html",
+    "knowledgebase/1-Circuit/Components/01-Meters/probe0.html",
+    "knowledgebase/1-Circuit/Components/11-Other/Dial.md",
     "index.md",
+    "base/1-Circuit/Circuit Tool bar.md",
+    "base/Application/Basic use.md",
+    "base/1-Circuit/Components/Component list.md",
+    "base/1-Circuit/Component.md",
+    "base/1-Circuit/Components/01-Meters/Ampmeter.md",
+    "base/1-Circuit/Circuit canvas.md",
     "Application/Basic use.md",
     "1-Circuit/Component.md",
     "1-Circuit/Components/Component list.md",
@@ -174,26 +206,10 @@
     "1-Circuit/Linking Components.md",
     "output/Linking Components.md",
     "output/Custom Components.md",
-    "1-Circuit/Components/Modular Components/Modular.md",
-    "1-Circuit/Components/06-Outputs/3-Motors/Dc Motor.md",
-    "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
-    "1-Circuit/Circuit Tool bar.md",
-    "1-Circuit/Circuit canvas.md",
-    "1-Circuit/Circuit context menu.md",
-    "1-Circuit/Components/01-Meters/Ampmeter.md",
-    "1-Circuit/Components/01-Meters/Logic Analyzer.md",
-    "1-Circuit/Components/01-Meters/Freqmeter.md",
-    "1-Circuit/Components/01-Meters/Oscilloscope.md",
-    "1-Circuit/Components/01-Meters/Probe.md",
-    "1-Circuit/Components/01-Meters/Voltmeter.md",
-    "1-Circuit/Components/02-Sources/Battery.md",
     "images",
     "Application",
     "4-Dev",
     "3-Files",
-    "2-Editor",
-    "1-Circuit/Components/7-Micro/9-Peripherals",
-    "1-Circuit/Components/7-Micro/8-Sensors",
-    "1-Circuit/Components/7-Micro"
+    "2-Editor"
   ]
 }
