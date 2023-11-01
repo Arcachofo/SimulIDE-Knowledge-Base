@@ -5,16 +5,16 @@ These components are created from different "modules", for example: CPU, RAM, RO
 All these internal modules are defined in an xml file. There you describe the characteristics of the component and which modules to use and it's characteristics.
 
 There are 3 types of Modular Components:
-- [[MCUs]]
-- [[MPUs]]
-- [[Scripted]]
+- [MCUs](1-Circuit/Components/Modular%20Components/Microcontrollers/MCUs.md)
+- [MPUs](1-Circuit/Components/Modular%20Components/2-Microprocessors/MPUs.md)
+- [Scripted](1-Circuit/Components/Modular%20Components/Scripted/Scripted.md)
 
 Creating a modular component involves at least these steps (Scripted needs an additional script file):
 
-1. [[Package#Creating Package File|Creating Package File.]]
-2. [[#Creating Definition file.]]
-3. [[#Creating component folder]] with all files.
-4. [[#Add to component list]]
+1. [](1-Circuit/Components/11-Other/Package.md#Creating%20Package%20File|Creating%20Package%20File.)
+2. [#Creating Definition file.](#Creating%20Definition%20file.)
+3. [#Creating component folder](#Creating%20component%20folder) with all files.
+4. [#Add to component list](#Add%20to%20component%20list)
 <br>
 
 ---
@@ -63,7 +63,7 @@ This is an example of an definition file for an imaginary Microcontroller with 3
 
 ## Creating component folder 
 
-The simplest way is to use the the component name for the folder and all files as explained [[Custom Components#Creating component folder|here]].
+The simplest way is to use the the component name for the folder and all files as explained [](1-Circuit/Components/Custom%20Components.md#Creating%20component%20folder|here).
 
 But it is possible to use different file names or use packages from other components.
 To do this, you need to specify paths for these files as explained below.
@@ -73,7 +73,7 @@ To do this, you need to specify paths for these files as explained below.
 
 ## Add to component list.
 
-The simplest method and common options is explained [[Custom Components#Add to component list|here]].
+The simplest method and common options is explained [](1-Circuit/Components/Custom%20Components.md#Add%20to%20component%20list|here).
 
 But is is possible to use specific paths for package and definition files.
 Path to all files are relative to "data" folder.

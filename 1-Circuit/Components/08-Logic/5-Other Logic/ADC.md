@@ -16,8 +16,8 @@ Property: (default value)
    Voltage asigned to the maximum value.
 
 ### Electric:
-![[Logic Components#Outputs]]
-![[Logic Components#Edges]]
+![](1-Circuit/Components/08-Logic/Logic%20Components.md#Outputs)
+![](1-Circuit/Components/08-Logic/Logic%20Components.md#Edges)
 
 
 #Component 

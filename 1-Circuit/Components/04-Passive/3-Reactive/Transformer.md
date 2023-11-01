@@ -32,10 +32,10 @@ Separator "**,**" is used to separate interconnected coils in a group of coils.
 
 Some examples:
 
-![[trafo0.png]]
-![[trafo1.png]]
-![[trafo2.png]]
-![[trafo3.png]]
+![trafo0](images/trafo0.png)
+![trafo1](images/trafo1.png)
+![trafo2](images/trafo2.png)
+![trafo3](images/trafo3.png)
 
 ---
 

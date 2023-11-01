@@ -1,29 +1,29 @@
 # Circuit Tool bar.
  
-![[circ_toolbar.png]]
+![circ_toolbar](images/circ_toolbar.png)
 <br>
 
 ## Settings:
->  ![[settings.svg]] **Settings:** open application settings menu:
-> > [[Settings#Application settings|Application settings]].
-> > [[Settings#Circuit settings|Circuit settings]].
-> > [[Settings#Simulation settings|Simulation settings]].
+>  ![settings](images/settings.svg) **Settings:** open application settings menu:
+> > [](Application/Settings.md#Application%20settings|Application%20settings).
+> > [](Application/Settings.md#Circuit%20settings|Circuit%20settings).
+> > [](Application/Settings.md#Simulation%20settings|Simulation%20settings).
 
 ## File actions:
- >  ![[lastfiles.svg]] **Recent files:** show a list of last files used.
- >  ![[new.svg]] **New:** create a new empty document.
- >  ![[open.svg]] **Open:** open a text file from disk.
- >  ![[save.svg]] **Save:** save active document to disk.
- >  ![[saveas.svg]] **Save as:** save active document with new name.
+ >  ![lastfiles](images/lastfiles.svg) **Recent files:** show a list of last files used.
+ >  ![new](images/new.svg) **New:** create a new empty document.
+ >  ![open](images/open.svg) **Open:** open a text file from disk.
+ >  ![save](images/save.svg) **Save:** save active document to disk.
+ >  ![saveas](images/saveas.svg) **Save as:** save active document with new name.
 
-## Zoom: [[#(1)]]
- >  ![[zoomfit.svg]] **Zoom to fit:** fit complete Circuit in view.
- >  ![[zoomsel.svg]] **Zoom to selected:** fit selected items in view.
- >  ![[zoomone.svg]] **Reset Zoom:** set zoom scale to 1:1.
+## Zoom: [#(1)](#(1))
+ >  ![zoomfit](images/zoomfit.svg) **Zoom to fit:** fit complete Circuit in view.
+ >  ![zoomsel](images/zoomsel.svg) **Zoom to selected:** fit selected items in view.
+ >  ![zoomone](images/zoomone.svg) **Reset Zoom:** set zoom scale to 1:1.
 
 ## Simulation:
- >  ![[poweroff.png | 22]] **Power Circuit:** start/stop simulation.
- >  ![[pausesim.png | 22]] **Pause:** pause simulation.
+ >  ![ 22](poweroff.png%20) **Power Circuit:** start/stop simulation.
+ >  ![ 22](pausesim.png%20) **Pause:** pause simulation.
 
 
 ---

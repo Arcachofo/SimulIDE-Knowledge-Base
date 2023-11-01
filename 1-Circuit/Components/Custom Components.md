@@ -2,26 +2,26 @@
 
 There are 2 main types of components you can create in SimulIDE:
 
-## [[Subcircuits]]:
+## [Subcircuits](1-Circuit/Components/Subcircuits.md):
 These are just circuits hidden inside a package.
 <br>
 
-## [[Modular]]:
+## [Modular](1-Circuit/Components/Modular%20Components/Modular.md):
 These are components created by combining different modules already implemented.
 There are 3 types of Modular Components:
-- [[MCUs]]
-- [[MPUs]]
-- [[Scripted]]
+- [MCUs](1-Circuit/Components/Modular%20Components/Microcontrollers/MCUs.md)
+- [MPUs](1-Circuit/Components/Modular%20Components/2-Microprocessors/MPUs.md)
+- [Scripted](1-Circuit/Components/Modular%20Components/Scripted/Scripted.md)
 <br>
 
-All These components use [[Package]]s as graphical representation in the circuit, and some specific files for each type of component.
+All These components use [Package](1-Circuit/Components/11-Other/Package.md)s as graphical representation in the circuit, and some specific files for each type of component.
 
 Creating a custom component involves these steps:
 
-1. [[Package#Creating Package File|Creating Package File.]]
+1. [](1-Circuit/Components/11-Other/Package.md#Creating%20Package%20File|Creating%20Package%20File.)
 2. Creating specific files (see each component type).
-3. [[#Creating component folder]] with all files.
-4. [[#Add to component list.]]
+3. [#Creating component folder](#Creating%20component%20folder) with all files.
+4. [#Add to component list.](#Add%20to%20component%20list.)
 <br>
 
 ---
@@ -84,7 +84,7 @@ Let's explain by levels:
   
 **item** Represents a component to be added to a Category
 
-- **name** Is the name that will be shown in the [[Component list]].
+- **name** Is the name that will be shown in the [Component list](1-Circuit/Components/Component%20list.md).
 - **info** (optional) Extra information that will be shown besides Component name.
 - **icon** (optional) is the icon used for this component.  The icon file must be in: data/images/
 

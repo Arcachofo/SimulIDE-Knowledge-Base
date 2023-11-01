@@ -4,7 +4,7 @@ Logic Components work with digital signals: 1 or 0, and are usually made from as
 
 ## Component list:
 
-List of Logic Components available: [[Component list#Logic]]
+List of Logic Components available: [](1-Circuit/Components/Component%20list.md#Logic)
 
 ---
 

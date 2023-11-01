@@ -2,17 +2,17 @@
 
 Note that the compilers included in SimulIDE might not work in your system.
 You probably need to change some setting in the xml file to meet the compiler installed in your system, for example executable name or extension (.exe for Windows). 
-See [[#File Structure]] below.
+See [#File Structure](#File%20Structure) below.
 If you have any questions please ask in our [forum](https://simulide.forumotion.com/)
 
 Some compilers are automatically loaded for some file extensions, for example:
 **.ino** : Arduino compiler.
 **.gcb**: GcBasic compiler.
 **.as** : Script compiler: 
-If not, you need to set a compiler by opening "Compiler Settings" in ![[settings.svg]] Settings menu in the tool bar.
+If not, you need to set a compiler by opening "Compiler Settings" in ![settings](images/settings.svg) Settings menu in the tool bar.
 Then select a compiler from the list and configure "Tool Path" and other options (if needed):
 
-![[comp_settings.png]]
+![comp_settings](images/comp_settings.png)
 To load a compiler automatically when you open a file, you can add an indication in the **very first line** of the file as a comment, for example in C/C++:
 
 ```
@@ -23,14 +23,14 @@ Note that you must use the exact same name used in the compiler list.
 
 ## Compiling:
 
-Once the compiler is configured you can compile the file by clicking in the compile button in the tool bar: ![[compile.svg]] 
+Once the compiler is configured you can compile the file by clicking in the compile button in the tool bar: ![compile](images/compile.svg) 
 Have a look at the bottom panel to see if there is some error.
 
-If there are no errors you can upload the hex file generated to a microcontroller in the circuit by clicking the upload button in tool bar: ![[upload.svg]] 
+If there are no errors you can upload the hex file generated to a microcontroller in the circuit by clicking the upload button in tool bar: ![upload](images/upload.svg) 
 
 Note that when there are more than one microcontroller in the circuit, the hex file will be uploaded to the "active" microcontroller, which is the one with a yellow dot:
 
-![[mainmcu.png]]
+![mainmcu](images/mainmcu.png)
 
 To change the "active" microcontroller, right-click on it to open context menu and select "Main Mcu"
 <br>

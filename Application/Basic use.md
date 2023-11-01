@@ -9,7 +9,7 @@ Executable is in this folder, just double-click it or run from a terminal if you
 You can copy this folder to whatever location you want keeping the internal structure as it is.  
 **Don't move, edit or delete files** unless you know what you are doing.
 
-You don't need to install anything else unless you are compiling yourself. Then you need to install [[Dependecies| these dependencies]].
+You don't need to install anything else unless you are compiling yourself. Then you need to install [ these dependencies](Application/Dependecies.md).
 
 ---
 
@@ -23,38 +23,38 @@ It is divided into 3 main panels.
 ## Left Panel:
 
 In the left panel therea are 2 tabs:
-- [[Component list]] to select components and add to the circuit.
-- [[File explorer]] to browse your file system and open files in the circuit or editor.  
+- [Component list](1-Circuit/Components/Component%20list.md) to select components and add to the circuit.
+- [File explorer](3-Files/File%20explorer.md) to browse your file system and open files in the circuit or editor.  
   
 ## Central Panel:
 
-- [[Circuit Tool bar]] at the top with actions and information about the simulation.
-- [[Circuit canvas]] in the middle,  here is where you create and simulate your circuits.
-- [[Message panel]]  at the bottom, showing debug messages and errors.
+- [Circuit Tool bar](1-Circuit/Circuit%20Tool%20bar.md) at the top with actions and information about the simulation.
+- [Circuit canvas](1-Circuit/Circuit%20canvas.md) in the middle,  here is where you create and simulate your circuits.
+- [Message panel](Application/Message%20panel.md)  at the bottom, showing debug messages and errors.
   
 ## Right Panel:
 
-In the right pane is the [[Code Editor | Editor/Compiler/Debugger]].
-It also has its own [[Code Editor#Tool bar|Tool bar]] and [[Code Editor#Message Panel|Message panel]].
+In the right pane is the [ Editor/Compiler/Debugger](Code%20Editor%20).
+It also has its own [](output/Code%20Editor.md#Tool%20bar|Tool%20bar) and [](output/Code%20Editor.md#Message%20Panel|Message%20panel).
 This is a text editor with basic coding and debugging functionalities. 
   
 ---
 
 # Creating circuits:
 
-To create a circuit, just grab components from the [[Component list]] and drop into the [[Circuit canvas]].
+To create a circuit, just grab components from the [Component list](1-Circuit/Components/Component%20list.md) and drop into the [Circuit canvas](1-Circuit/Circuit%20canvas.md).
 Then click in a Pin to start a wire and click in another pin to end the wire.
 
 You can zoom in/out with the mouse wheel and pan with left button.
-Right-click in the canvas to open the [[Circuit context menu]].
+Right-click in the canvas to open the [Circuit context menu](1-Circuit/Circuit%20context%20menu.md).
 
 ---
 
 # Simulating circuits:
 
-When you complete your circuit, click the Power button:  ![[poweroff.png | 20]]  in the [[Circuit Tool bar | Tool bar]] to start or stop the simulation.
+When you complete your circuit, click the Power button:  ![ 20](poweroff.png%20)  in the [ Tool bar](Circuit%20Tool%20bar%20) to start or stop the simulation.
 
-You can pause the simulation with the pause button: ![[pausesim.png | 20]]
+You can pause the simulation with the pause button: ![ 20](pausesim.png%20)
 
 ---
 

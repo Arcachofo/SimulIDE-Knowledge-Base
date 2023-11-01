@@ -5,12 +5,12 @@ Turn On/Off with the letf buttton.
 ---
 
 ## Wave types:
-![[sin.png]] Sine
-![[saw.png]] Saw
-![[tri.png]] Triangle
-![[sqa.png]] Square
-![[rnd.png]] Random
-![[wav.png]] Wav
+![sin](images/sin.png) Sine
+![saw](images/saw.png) Saw
+![tri](images/tri.png) Triangle
+![sqa](images/sqa.png) Square
+![rnd](images/rnd.png) Random
+![wav](images/wav.png) Wav
 
 ---
 

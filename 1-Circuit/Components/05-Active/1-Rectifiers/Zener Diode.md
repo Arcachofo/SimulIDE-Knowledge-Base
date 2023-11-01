@@ -1,6 +1,6 @@
 Configurable zener diode.
 
-See [[Diode]]
+See [Diode](1-Circuit/Components/05-Active/1-Rectifiers/Diode.md)
 
 ---
 

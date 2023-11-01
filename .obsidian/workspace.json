@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "955fd7ff7a165815",
-        "type": "tabs",
-        "dimension": 45.67062818336163,
-        "children": [
-          {
-            "id": "2a8af5c7d541a06f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-Circuit/Components/Modular Components/Modular.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "1ac2a63e88e48384",
         "type": "tabs",
-        "dimension": 54.32937181663837,
         "children": [
           {
             "id": "9e33f8415384f602",
@@ -33,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
+                "file": "Application/Basic use.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -105,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md"
+                "file": "Application/Basic use.md"
               }
             }
           },
@@ -115,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
+                "file": "Application/Basic use.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
+                "file": "Application/Basic use.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,10 +149,37 @@
   },
   "active": "9e33f8415384f602",
   "lastOpenFiles": [
+    "index.md",
+    "Application/Basic use.md",
+    "1-Circuit/Component.md",
+    "1-Circuit/Components/Component list.md",
+    "output/Find-replace.md",
+    "output/Debugger.md",
+    "output/Compiler.md",
+    "output/attachment/db526f40ed0169db397ecff8b60264da.png",
+    "output/attachment/9dfe2ff8409e1fd0f860a2dc55a8f023.png",
+    "output/Code Editor.md",
+    "output/attachment/9709944273e04d16faefa6366058ec4c.png",
+    "output/attachment/74938a1638b567fdd2395db3a5e8bd7d.svg",
+    "output/attachment/3508cae910e768ea0d4d0953fa59b136.svg",
+    "output/attachment/793b68068a6a06e8915c0236299e0ce4.svg",
+    "output/attachment/0f2170db20c69bae1ea4328e0239735b.svg",
+    "output/attachment/497b2e3b0aaa2a2b50b306fe5ab0d06a.svg",
+    "output/attachment/f7b763c707df74266d5e9df690c36e63.svg",
+    "output/attachment/c6bf8a037cb86629fe1ff91b523e65ca.svg",
+    "output/attachment",
+    "output",
+    "output/Component.md",
+    "1-Circuit/Components/Custom Components.md",
+    "1-Circuit/Linking Components.md",
+    "output/Linking Components.md",
+    "output/Custom Components.md",
+    "1-Circuit/Components/Modular Components/Modular.md",
+    "1-Circuit/Components/06-Outputs/3-Motors/Dc Motor.md",
+    "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
     "1-Circuit/Circuit Tool bar.md",
     "1-Circuit/Circuit canvas.md",
     "1-Circuit/Circuit context menu.md",
-    "1-Circuit/Component.md",
     "1-Circuit/Components/01-Meters/Ampmeter.md",
     "1-Circuit/Components/01-Meters/Logic Analyzer.md",
     "1-Circuit/Components/01-Meters/Freqmeter.md",
@@ -180,31 +187,6 @@
     "1-Circuit/Components/01-Meters/Probe.md",
     "1-Circuit/Components/01-Meters/Voltmeter.md",
     "1-Circuit/Components/02-Sources/Battery.md",
-    "1-Circuit/Components/02-Sources/Clock.md",
-    "1-Circuit/Components/02-Sources/Controlled Source.md",
-    "1-Circuit/Components/02-Sources/Current Source.md",
-    "1-Circuit/Components/02-Sources/Fixed Volt.md",
-    "1-Circuit/Components/02-Sources/Ground.md",
-    "1-Circuit/Components/02-Sources/Rail.md",
-    "1-Circuit/Components/02-Sources/Voltage Source.md",
-    "1-Circuit/Components/02-Sources/Wave Gen.md",
-    "1-Circuit/Components/03-Switches/KeyPad.md",
-    "1-Circuit/Components/03-Switches/Push.md",
-    "1-Circuit/Components/03-Switches/Relay.md",
-    "1-Circuit/Components/03-Switches/Switch.md",
-    "1-Circuit/Components/03-Switches/Switchdip.md",
-    "1-Circuit/Components/04-Passive/1-Resistors/Potentiometer.md",
-    "1-Circuit/Components/04-Passive/1-Resistors/Resistor Dip.md",
-    "images/mainmcu.png",
-    "images/trafo3.png",
-    "images/trafo2.png",
-    "images/trafo1.png",
-    "images/trafo0.png",
-    "images/edit_toolbar.png",
-    "images/toolbe.png",
-    "images/circ_toolbar.png",
-    "images/toolbar.png",
-    "images/powerico.png",
     "images",
     "Application",
     "4-Dev",
@@ -212,8 +194,6 @@
     "2-Editor",
     "1-Circuit/Components/7-Micro/9-Peripherals",
     "1-Circuit/Components/7-Micro/8-Sensors",
-    "1-Circuit/Components/7-Micro",
-    "1-Circuit/Components/06-Outputs/4-Other Output",
-    "1-Circuit/Components/06-Outputs/3-Motors"
+    "1-Circuit/Components/7-Micro"
   ]
 }

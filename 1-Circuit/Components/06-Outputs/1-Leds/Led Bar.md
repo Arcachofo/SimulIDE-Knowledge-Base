@@ -1,4 +1,4 @@
-Array of [[Led]]s.
+Array of [Led](1-Circuit/Components/06-Outputs/1-Leds/Led.md)s.
 
 Individual leds blink if maximum current is exceeded.
 

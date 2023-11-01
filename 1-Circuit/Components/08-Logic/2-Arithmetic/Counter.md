@@ -21,9 +21,9 @@ Property: (default value)
 
 
 ### Electric:
-![[Logic Components#Inputs]]
-![[Logic Components#Outputs]]
-![[Logic Components#Edges]]
+![](1-Circuit/Components/08-Logic/Logic%20Components.md#Inputs)
+![](1-Circuit/Components/08-Logic/Logic%20Components.md#Outputs)
+![](1-Circuit/Components/08-Logic/Logic%20Components.md#Edges)
 
 ---
 

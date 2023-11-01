@@ -11,6 +11,6 @@ Property: (default value)
    Time to rotate 60º.
 
 ## Electric:
-![[Logic Components#Inputs]]
+![](1-Circuit/Components/08-Logic/Logic%20Components.md#Inputs)
 
 #Component 

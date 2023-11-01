@@ -4,7 +4,7 @@ This component is only an interface to create package files.
 
 When you add this component to the circuit it is just a blue box, that's an empty package ready to be configured:
 
-![[pkg1.png]]
+![pkg1](images/pkg1.png)
 
 From here you can load an existing package file to edit it or create a new package.
 To load or save a package file, Right-Click on it to open context menu.
@@ -17,7 +17,7 @@ To load or save a package file, Right-Click on it to open context menu.
 
 To configure the package open Properties in the context menu:
 
-![[pkg_props.png]]
+![pkg_props](images/pkg_props.png)
 - **Type:** There are 4 types available:
     1. None: normal subcircuit (if not sure use this).
     2. Logic: subcircuit with properties to configure all logic components inside.
@@ -43,7 +43,7 @@ If you keep Shift key and move the mouse pointer, the fake pin will move, so you
 When the fake pin is correctly placed, mouse-click and a real Pin will appear.
 At the same time a dialog will appear to configure the Pin:
 
-![[edit_pin.png]]
+![edit_pin](images/edit_pin.png)
 
 - **Pin Name:** Label shown in the package.
 - **Pin Id:** Unique Pin Id.
@@ -69,7 +69,7 @@ A context menu will appear with pin options:
 There are 2 possible package types: Chip and Logic Symbol.
 It is possible to have both options for the same component and switch between them:
 
-![[packages.png]]
+![packages](images/packages.png)
 
 There are some considerations to have in mind when you create both Chip and Logic Symbol packages for the same component. Both Packages must be Pin-compatible in order to work with the same subcircuit file:
 

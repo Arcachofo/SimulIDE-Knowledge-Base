@@ -8,17 +8,17 @@ You can have a look to the files of these components to get an idea of how they 
 
 Creating a subcircuit involves these steps:
 
-1. [[Package#Creating Package File|Creating Package File.]]
-2. [[#Creating circuit file.]]
-3. [[#Creating component folder]] with all files.
-4. [[#Add to component list]]
+1. [](1-Circuit/Components/11-Other/Package.md#Creating%20Package%20File|Creating%20Package%20File.)
+2. [#Creating circuit file.](#Creating%20circuit%20file.)
+3. [#Creating component folder](#Creating%20component%20folder) with all files.
+4. [#Add to component list](#Add%20to%20component%20list)
 <br>
 
 ---
 
 # Creating circuit file.
 
-To use a circuit in a subcircuit just connect your circuit to [[Tunnel]]s.
+To use a circuit in a subcircuit just connect your circuit to [Tunnel](1-Circuit/Components/09-Connectors/Tunnel.md)s.
 Then Set the names of these Tunnels the same as the **Pin Id**s in the Packages (not the Pin names).
 
 Save this circuit and use this .sim1 file as circuit file.
@@ -26,14 +26,14 @@ Save this circuit and use this .sim1 file as circuit file.
 You can do all in one Circuit, as in the image below, with both Chip and Logic Symbol packages and circuit.
 This is not always required, but this way you can see and edit the package files and circuit in the same place:
   
-![[subc4.png]]
+![subc4](images/subc4.png)
 <br>
 
 ---
 
 ## Creating component folder 
 
-The simplest way is to use the the component name for the folder and all files as explained [[Custom Components#Creating component folder|here]].
+The simplest way is to use the the component name for the folder and all files as explained [](1-Circuit/Components/Custom%20Components.md#Creating%20component%20folder|here).
 
 But it is possible to use different file names or use packages from other components.
 To do this, you need to specify paths for these files as explained below.
@@ -43,7 +43,7 @@ To do this, you need to specify paths for these files as explained below.
 
 ## Add to component list.
 
-The simplest method and common options is explained [[Custom Components#Add to component list|here]].
+The simplest method and common options is explained [](1-Circuit/Components/Custom%20Components.md#Add%20to%20component%20list|here).
 
 But is is possible to use specific paths for package and circuit files.
 Path to all files are relative to "data" folder.
