@@ -6,7 +6,7 @@
       {
         "id": "955fd7ff7a165815",
         "type": "tabs",
-        "dimension": 45.67062818336163,
+        "dimension": 52.89179104477611,
         "children": [
           {
             "id": "2a8af5c7d541a06f",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Modular.md",
+                "file": "Application/Basic use.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
       {
         "id": "1ac2a63e88e48384",
         "type": "tabs",
-        "dimension": 54.32937181663837,
+        "dimension": 47.10820895522388,
         "children": [
           {
             "id": "9e33f8415384f602",
@@ -33,9 +33,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
-                "mode": "source",
-                "source": false
+                "file": "1-Circuit/Components/Component list.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md"
+                "file": "1-Circuit/Components/Component list.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
+                "file": "1-Circuit/Components/Component list.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
+                "file": "1-Circuit/Components/Component list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,17 +158,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "webpage-html-export:Export Vault to HTML": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
   "active": "9e33f8415384f602",
   "lastOpenFiles": [
+    "Application/Basic use.md",
+    "1-Circuit/Components/Modular Components/Modular.md",
+    "1-Circuit/Components/Component list.md",
+    "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
     "1-Circuit/Circuit Tool bar.md",
     "1-Circuit/Circuit canvas.md",
     "1-Circuit/Circuit context menu.md",
@@ -191,10 +195,6 @@
     "1-Circuit/Components/03-Switches/KeyPad.md",
     "1-Circuit/Components/03-Switches/Push.md",
     "1-Circuit/Components/03-Switches/Relay.md",
-    "1-Circuit/Components/03-Switches/Switch.md",
-    "1-Circuit/Components/03-Switches/Switchdip.md",
-    "1-Circuit/Components/04-Passive/1-Resistors/Potentiometer.md",
-    "1-Circuit/Components/04-Passive/1-Resistors/Resistor Dip.md",
     "images/mainmcu.png",
     "images/trafo3.png",
     "images/trafo2.png",
