@@ -1,15 +1,21 @@
 <details>
 <summary>Meters</summary>
+<blockquote>
 ![[probe.png]] [[Probe]] <br>
 ![[voltmeter.png]] [[Voltmeter]] <br>
 ![[ampmeter.png]] [[Ampmeter]] <br>
 ![[freqmeter.png]] [[Freqmeter]] <br>
 ![[oscope.png]] [[Oscilloscope]] <br>
 ![[lanalizer.png]] [[Logic Analyzer]] <br>
+</blockquote>
 </details>
 
 ---
 ## Sources
+
+<details>
+<summary></summary>
+
 > ![[fixedvolt.png]] [[Fixed Volt]]<br>
 > ![[clock.png]] [[Clock]]<br>
 > ![[wavegen.png]] [[Wave Gen]]<br>
@@ -18,6 +24,7 @@
 > ![[battery.png]] [[Battery]]<br>
 > ![[rail.png]] [[Rail]]<br>
 > ![[ground.png]] [[Ground]]<br>
+</details>
 ---
 ## Switches
 > ![[push.png]] [[Push]]
