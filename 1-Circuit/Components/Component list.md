@@ -1,24 +1,23 @@
-
 <details>
- <summary>Meters</summary>
-    ![[probe.png]] [[Probe]] <br>
-    ![[voltmeter.png]] [[Voltmeter]] <br>
-    ![[ampmeter.png]] [[Ampmeter]] <br>
-    ![[freqmeter.png]] [[Freqmeter]] <br>
-    ![[oscope.png]] [[Oscilloscope]] <br>
-    ![[lanalizer.png]] [[Logic Analyzer]] <br>
+<summary>Meters</summary>
+![[probe.png]] [[Probe]] <br>
+![[voltmeter.png]] [[Voltmeter]] <br>
+![[ampmeter.png]] [[Ampmeter]] <br>
+![[freqmeter.png]] [[Freqmeter]] <br>
+![[oscope.png]] [[Oscilloscope]] <br>
+![[lanalizer.png]] [[Logic Analyzer]] <br>
 </details>
 
 ---
 ## Sources
-> ![[fixedvolt.png]] [[Fixed Volt]]
-> ![[clock.png]] [[Clock]]
-> ![[wavegen.png]] [[Wave Gen]]
-> ![[voltsource.png]] [[Voltage Source]]
-> ![[cursource.png]] [[Current Source]]
-> ![[battery.png]] [[Battery]]
-> ![[rail.png]] [[Rail]]
-> ![[ground.png]] [[Ground]]
+> ![[fixedvolt.png]] [[Fixed Volt]]<br>
+> ![[clock.png]] [[Clock]]<br>
+> ![[wavegen.png]] [[Wave Gen]]<br>
+> ![[voltsource.png]] [[Voltage Source]]<br>
+> ![[cursource.png]] [[Current Source]]<br>
+> ![[battery.png]] [[Battery]]<br>
+> ![[rail.png]] [[Rail]]<br>
+> ![[ground.png]] [[Ground]]<br>
 ---
 ## Switches
 > ![[push.png]] [[Push]]
