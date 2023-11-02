@@ -1,31 +1,12 @@
 <details>
-<summary><h2 style="display:inline-block"> Meters </h2></summary><p>
- ![[probe.png]] Probe <br>
-<details><summary>pro</summary><p>
-Logic and voltage probe.
-Hover or connect to Wires or Pins to get voltage.
-
-**As logic probe:**
-- Orange = High State.
-- Blue = Low State
-
----
-
-## Properties:
-Property: (default value)
-
-- **Show Voltage:** (yes)
-   Show voltage value in circuit.
-<br>
-- **Threshold:** (2.5 V)
-   Digital threshold to determine High/Low states.
-</p></details>
+<summary><h2 style="display:inline-block"> Meters </h2></summary>
+> ![[probe.png]] [[Probe]] <br>
 > ![[voltmeter.png]] [[Voltmeter]] <br>
 > ![[ampmeter.png]] [[Ampmeter]] <br>
 > ![[freqmeter.png]] [[Freqmeter]] <br>
 > ![[oscope.png]] [[Oscilloscope]] <br>
 > ![[lanalizer.png]] [[Logic Analyzer]] <br>
-</p></details>
+</details>
 
 <details>
 <summary><h2 style="display:inline-block"> Sources </h2></summary>
