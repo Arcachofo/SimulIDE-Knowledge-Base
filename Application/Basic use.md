@@ -18,7 +18,7 @@ You don't need to install anything else unless you are compiling yourself. Then 
 It is divided into 3 main panels.
 **All panels are resizable and collapsable.**
 
-![](gui-basic-use.png)
+![[gui-basic-use.png]]
 
 ## Left Panel:
 
