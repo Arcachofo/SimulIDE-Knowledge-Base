@@ -12,6 +12,7 @@
 <summary>Circuit</summary>
 [[Circuit Tool bar]] <br>
 [[Circuit canvas]] <br>
+[[Component list]] <br>
 [[Message panel]] <br>
 </details>
 <details>

@@ -14,9 +14,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Application/Circuit.md",
+                "file": "1-Circuit/Components/Component list.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 201.5
   },
   "right": {
     "id": "c6a4303aeafd9f06",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content.md"
+                "file": "1-Circuit/Components/Component list.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Content.md",
+                "file": "1-Circuit/Components/Component list.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Content.md",
+                "file": "1-Circuit/Components/Component list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,18 +180,18 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b1bff27871858531",
+  "active": "2a8af5c7d541a06f",
   "lastOpenFiles": [
-    "Application/Circuit.md",
-    "simulidekb.md",
     "Content.md",
+    "1-Circuit/Components/Component list.md",
+    "Application/Circuit.md",
+    "1-Circuit/Circuit canvas.md",
+    "simulidekb.md",
     "Application/Basic use.md",
     "README.md",
-    "1-Circuit/Components/Component list.md",
     "1-Circuit/Components/Modular Components/Modular.md",
     "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
     "1-Circuit/Circuit Tool bar.md",
-    "1-Circuit/Circuit canvas.md",
     "1-Circuit/Circuit context menu.md",
     "1-Circuit/Component.md",
     "1-Circuit/Components/01-Meters/Ampmeter.md",

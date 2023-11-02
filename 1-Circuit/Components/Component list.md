@@ -1,10 +1,13 @@
-## Meters 
+<details>
+<summary>## Meters</summary>
 > ![[probe.png]] [[Probe]]
 > ![[voltmeter.png]] [[Voltmeter]]
 > ![[ampmeter.png]] [[Ampmeter]]
 > ![[freqmeter.png]] [[Freqmeter]]
 > ![[oscope.png]] [[Oscilloscope]]
 > ![[lanalizer.png]] [[Logic Analyzer]]
+</details>
+
 ---
 ## Sources
 > ![[fixedvolt.png]] [[Fixed Volt]]
