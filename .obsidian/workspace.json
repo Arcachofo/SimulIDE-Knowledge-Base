@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content.md",
+                "file": "1-Circuit/Components/01-Meters/Probe.md",
                 "mode": "source",
                 "source": true
               }
@@ -182,8 +182,9 @@
   },
   "active": "2a8af5c7d541a06f",
   "lastOpenFiles": [
-    "Content.md",
+    "1-Circuit/Components/01-Meters/Probe.md",
     "1-Circuit/Components/Component list.md",
+    "Content.md",
     "Application/Circuit.md",
     "1-Circuit/Circuit canvas.md",
     "simulidekb.md",
@@ -198,7 +199,6 @@
     "1-Circuit/Components/01-Meters/Logic Analyzer.md",
     "1-Circuit/Components/01-Meters/Freqmeter.md",
     "1-Circuit/Components/01-Meters/Oscilloscope.md",
-    "1-Circuit/Components/01-Meters/Probe.md",
     "1-Circuit/Components/01-Meters/Voltmeter.md",
     "1-Circuit/Components/02-Sources/Battery.md",
     "1-Circuit/Components/02-Sources/Clock.md",
