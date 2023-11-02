@@ -1,4 +1,4 @@
-Configurable [Led](Led) matrix display.
+Configurable [[Led]] matrix display.
 
 Individual leds blink if maximum current is exceeded.
 

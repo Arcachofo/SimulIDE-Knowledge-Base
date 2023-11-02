@@ -3,15 +3,15 @@
 
 With Scripted Components it is possible to define the behaviour of the device in a script.
 
-Scripted components are a type of [Modular](Modular) Components, with an extra file containing the script.
+Scripted components are a type of [[Modular]] Components, with an extra file containing the script.
 
 Creating an Scripted component involves these steps:
 
-1. [](Package#Creating%20Package%20File|Creating%20Package%20File.)
-2. [#Creating Definition file.](#Creating%20Definition%20file.)
-3. [#Creating Script file.](#Creating%20Script%20file.)
-4. [#Creating component folder](#Creating%20component%20folder) with all files.
-5. [](Modular#Add%20to%20component%20list|Add%20to%20component%20list.)
+1. [[Package#Creating Package File|Creating Package File.]]
+2. [[#Creating Definition file.]]
+3. [[#Creating Script file.]]
+4. [[#Creating component folder]] with all files.
+5. [[Modular#Add to component list|Add to component list.]]
 
 ---
 
@@ -50,7 +50,7 @@ We can also see That there is a property group with 2 properties and an IO Port 
 
 # Creating Script file.
 
-This is a program written in [#The script language](#The%20script%20language) describing the behavior of the component.
+This is a program written in [[#The script language]] describing the behavior of the component.
 
 Script files must have extension .as and use the name defined in the definition file.
 
@@ -164,7 +164,7 @@ These are functions you can implement in the script.
 
 https://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html
 
-[Arrays](Arrays)
+[[Arrays]]
 
 
 ---
@@ -174,7 +174,7 @@ https://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html
 - [Forum discussion,](https://simulide.forumotion.com/t990-scripted-components)
 - Video (english): [Creating Scripted Components Part I](https://youtu.be/vJLfuVwbvGE)
 - Video (spanish): [Creando componentes script en SimulIDE](https://www.youtube.com/watch?v=xRF0TBUU0JY)
-- [Scripted Dev](Scripted%20Dev).
+- [[Scripted Dev]].
 
 ---
 

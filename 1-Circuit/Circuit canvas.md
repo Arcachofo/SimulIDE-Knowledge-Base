@@ -45,7 +45,7 @@ Options:
 
 ## Circuit settings:
 
-Open [Application Settings](Application%20settings) in [Circuit Tool bar](Circuit%20Tool%20bar) and select "Circuit" tab.
+Open [[Application settings]] in [[Circuit Tool bar]] and select "Circuit" tab.
 Options:
 - **Draw Grid:** show or hide grid.
 - **Show Scrollbar:** show or hide scroll bars.

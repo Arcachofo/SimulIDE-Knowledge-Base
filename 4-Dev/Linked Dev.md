@@ -27,19 +27,19 @@ void compSelected( Component* comp )
 
 ## Can link to other Components:
 
-- **[Dial](Dial)**
+- **[[Dial]]**
     Calls: 
     *setLinkedValue( (int)v, 0 )*
 
-- **[Text](Text) Component**
+- **[[Text]] Component**
     Shows value label from linked components.
     Syntax: *$dataN*   (N = component index).
 
-- **[Led](Led)** / **[Diode](Diode)**
+- **[[Led]]** / **[[Diode]]**
     Calls: 
     *setLinkedValue( double v, int i )*
 
-- **[Scripted](Scripted)**
+- **[[Scripted]]**
     Can call:
     *component.setLinkedString( string str, int i )*
     *component.setLinkedValue( double v, int i )*
@@ -49,46 +49,46 @@ void compSelected( Component* comp )
 
 ## Can be linked:
 
-- **[Dialed](Dialed)** ([Dial](Dial), [Potentiometer](Potentiometer), [Variable Resistor](Variable%20Resistor), [Resistive Sensors](Resistive%20Sensors)):
+- **[[Dialed]]** ([[Dial]], [[Potentiometer]], [[Variable Resistor]], [[Resistive Sensors]]):
     Called:
     *setLinkedValue( double v, int i=0 )*
     i = 0: set Dial value (0-1000)
     else : set value.
 
-- **[Text](Text) Component**
+- **[[Text]] Component**
     Called:
     *setLinkedString( QString str, int i )*
     *setLinkedValue( double v, int i )*
     i = 0: set text.
     else : append text.
 
-- **[7 segment BCD](7%20segment%20BCD)**
+- **[[7 segment BCD]]**
     Called:
     *setLinkedValue( double v, int i )*
     i = 0: display value.
     else : 1 bit for each segment.
 
-- **[Clock](Clock) & [Wave Gen](Wave%20Gen)**
+- **[[Clock]] & [[Wave Gen]]**
     Called:
     *setLinkedValue( double v, int i )*
     Set frequency.
 
-- **[Capacitor](Capacitor)**
+- **[[Capacitor]]**
     Called:
     *setLinkedValue( double v, int i )*
     Set capacitance (0 to 1000 = 0 to 100%).
 
-- **[Inductor](Inductor)**
+- **[[Inductor]]**
     Called:
     *setLinkedValue( double v, int i )*
     Set inductance (0 to 1000 = 0 to 100%).
 
-- **[Controlled Source](Controlled%20Source)**
+- **[[Controlled Source]]**
     Called:
     *setLinkedValue( double v, int i )*
     Set control voltage or current.
 
-- **[Scripted](Scripted)**
+- **[[Scripted]]**
     Can be called:
     *setLinkedString( string str, int i )*
     *setLinkedValue( double v, int i )*

@@ -1,20 +1,20 @@
 # Components
 
-The [Component list](Component%20list) is the Right Panel, there you can grab components and drop into the [Circuit canvas](Circuit%20canvas).
+The [[Component list]] is the Right Panel, there you can grab components and drop into the [[Circuit canvas]].
 
 Once in the circuit, each component has:
-- [ Context menu](Component%20context%20menu%20) (right-click) with all the actions available for that component.
-- [Properties dialog ](Properties%20dialog%20) (double-click) to configure all the settings available for that component.
+- [[Component context menu | Context menu]] (right-click) with all the actions available for that component.
+- [[Properties dialog ]] (double-click) to configure all the settings available for that component.
 
 ---
 
-# [Custom Components](Custom%20Components):
+# [[Custom Components]]:
 
 You can create your own components for SimulIDE.
 
 ---
 
-# [Linking Components](Linking%20Components):
+# [[Linking Components]]:
 
 This feature is not available in version 1.0.0
 

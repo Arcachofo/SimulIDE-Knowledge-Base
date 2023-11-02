@@ -3,9 +3,8 @@
   "foldHeading": true,
   "useTab": false,
   "showInlineTitle": false,
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./attachments",
-  "showUnsupportedFiles": true,
-  "newLinkFormat": "relative"
+  "showUnsupportedFiles": true
 }

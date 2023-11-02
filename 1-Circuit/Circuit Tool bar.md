@@ -1,29 +1,29 @@
 # Circuit Tool bar.
  
-![circ_toolbar](circ_toolbar.png)
+![[circ_toolbar.png]]
 <br>
 
 ## Settings:
->  ![settings](settings.svg) **Settings:** open application settings menu:
-> > [Application settings](Settings#Application%20settings).
-> > [Circuit settings](Settings#Circuit%20settings).
-> > [Simulation settings](Settings#Simulation%20settings).
+>  ![[settings.svg]] **Settings:** open application settings menu:
+> > [[Settings#Application settings|Application settings]].
+> > [[Settings#Circuit settings|Circuit settings]].
+> > [[Settings#Simulation settings|Simulation settings]].
 
 ## File actions:
- >  ![lastfiles](lastfiles.svg) **Recent files:** show a list of last files used.
- >  ![new](new.svg) **New:** create a new empty document.
- >  ![open](open.svg) **Open:** open a text file from disk.
- >  ![save](save.svg) **Save:** save active document to disk.
- >  ![saveas](saveas.svg) **Save as:** save active document with new name.
+ >  ![[lastfiles.svg]] **Recent files:** show a list of last files used.
+ >  ![[new.svg]] **New:** create a new empty document.
+ >  ![[open.svg]] **Open:** open a text file from disk.
+ >  ![[save.svg]] **Save:** save active document to disk.
+ >  ![[saveas.svg]] **Save as:** save active document with new name.
 
-## Zoom: [(1)](#(1))
- >  ![zoomfit](zoomfit.svg) **Zoom to fit:** fit complete Circuit in view.
- >  ![zoomsel](zoomsel.svg) **Zoom to selected:** fit selected items in view.
- >  ![zoomone](zoomone.svg) **Reset Zoom:** set zoom scale to 1:1.
+## Zoom: [[#(1)]]
+ >  ![[zoomfit.svg]] **Zoom to fit:** fit complete Circuit in view.
+ >  ![[zoomsel.svg]] **Zoom to selected:** fit selected items in view.
+ >  ![[zoomone.svg]] **Reset Zoom:** set zoom scale to 1:1.
 
 ## Simulation:
- >  ![ 22](poweroff.png%20) **Power Circuit:** start/stop simulation.
- >  ![ 22](pausesim.png%20) **Pause:** pause simulation.
+ >  ![[poweroff.png | 22]] **Power Circuit:** start/stop simulation.
+ >  ![[pausesim.png | 22]] **Pause:** pause simulation.
 
 
 ---

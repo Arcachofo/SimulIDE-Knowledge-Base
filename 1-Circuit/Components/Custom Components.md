@@ -2,26 +2,26 @@
 
 There are 2 main types of components you can create in SimulIDE:
 
-## [Subcircuits](Subcircuits):
+## [[Subcircuits]]:
 These are just circuits hidden inside a package.
 <br>
 
-## [Modular](Modular):
+## [[Modular]]:
 These are components created by combining different modules already implemented.
 There are 3 types of Modular Components:
-- [MCUs](MCUs)
-- [MPUs](MPUs)
-- [Scripted](Scripted)
+- [[MCUs]]
+- [[MPUs]]
+- [[Scripted]]
 <br>
 
-All These components use [Package](Package)s as graphical representation in the circuit, and some specific files for each type of component.
+All These components use [[Package]]s as graphical representation in the circuit, and some specific files for each type of component.
 
 Creating a custom component involves these steps:
 
-1. [](Package#Creating%20Package%20File|Creating%20Package%20File.)
+1. [[Package#Creating Package File|Creating Package File.]]
 2. Creating specific files (see each component type).
-3. [#Creating component folder](#Creating%20component%20folder) with all files.
-4. [#Add to component list.](#Add%20to%20component%20list.)
+3. [[#Creating component folder]] with all files.
+4. [[#Add to component list.]]
 <br>
 
 ---
@@ -59,9 +59,9 @@ The structure of these xml files is like this:
 
 ```xml
 <itemlib>  
-  <itemset category="Some Category" type="Some_Type" folder="Some_Folder">  
-	<item name="Name1" info="short explanation about Name1" />  
-	<item name="Name2" info="short explanation about Name2" />  
+  <itemset category="Some Category" type="Some_Type" folder="Some_Folder">  
+	<item name="Name1" info="short explanation about Name1" />  
+	<item name="Name2" info="short explanation about Name2" />  
   </itemset>
 </itemlib>
 ```
@@ -70,22 +70,22 @@ Let's explain by levels:
 
 **itemlib** Represents a library of components, with 1 or more sets of components.
 
-**itemset** Represent a set of components in a Category.
+**itemset** Represent a set of components in a Category.
 
-- **category** Is the Category name where all components in this set will be included.
+- **category** Is the Category name where all components in this set will be included.
     It can be an existing Category or a new one.
     It can address a subcategory: "Category/Subcategory" (Category must exist)
 
-- **type** Is the type of component.
-- **folder** (optional) is the folder containing all components in this **itemset**.
-- **icon** (optional) is the icon used for all the components in this **itemset**.
+- **type** Is the type of component.
+- **folder** (optional) is the folder containing all components in this **itemset**.
+- **icon** (optional) is the icon used for all the components in this **itemset**.
     The icon file must be in: data/images/
 
   
-**item** Represents a component to be added to a Category
+**item** Represents a component to be added to a Category
 
-- **name** Is the name that will be shown in the [Component list](Component%20list).
-- **info** (optional) Extra information that will be shown besides Component name.
+- **name** Is the name that will be shown in the [[Component list]].
+- **info** (optional) Extra information that will be shown besides Component name.
 - **icon** (optional) is the icon used for this component.  The icon file must be in: data/images/
 
 

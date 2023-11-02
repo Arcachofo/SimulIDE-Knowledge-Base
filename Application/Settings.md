@@ -1,10 +1,10 @@
 # Settings
 
-Open main settings dialog in [Circuit Tool bar](Circuit%20Tool%20bar).
+Open main settings dialog in [[Circuit Tool bar]].
 There are 3 tabs:
-- [#Application settings](#Application%20settings).
-- [#Circuit settings](#Circuit%20settings).
-- [#Simulation settings](#Simulation%20settings).
+- [[#Application settings]].
+- [[#Circuit settings]].
+- [[#Simulation settings]].
 
 ---
 

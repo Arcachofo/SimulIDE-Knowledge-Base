@@ -1,6 +1,6 @@
 Configurable zener diode.
 
-See [Diode](Diode)
+See [[Diode]]
 
 ---
 

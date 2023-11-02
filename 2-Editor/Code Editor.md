@@ -6,45 +6,45 @@ It is possible to open multiple documents that will be arranged in movable tabs.
 When a file is modified, an asterisk: * will appear in the tab besides the file name.
 
 ## Sections:
-- [#Tool bar](#Tool%20bar)
-- [#Text editor](#Text%20editor)
-- [#Message Panel](#Message%20Panel)
+- [[#Tool bar]]
+- [[#Text editor]]
+- [[#Message Panel]]
 
 
 ## Related topics:
-- [Compiler](Compiler)
-- [Debugger](Debugger)
+- [[Compiler]]
+- [[Debugger]]
 
 ---
 
 # Tool bar
 
-![edit_toolbar](edit_toolbar.png)
+![[edit_toolbar.png]]
 <br>
 
 At the top we find the tool bar with 5 sections (from left to right):
 
 ## Settings:
->  ![settings](settings.svg) **Settings:** open settings menu:
-> > [#Editor settings](#Editor%20settings).
-> > [Compiler](Compiler) settings.
+>  ![[settings.svg]] **Settings:** open settings menu:
+> > [[#Editor settings]].
+> > [[Compiler]] settings.
 
 ## File actions:
- >  ![lastfiles](lastfiles.svg) **Recent files:** show a list of last files used.
- >  ![new](new.svg) **New:** create a new empty document.
- >  ![open](open.svg) **Open:** open a text file from disk.
- >  ![save](save.svg) **Save:** save active document to disk.
- >  ![saveas](saveas.svg) **Save as:** save active document with new name.
+ >  ![[lastfiles.svg]] **Recent files:** show a list of last files used.
+ >  ![[new.svg]] **New:** create a new empty document.
+ >  ![[open.svg]] **Open:** open a text file from disk.
+ >  ![[save.svg]] **Save:** save active document to disk.
+ >  ![[saveas.svg]] **Save as:** save active document with new name.
 
 ## Find-replace:
- >  ![find](find.svg) **Find Replace:** open [Find-replace](Find-replace) Dialog.
+ >  ![[find.svg]] **Find Replace:** open [[Find-replace]] Dialog.
 
 ## Compiler actions.
- >  ![compile](compile.svg) **Compile:** compile the active document.
- >  ![upload](upload.svg) **Upload to Micro:** compile and upload to active microcontroller in the circuit.
+ >  ![[compile.svg]] **Compile:** compile the active document.
+ >  ![[upload.svg]] **Upload to Micro:** compile and upload to active microcontroller in the circuit.
 
 ## Debugger  actions.
- >  ![debug](debug.svg) **Debug:** starts [Debugger](Debugger).
+ >  ![[debug.svg]] **Debug:** starts [[Debugger]].
 
 ---
 
@@ -61,7 +61,7 @@ In the middle, the text editor itself is the space where we can see an edit text
     You  will see tiny dots representing spaces
     and tiny arrows representing tabs (default false):
 
-![show_spaces](show_spaces.png)
+![[show_spaces.png]]
 
 ## Context menu:
 

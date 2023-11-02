@@ -14,7 +14,7 @@ Activating the "**CR**" button will add a return character to the text sent.
 And a "**Send Value**" input box to send 0-255 values.
 
 You can choose to print the data sent/received as decimal **Value**s or it's **ASCII** representation.
-![ser_mon](ser_mon.png)
+![[ser_mon.png]]
 There are "**Clear**" buttons for each panel at the bottom.
 
 ---

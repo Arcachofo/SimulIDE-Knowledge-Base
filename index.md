@@ -1,21 +1,21 @@
 # Sections:
-- [Basic use](Basic%20use)
-- [Circuit](Circuit)
-- [Component](Component)s
-- [Code Editor](Code%20Editor)
-- [File explor](File%20explor)
+- [[Basic use]]
+- [[Circuit]]
+- [[Component]]s
+- [[Code Editor]]
+- [[File explorer]]
 
 # Relevant topics:
-- [MCUs]]
-- [Oscilloscope](Oscilloscope)
-- [Logic Analyzer](Logic%20Analyzer)
-- [Subcircuits](Subcircuits)
+- [[MCUs | Microcontrollers]]
+- [[Oscilloscope]]
+- [[Logic Analyzer]]
+- [[Subcircuits]]
 
 ---
 
 # Resources:
 
-[Source Code](Source%20Code)
+[[Source Code]]
 
 [Website](https://www.simulide.com/)
 [Forum](https://simulide.forumotion.com/)

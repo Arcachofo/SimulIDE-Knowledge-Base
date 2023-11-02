@@ -4,7 +4,7 @@ Logic Analyzer  has 8 channels identified with different colors for each channel
 You can connect inputs to wires or enter a tunnel name in the corresponding box.
 Connecting the inputs and running the simulation you will see the wave forms:
 
-![la01](la01.png)
+![[la01.png]]
 
 ---
 
@@ -15,7 +15,7 @@ Opening the properties (double-click) you can configure:
 - **Screen Size Y:** screen height when not expanded (default: 135).
 - **Buffer Size:** number of samples retained in memory (default: 100000).
 
-![la00](la00.png)
+![[la00.png]]
 
 We will have a look at the "Export" group of properties later.
 
@@ -26,7 +26,7 @@ We will have a look at the "Export" group of properties later.
 Click in "Expand" button to get a window with a more detailed view and all the controls.
 This floating window is resizable and you can close it like any other window:
 
-![la02](la02.png)
+![[la02.png]]
 
 ---
 
@@ -81,7 +81,7 @@ This will open a file dialog, to choose an **Vcd file** to save the data.
 
 The "Export" tab in the properties dialog is related to this feature:
 
-![la03](la03.png)
+![[la03.png]]
 
 - **Base Time Step:** time step used for the vcd file.
 - **Export at pause:** automatically export vcd file at simulation pause (Condition Trigger).

@@ -2,10 +2,10 @@
 
 The File explorer is in the left panel, it is divided in 2 sections:
 
-- [#Bookmarks:](#Bookmarks:) at the top.
-- [#File tree:](#File%20tree:) below.
+- [[#Bookmarks:]] at the top.
+- [[#File tree:]] below.
 
-![file_exp](file_exp.png)
+![[file_exp.png]]
 
 ---
 
@@ -19,7 +19,7 @@ There are some fixed bookmarks pointing to relevant places:
 - **Settings:** system folder containing SimulIDE settings file.
 - **User Data:** SimulIDE user data folder.
 
-You can add your own bookmarks from the [#File tree](#File%20tree).
+You can add your own bookmarks from the [[#File tree]].
 
 ---
 

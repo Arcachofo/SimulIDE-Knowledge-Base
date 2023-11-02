@@ -13,20 +13,18 @@ Mechanism to link components to perform certain actions:
 
 ## Can link to other Components:
 
-- **[Dial](Dial)**
+- **[[Dial]]**
     Send value between Min. Value and Max. Value (in properties)
 
-- **[Text](Text) Component**
+- **[[Text]] Component**
     Shows value label from linked components.
     Syntax: *$dataN*   (N = component index).
 
-- **[Led](Led)** / **[Diode](Diode)**
+- **[[Led]]** / **[[Diode]]**
     Send value of current flowing through.
 
-- **[Dc Motor](Dc%20Motor)** / **[Stepper](Stepper)**
-    Send angle 0-1000.
 
-- **[Scripted](Scripted)**
+- **[[Scripted]]**
     Can send any value from the script (double or string)
 <br>
 
@@ -34,34 +32,34 @@ Mechanism to link components to perform certain actions:
 
 ## Can be linked:
 
-- **[Dialed](Dialed)** ([Dial](Dial), [Potentiometer](Potentiometer), [Variable Resistor](Variable%20Resistor), [Resistive Sensors](Resistive%20Sensors)):
+- **[[Dialed]]** ([[Dial]], [[Potentiometer]], [[Variable Resistor]], [[Resistive Sensors]]):
     Can receive a value (resistance, luminance, etc) or dial position:
     i = 0: set Dial position (0-1000)
     else : set resistance value.
 
-- **[Text](Text) Component**
+- **[[Text]] Component**
     Can append or set text:
     i = 0: set text.
     else : append text.
 
-- **[7 segment BCD](7%20segment%20BCD)**
+- **[[7 segment BCD]]**
     Can receive a display value or segment on/off:
     i = 0: display value (0-F).
     else : 1 bit for each segment.
 
-- **[Clock](Clock) & [Wave Gen](Wave%20Gen)**
+- **[[Clock]] & [[Wave Gen]]**
     Can receive a frequency value.
 
-- **[Capacitor](Capacitor)**
+- **[[Capacitor]]**
     Can receive a percentage capacitance (0 to 1000 = 0 to 100%).
 
-- **[Inductor](Inductor)**
+- **[[Inductor]]**
     Can receive a  percentage inductance (0 to 1000 = 0 to 100%).
 
-- **[Controlled Source](Controlled%20Source)**
+- **[[Controlled Source]]**
     Can receive a control voltage or current.
 
-- **[Scripted](Scripted)**
+- **[[Scripted]]**
     Can receive a double or string value.
 <br>
 
@@ -69,7 +67,7 @@ Mechanism to link components to perform certain actions:
 
 ## Resources:
 
-- [Linked Dev](Linked%20Dev)
+- [[Linked Dev]]
 - [Forum discussion](https://simulide.forumotion.com/t1556-linking-components)
 - Video [Linking Text component to To other components.](https://youtu.be/k7gzxlZPyco)
 

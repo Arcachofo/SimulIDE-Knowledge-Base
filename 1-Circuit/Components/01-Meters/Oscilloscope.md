@@ -4,7 +4,7 @@ There is one input pin per channel and one for reference voltage (last one besid
 You can connect inputs to wires or enter a tunnel name in the corresponding box.
 Connecting the inputs and running the simulation you will see the wave forms:
 
-![osc-1](osc-1.png)
+![[osc-1.png]]
 
 ---
 
@@ -15,7 +15,7 @@ Opening the properties (double-click) you can configure:
 - **Screen Size Y:** screen height when not expanded (default: 135).
 - **Buffer Size:** number of samples retained in memory (default: 600000).
 
-![osc-0](osc-0.png)
+![[osc-0.png]]
 
 ---
 
@@ -24,7 +24,7 @@ Opening the properties (double-click) you can configure:
 You can click in "Expand" button and get a window with a more detailed view and all the controls.
 This floating window is resizable and you can close it like any other window:
 
-![osc-3](osc-3.png)
+![[osc-3.png]]
 
 ---
 
@@ -37,7 +37,7 @@ With this row of buttons you can select the "active" channel.
 When you select a channel, value boxes will change to the channel color.
 Al changes done in **Time Pos**, **Volt Div** and **Volt Pos**, will be applied only to selected channel.
 To apply changes to all channels, click on "**All**" button.
-![osc-4](osc-4.png)
+![[osc-4.png]]
 
 ---
 
@@ -52,7 +52,7 @@ With these you can zoom-in or zoom-out in time (for all channels) and set the ho
 - **Middle-Click** reposition time reference.
 - **Cursor** shows voltages for each channel and time value.
 
-![val](val.png)
+![[val.png]]
 
 ---
 
@@ -80,7 +80,7 @@ You can enter a multiplier after the value in value boxes, for example type: "**
 - **2** tracks: channels 1 and 3 in top track, 2 and 4 in bottom track.
 - **4** tracks: Each channel has it's own track.
 
-![track1](track1.png)
+![[track1.png]]
 
 ---
 
