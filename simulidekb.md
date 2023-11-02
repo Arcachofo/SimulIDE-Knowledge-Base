@@ -1,11 +1,13 @@
-# Sections:
+# SimulIDE Knowledge Base.
+
+## Sections:
 - [[Basic use]]
 - [[Circuit]]
 - [[Component]]s
 - [[Code Editor]]
 - [[File explorer]]
 
-# Relevant topics:
+## Relevant topics:
 - [[MCUs | Microcontrollers]]
 - [[Oscilloscope]]
 - [[Logic Analyzer]]
@@ -13,7 +15,7 @@
 
 ---
 
-# Resources:
+## Resources:
 
 [[Source Code]]
 

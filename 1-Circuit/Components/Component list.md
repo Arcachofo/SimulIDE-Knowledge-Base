@@ -1,5 +1,6 @@
 <details>
 <summary><h2 style="display:inline-block"> Meters </h2></summary>
+
 > ![[probe.png]] [[Probe]] <br>
 > ![[voltmeter.png]] [[Voltmeter]] <br>
 > ![[ampmeter.png]] [[Ampmeter]] <br>
@@ -10,6 +11,7 @@
 
 <details>
 <summary><h2 style="display:inline-block"> Sources </h2></summary>
+
 > ![[fixedvolt.png]] [[Fixed Volt]]<br>
 > ![[clock.png]] [[Clock]]<br>
 > ![[wavegen.png]] [[Wave Gen]]<br>

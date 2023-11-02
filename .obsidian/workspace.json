@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "1-Circuit/Components/Component list.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 232.5
   },
   "right": {
     "id": "c6a4303aeafd9f06",
@@ -182,12 +182,12 @@
   },
   "active": "2a8af5c7d541a06f",
   "lastOpenFiles": [
-    "1-Circuit/Components/01-Meters/Probe.md",
-    "1-Circuit/Components/Component list.md",
+    "simulidekb.md",
     "Content.md",
+    "1-Circuit/Components/Component list.md",
+    "1-Circuit/Components/01-Meters/Probe.md",
     "Application/Circuit.md",
     "1-Circuit/Circuit canvas.md",
-    "simulidekb.md",
     "Application/Basic use.md",
     "README.md",
     "1-Circuit/Components/Modular Components/Modular.md",
