@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Application/Basic use.md",
+                "file": "Application/Circuit.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,13 +33,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Components/Component list.md",
+                "file": "Application/Circuit.md",
                 "mode": "preview",
                 "source": true
               }
             }
+          },
+          {
+            "id": "b1bff27871858531",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Circuit/Components/Component list.md"
+                "file": "Content.md"
               }
             }
           },
@@ -115,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Circuit/Components/Component list.md",
+                "file": "Content.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Circuit/Components/Component list.md",
+                "file": "Content.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,11 +180,15 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "9e33f8415384f602",
+  "active": "b1bff27871858531",
   "lastOpenFiles": [
+    "Application/Circuit.md",
+    "simulidekb.md",
+    "Content.md",
     "Application/Basic use.md",
-    "1-Circuit/Components/Modular Components/Modular.md",
+    "README.md",
     "1-Circuit/Components/Component list.md",
+    "1-Circuit/Components/Modular Components/Modular.md",
     "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
     "1-Circuit/Circuit Tool bar.md",
     "1-Circuit/Circuit canvas.md",
@@ -191,10 +208,6 @@
     "1-Circuit/Components/02-Sources/Ground.md",
     "1-Circuit/Components/02-Sources/Rail.md",
     "1-Circuit/Components/02-Sources/Voltage Source.md",
-    "1-Circuit/Components/02-Sources/Wave Gen.md",
-    "1-Circuit/Components/03-Switches/KeyPad.md",
-    "1-Circuit/Components/03-Switches/Push.md",
-    "1-Circuit/Components/03-Switches/Relay.md",
     "images/mainmcu.png",
     "images/trafo3.png",
     "images/trafo2.png",
