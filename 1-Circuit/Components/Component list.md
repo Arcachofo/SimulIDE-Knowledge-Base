@@ -1,11 +1,11 @@
 <details>
-<summary>## Meters</summary>
-> ![[probe.png]] [[Probe]]
-> ![[voltmeter.png]] [[Voltmeter]]
-> ![[ampmeter.png]] [[Ampmeter]]
-> ![[freqmeter.png]] [[Freqmeter]]
-> ![[oscope.png]] [[Oscilloscope]]
-> ![[lanalizer.png]] [[Logic Analyzer]]
+<summary><h2>Meters</h2></summary>
++ ![[probe.png]] [[Probe]]
++ ![[voltmeter.png]] [[Voltmeter]]
++ ![[ampmeter.png]] [[Ampmeter]]
++ ![[freqmeter.png]] [[Freqmeter]]
++ ![[oscope.png]] [[Oscilloscope]]
++ ![[lanalizer.png]] [[Logic Analyzer]]
 </details>
 
 ---
