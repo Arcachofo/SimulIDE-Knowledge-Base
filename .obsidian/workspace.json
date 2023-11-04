@@ -4,17 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "955fd7ff7a165815",
+        "id": "1ac2a63e88e48384",
         "type": "tabs",
-        "dimension": 59.40766550522648,
         "children": [
           {
-            "id": "2a8af5c7d541a06f",
+            "id": "9e33f8415384f602",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Components/Component list.md",
+                "file": "1-Circuit/Circuit canvas.md",
                 "mode": "source",
                 "source": true
               }
@@ -23,36 +22,22 @@
         ]
       },
       {
-        "id": "1ac2a63e88e48384",
+        "id": "e0e7ff8e96eae704",
         "type": "tabs",
-        "dimension": 40.59233449477352,
         "children": [
           {
-            "id": "9e33f8415384f602",
+            "id": "fd966dabbaaa8b54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Application/Circuit.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b1bff27871858531",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-Circuit/Components/01-Meters/Probe.md",
+                "file": "1-Circuit/Circuit Tool bar.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 325.5
   },
   "right": {
     "id": "c6a4303aeafd9f06",
@@ -118,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Circuit/Components/Component list.md"
+                "file": "1-Circuit/Circuit canvas.md"
               }
             }
           },
@@ -128,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Circuit/Components/Component list.md",
+                "file": "1-Circuit/Circuit canvas.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Circuit/Components/Component list.md",
+                "file": "1-Circuit/Circuit canvas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,34 +165,34 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "2a8af5c7d541a06f",
+  "active": "9e33f8415384f602",
   "lastOpenFiles": [
+    "Application/Circuit.md",
+    "1-Circuit/Circuit Tool bar.md",
+    "Application/Settings.md",
+    "1-Circuit/Circuit canvas.md",
+    "Application/Application Settings.md",
+    "1-Circuit/Component.md",
+    "Application/Basic use.md",
+    "1-Circuit/Components/Component context menu.md",
+    "1-Circuit/Components/Modular Components/Modular.md",
+    "1-Circuit/Circuit context menu.md",
+    "1-Circuit/Components/Custom Components.md",
+    "1-Circuit/Components/Subcircuits.md",
+    "1-Circuit/Components/11-Other/Package.md",
     "simulidekb.md",
+    "2-Editor/Code Editor.md",
+    "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
+    "1-Circuit/Components/01-Meters/Probe.md",
     "Content.md",
     "1-Circuit/Components/Component list.md",
-    "1-Circuit/Components/01-Meters/Probe.md",
-    "Application/Circuit.md",
-    "1-Circuit/Circuit canvas.md",
-    "Application/Basic use.md",
     "README.md",
-    "1-Circuit/Components/Modular Components/Modular.md",
-    "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
-    "1-Circuit/Circuit Tool bar.md",
-    "1-Circuit/Circuit context menu.md",
-    "1-Circuit/Component.md",
     "1-Circuit/Components/01-Meters/Ampmeter.md",
     "1-Circuit/Components/01-Meters/Logic Analyzer.md",
     "1-Circuit/Components/01-Meters/Freqmeter.md",
     "1-Circuit/Components/01-Meters/Oscilloscope.md",
     "1-Circuit/Components/01-Meters/Voltmeter.md",
     "1-Circuit/Components/02-Sources/Battery.md",
-    "1-Circuit/Components/02-Sources/Clock.md",
-    "1-Circuit/Components/02-Sources/Controlled Source.md",
-    "1-Circuit/Components/02-Sources/Current Source.md",
-    "1-Circuit/Components/02-Sources/Fixed Volt.md",
-    "1-Circuit/Components/02-Sources/Ground.md",
-    "1-Circuit/Components/02-Sources/Rail.md",
-    "1-Circuit/Components/02-Sources/Voltage Source.md",
     "images/mainmcu.png",
     "images/trafo3.png",
     "images/trafo2.png",

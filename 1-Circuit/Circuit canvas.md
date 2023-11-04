@@ -1,4 +1,4 @@
-# Circuit Canvas
+# Circuit canvas
 
 This is the central part of the application, where you create your circuits.
 
@@ -16,7 +16,6 @@ Options:
 - **Redo:** redo last circuit action.
 - **Import Circuit:** import circuit selected from a file dialog.
 - **Save circuit as image:** save visible part of the circuit to image file.
-<br>
 
 ## Mouse actions:
 
@@ -25,7 +24,6 @@ Options:
 - **Select:** Left-Click in Component.
 - **Select group:** Left-Click and move.
 - **Context menu:** Right-Click.
-<br>
 
 ## Key actions:
 
@@ -41,11 +39,10 @@ Options:
 - **Delete Components:** Del or Back_space.
 - **Create Component:** ALt+Shortcut.
 - **Cancel action:** Esc.
-<br>
 
 ## Circuit settings:
 
-Open [[Application settings]] in [[Circuit Tool bar]] and select "Circuit" tab.
+Open [[Settings#settings|settings]] in [[Circuit Tool bar]] and select "Circuit" tab.
 Options:
 - **Draw Grid:** show or hide grid.
 - **Show Scrollbar:** show or hide scroll bars.

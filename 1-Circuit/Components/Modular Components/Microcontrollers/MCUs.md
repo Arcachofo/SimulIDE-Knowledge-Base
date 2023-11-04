@@ -43,7 +43,7 @@ Now you are ready to power the circuit and watch the simulation.
 - **Save EEPROM data to file:** save Microcontroller's EEPROM to file.
 - **Open [[MCU Monitor]]:** open a monitor to watch RAM, ROM, Flash and other info.
 - **Open [[Serial Monitor]]:** open a monitor to watch Serial communications.
-- **[[#Properties:]]** opens properties dialog.
+- **[[MCUs#Properties:|Properties]]** opens properties dialog.
 
 ---
 

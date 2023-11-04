@@ -9,7 +9,7 @@ Executable is in this folder, just double-click it or run from a terminal if you
 You can copy this folder to whatever location you want keeping the internal structure as it is.  
 **Don't move, edit or delete files** unless you know what you are doing.
 
-You don't need to install anything else unless you are compiling yourself. Then you need to install [[Dependecies| these dependencies]].
+You don't need to install anything else unless you are compiling yourself. Then you need to install [[Dependencies| these dependencies]].
 
 ---
 
@@ -46,13 +46,13 @@ To create a circuit, just grab components from the [[Component list]] and drop i
 Then click in a Pin to start a wire and click in another pin to end the wire.
 
 You can zoom in/out with the mouse wheel and pan with left button.
-Right-click in the canvas to open the [[Circuit context menu]].
+Right-click in the canvas to open the [[Circuit canvas#Context menu|Circuit context menu]].
 
 ---
 
 # Simulating circuits:
 
-When you complete your circuit, click the Power button:  ![[poweroff.png | 20]]  in the [[Circuit Tool bar | Tool bar]] to start or stop the simulation.
+When you complete your circuit, click the Power button:  ![[poweroff.png | 20]]  in the [[Circuit Tool bar|Tool bar]] to start or stop the simulation.
 
 You can pause the simulation with the pause button: ![[pausesim.png | 20]]
 
