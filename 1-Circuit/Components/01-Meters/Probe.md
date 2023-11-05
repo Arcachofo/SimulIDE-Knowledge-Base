@@ -13,6 +13,7 @@ Property: (default value)
 - **Show Voltage:** (yes)
    Show voltage value in circuit.
 <br>
+
 - **Threshold:** (2.5 V)
    Digital threshold to determine High/Low states.
 

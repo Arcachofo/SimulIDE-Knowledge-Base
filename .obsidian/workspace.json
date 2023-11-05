@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Circuit Tool bar.md",
+                "file": "1-Circuit/Components/01-Meters/Probe.md",
                 "mode": "source",
                 "source": true
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Circuit/Circuit canvas.md"
+                "file": "1-Circuit/Components/01-Meters/Probe.md"
               }
             }
           },
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Circuit/Circuit canvas.md",
+                "file": "1-Circuit/Components/01-Meters/Probe.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Circuit/Circuit canvas.md",
+                "file": "1-Circuit/Components/01-Meters/Probe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,12 +165,22 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "9e33f8415384f602",
+  "active": "fd966dabbaaa8b54",
   "lastOpenFiles": [
-    "Application/Circuit.md",
+    "1-Circuit/Components/Component list.md",
+    "1-Circuit/Components/01-Meters/Oscilloscope.md",
+    "1-Circuit/Components/01-Meters/Freqmeter.md",
+    "1-Circuit/Components/01-Meters/Ampmeter.md",
+    "1-Circuit/Components/01-Meters/Voltmeter.md",
+    "1-Circuit/Components/01-Meters/Probe.md",
+    "1-Circuit/Components/03-Switches/Push.md",
+    "1-Circuit/Components/03-Switches/Switch.md",
+    "1-Circuit/Components/03-Switches/Relay.md",
+    "1-Circuit/Components/02-Sources/Fixed Volt.md",
     "1-Circuit/Circuit Tool bar.md",
-    "Application/Settings.md",
     "1-Circuit/Circuit canvas.md",
+    "Application/Circuit.md",
+    "Application/Settings.md",
     "Application/Application Settings.md",
     "1-Circuit/Component.md",
     "Application/Basic use.md",
@@ -183,16 +193,6 @@
     "simulidekb.md",
     "2-Editor/Code Editor.md",
     "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
-    "1-Circuit/Components/01-Meters/Probe.md",
-    "Content.md",
-    "1-Circuit/Components/Component list.md",
-    "README.md",
-    "1-Circuit/Components/01-Meters/Ampmeter.md",
-    "1-Circuit/Components/01-Meters/Logic Analyzer.md",
-    "1-Circuit/Components/01-Meters/Freqmeter.md",
-    "1-Circuit/Components/01-Meters/Oscilloscope.md",
-    "1-Circuit/Components/01-Meters/Voltmeter.md",
-    "1-Circuit/Components/02-Sources/Battery.md",
     "images/mainmcu.png",
     "images/trafo3.png",
     "images/trafo2.png",
