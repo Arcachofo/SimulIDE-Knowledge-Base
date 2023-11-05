@@ -5,12 +5,12 @@ Turn On/Off with the letf buttton.
 ---
 
 ## Wave types:
-![[sin.png]] Sine
-![[saw.png]] Saw
-![[tri.png]] Triangle
-![[sqa.png]] Square
-![[rnd.png]] Random
-![[wav.png]] Wav
+![[sin.png]] Sine<br>
+![[saw.png]] Saw<br>
+![[tri.png]] Triangle<br>
+![[sqa.png]] Square<br>
+![[rnd.png]] Random<br>
+![[wav.png]] Wav<br>
 
 ---
 
@@ -20,17 +20,21 @@ Property: (default value)
 ### Main:
 - **Wave type:** (Sine)
    Set output wave type.
-<br>
+   
+
 - **Frequency:**  (1000 Hz)
    Set output frequency.
-<br>
+   
+
 - **Quality:** (100)
    Number of steps per cycle.
-<br>
+   
+
 - **Duty:** (50 %)
    Duty cicle.
    Not available for all types.
 <br>
+
 - **Always On:** (yes)
    Removes the button and keeps always active.
 
