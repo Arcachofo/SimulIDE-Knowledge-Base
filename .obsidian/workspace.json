@@ -169,6 +169,7 @@
   "lastOpenFiles": [
     "1-Circuit/Components/Component list.md",
     "1-Circuit/Components/01-Meters/Probe.md",
+    "1-Circuit/Components/02-Sources/Wave Gen.md",
     "1-Circuit/Components/01-Meters/Oscilloscope.md",
     "1-Circuit/Components/01-Meters/Freqmeter.md",
     "1-Circuit/Components/01-Meters/Ampmeter.md",
@@ -192,7 +193,6 @@
     "1-Circuit/Components/11-Other/Package.md",
     "simulidekb.md",
     "2-Editor/Code Editor.md",
-    "1-Circuit/Components/Modular Components/Microcontrollers/MCUs.md",
     "images/mainmcu.png",
     "images/trafo3.png",
     "images/trafo2.png",
