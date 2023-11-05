@@ -9,9 +9,9 @@ Hover or connect to Wires or Pins to get voltage.
 
 ## Properties:
 Property: (default value)
-
 - **Show Voltage:** (yes)<br>
    Show voltage value in circuit.
+<br>
 
 - **Threshold:** (2.5 V)<br>
    Digital threshold to determine High/Low states.
