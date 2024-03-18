@@ -1,7 +1,7 @@
 # SimulIDE Knowledge Base
 
-[Obsidian](https://obsidian.md/) vault with Everything about SimulIDE published in [Netlify](https://www.netlify.com/).
-Live at: [SimulIDE Knowledge Base](https://knowledge-base.simulide.com/)
+[Obsidian](https://obsidian.md/) vault with Everything about SimulIDE.
+Used to generate html for the web site: https://simulide.com/p/simulidekb/
 
 Here I will add information about SimulIDE: tutorials, links to videos, development, etc.
 
