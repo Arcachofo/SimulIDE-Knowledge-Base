@@ -1,11 +1,16 @@
-## Description:
+7 segment display with integrated BCD to 7segment converter.<br>
 
-7seg with integrated BCD to 7seg.
+Bit 0 in right pin, bit 3 in left pin.<br>
 
-Bit 0 in right pin, bit 3 in left pin.
-
-Does not work with PWM or multiplexing.
+Does not work with PWM or multiplexing.<br>
 
 ---
 
-#Component
+## Properties:
+Property: (default value)
+
+- **Show Point Pin:** (no)
+   If yes, show a Pin to manage decimal point indicator.
+
+- **Show Enable Pin:** (no)
+   If yes, show a Pin to Enable/Disable the device.

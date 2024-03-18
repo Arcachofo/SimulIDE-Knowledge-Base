@@ -1,3 +1,5 @@
-#include shape
+Configurable Line.
 
-#Component 
+---
+
+![[Shape]]

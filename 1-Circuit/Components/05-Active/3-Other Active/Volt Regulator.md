@@ -6,9 +6,7 @@ Configurable voltage regulator.
 
 Property: (default value)
 
-- **Output Voltage:** (1.2 V)
-   Output voltage in reference to "R" pin.
+- **Output Voltage:** (1.2 V) <br>
+   Output voltage in reference to "R" pin. <br>
 
 ---
-
-#Component 

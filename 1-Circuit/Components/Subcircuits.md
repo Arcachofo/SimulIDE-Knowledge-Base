@@ -1,88 +1,98 @@
-# Subcircuits
+# Subcircuits 
 
-These components are just circuits "packed" inside a package.
+These components are just circuits "packed" inside a package.<br>
 
-There are already many subcircuits included in the default installation, for example all components of the 74 or CD series.
-All the files for subcircuits in the default installation are in "data" folder.
-You can have a look to the files of these components to get an idea of how they are implemented.
+There are already many subcircuits included in the default installation, for example all components of the 74 or CD series.<br>
+All the files for subcircuits in the default installation are in "data" folder.<br>
+You can have a look to the files of these components to get an idea of how they are implemented.<br>
+
+There are several types of subcircuits, but we can group them into 2 categories:
+
+- [[#Integrated Circuits]].
+- [[#Boards]].
+
+An example of ICs already included in SimulIDE are all 74 and CD series.<br>
+And examples of Boards are Arduinos, and components in "Led displays" and "Tools" categories in the component list.
+
+---
+
+## Creating Subcircuits
 
 Creating a subcircuit involves these steps:
 
 1. [[Package#Creating Package File|Creating Package File.]]
 2. [[#Creating circuit file.]]
-3. [[#Creating component folder]] with all files.
-4. [[#Add to component list]]
-<br>
+3. [[Custom Components#Creating component folder|Creating component folder]] with all files.
+4. [[Custom Components#Add to component list|Add to component list]]
 
 ---
 
-# Creating circuit file.
+## Integrated Circuits:
 
-To use a circuit in a subcircuit just connect your circuit to [[Tunnel]]s.
-Then Set the names of these Tunnels the same as the **Pin Id**s in the Packages (not the Pin names).
+These are just circuits in a package, similar to real ICs.<br>
 
-Save this circuit and use this .sim1 file as circuit file.
+### Creating circuit file.
+
+To use a circuit in a subcircuit just connect your circuit to Tunnels: ![[tunnel.png]].<br>
+Then Set the names of these Tunnels the same as the **Pin Id**s in the Packages (not the Pin names).<br>
+
+Save this circuit and use this .sim1 file as circuit file.<br>
   
-You can do all in one Circuit, as in the image below, with both Chip and Logic Symbol packages and circuit.
-This is not always required, but this way you can see and edit the package files and circuit in the same place:
+You can do all in one Circuit, as in the image below, with both Chip and Logic Symbol packages and circuit.<br>
+This is not always required, but this way you can see and edit the package files and circuit in the same place:<br>
   
 ![[subc4.png]]
 <br>
 
 ---
 
-## Creating component folder 
+## Boards:
 
-The simplest way is to use the the component name for the folder and all files as explained [[Custom Components#Creating component folder|here]].
+Boards are subcircuits that have some graphical elements, often used for interaction, for example switches, potentiometers, displays, etc.<br>
 
-But it is possible to use different file names or use packages from other components.
-To do this, you need to specify paths for these files as explained below.
-<br>
+Creating a board is similar to any other subcircuit, the first step is creating the circuit and add tunnels to connect to Package pins.<br>
 
----
+The only difference is about graphical components.<br>
+These components need to be placed is a specific position inside the package, so it requires an additional step:
 
-## Add to component list.
+### Placing Graphical Components:
 
-The simplest method and common options is explained [[Custom Components#Add to component list|here]].
+When a package is configured as type "Board" a new item **Board Mode** appears in the context menu.<br>
 
-But is is possible to use specific paths for package and circuit files.
-Path to all files are relative to "data" folder.
+![[board_mode.png]]
 
-```xml
-<itemlib>  
-  <itemset category="Some Category" type="Subcircuit">  
-	<item name="Name1" package="file1.package" subcircuit="fileX.sim1" />  
-	<item name="Name2" package="file2.package" subcircuit="fileY.sim1" />  
-  </itemset>
-</itemlib>
-```
-  
-- **package** Is the path to package file, relative to SimulIDE data folder.  
-- **subcircuit** Is the path to subcircuit .sim1 file, relative to SimulIDE data folder.
-<br>
+When you select Board Mode, all the non graphical components and wires disappear and the graphical components remain.
 
-It is also possible to use a different method  for each **item**:
-  
-```xml
-<itemset category="IC 74/7400-7499" type="Subcircuit" folder="ICs">  
+Now you can place all graphical components into the board.<br>
+Graphical components must be completely within the board rectangle.
 
-  <item name="74HC00"  info="quad 2-input NAND gate" />
+When all components are placed right-click and deselect **Board Mode** to return to the normal circuit view.
 
-  <item name="Comp_X" folder="XX" info="My files in XX folder" />
-  
-  <item name="Comp_Y" package="blah/cY.package" 
-                      subcircuit="bla2/compY.sim1" 
-                      info=" My files are in blah & bla2 folders" />
-  
-</itemset>
-```
-
+**Don't forget to save package file and circuit.**
 
 ---
 
-# Resources:
+## Exposed Components:
 
-## Videos:
+Sometimes you want to access some functionality of some of the components in a subcircuit, for example in an Arduino board you want to be able to load firmware into the internal ATmega328.
+
+For this you can use the option **Select Exposed Components** in package's context menu.
+When you click on it the cursor changes to ![[expose_ico.png]]  And you can select/deselect components.<br>
+"Exposed" components are highlighted in yellow:
+
+![[exposing.png]]
+
+To return to normal mode just click in any empty space or right-click.
+
+Later, when you use this subcircuit in your circuits, you will be able to access exposed components from the subcircuit's context menu:
+
+![[exp_ctx_men.png]]
+
+---
+
+## Resources:
+
+### Videos:
 - [Logic Subcircuits SimulIDE dev.](https://www.youtube.com/watch?v=NpuQUcKUbAg)
 
 ---

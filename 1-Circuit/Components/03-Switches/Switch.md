@@ -5,23 +5,18 @@ Configurable 2 position switch.
 ## Properties:
 Property: (default value)
 
-- **Normally Closed:** (no)
-   State with button not pushed.
-<br>
+- **Normally Closed:** (no) <br>
+   State with button not pushed. <br>
 
-- **Double Throw:** (no)
-   Yes: 2 throws per pole.
-   No: 1 throw per pole.
-<br>
+- **Double Throw:** (no) <br>
+   Yes: 2 throws per pole. <br>
+   No: 1 throw per pole. <br>
 
-- **Poles:** (1)
-   Number of poles controlled by this switch.
-<br>
+- **Poles:** (1) <br>
+   Number of poles controlled by this switch. <br>
 
-- **Key:** ()
-   Character shown in the button.
-   Can be activated by keyboard in your PC.
+- **Key:** () <br>
+   Character shown in the button. <br>
+   Can be activated by keyboard in your PC. <br>
 
 ---
-
-#Component

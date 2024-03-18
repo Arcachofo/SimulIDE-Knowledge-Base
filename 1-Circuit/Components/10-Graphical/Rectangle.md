@@ -1,0 +1,5 @@
+Configurable Rectangle.
+
+---
+
+![[Shape]]

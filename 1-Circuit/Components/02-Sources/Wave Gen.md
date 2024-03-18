@@ -1,10 +1,10 @@
 Wave generator.
 
-Turn On/Off with the letf buttton.
+Turn On/Off with the letf button.
 
 ---
 
-## Wave types:
+### Wave types:
 ![[sin.png]] Sine<br>
 ![[saw.png]] Saw<br>
 ![[tri.png]] Triangle<br>
@@ -22,7 +22,10 @@ Property: (default value)
    Set output wave type.<br>
 
 - **Frequency:**  (1000 Hz)<br>
-   Set output frequency.<br>
+   Set output frequency. <br>
+
+- **Phase shift:** (0 º)<br>
+   Phase shift relative to wave start.<br>
 
 - **Quality:** (100)<br>
    Number of steps per cycle.<br>
@@ -32,9 +35,16 @@ Property: (default value)
    Not available for all types.<br>
 
 - **Always On:** (yes)<br>
-   Removes the button and keeps always active.
+   Removes the button and keeps always active.<br>
 
 ### Electric:
+- **Bipolar:** (false)<br>
+   If true, use 2 output pins.<br>
+
+- **Floating:** (false)<br>
+   If true, output voltages are not refered to ground.<br>
+   Only visible is Bipolar is true.<br>
+   
 - **Middle Voltage:** (0 V)<br>
    Central voltage of the wave.<br>
 
@@ -43,12 +53,8 @@ Property: (default value)
 
 ---
 
-# Resources:
+## Resources:
 
-## Videos:
+### Videos:
 - [Wave Generator wav file SimulIDE dev.](https://www.youtube.com/watch?v=nqUfnXY_VJE)
 - [Bipolar Wave Generator SimulIDE dev.](https://www.youtube.com/watch?v=Ez0m-O1AvVM)
-
----
-
-#Component

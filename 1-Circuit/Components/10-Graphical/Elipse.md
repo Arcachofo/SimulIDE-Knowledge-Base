@@ -1,3 +1,5 @@
-#include shape
+Configurable Ellipse.
 
-#Component 
+---
+
+![[Shape]]

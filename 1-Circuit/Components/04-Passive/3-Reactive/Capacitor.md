@@ -1,24 +1,22 @@
-Simple capacitor.
-
-Blinks if reactive step is too long.
+Simple capacitor. <br>
 
 ---
 
 ## Properties:
 Property: (default value)
 
-- **Capacitance:** (10 uF)
-<br>
-- **Resistance:** (1e-6 Ω)
+- **Capacitance:** (10 uF) <br>
+
+- **Resistance:** (1e-6 Ω) <br>
    Internal resistance.
-<br>
-- **Initial Voltage:** (0 V)
-   Voltage at simulation start (initial charge).
-<br>
-- **Auto Step:** (0 steps)
-   Resize Reactive step automatically.
-   The value sets the number of sub-steps.
-   0 to disable.
+
+- **Initial Voltage:** (0 V) <br>
+   Voltage at simulation start (initial charge). <br>
+
+- **Reactive Step:** (0 steps) <br>
+   Set custom Reactive step for this component. <br>
+   This value overrides general [[Settings#Simulation Settings|Simulation Settings]]. <br>
+   0 to use value set in [[Settings#Simulation Settings|Simulation Settings]]. <br>
 
 ---
 
@@ -27,5 +25,3 @@ Property: (default value)
 - Video: [Capacitor Auto-step SimulIDE 1.0.0](https://www.youtube.com/watch?v=9AuXlBCEd_c&list=PL0YDA67EjDEEasQXWilro9SEyDHN-H6ug&index=2&pp=iAQB)
 
 ---
-
-#Component 

@@ -1,4 +1,4 @@
-Logic and voltage probe.
+Logic and voltage probe.<br>
 Hover or connect to Wires or Pins to get voltage.
 
 **As logic probe:**
@@ -8,13 +8,12 @@ Hover or connect to Wires or Pins to get voltage.
 ---
 
 ## Properties:
-Property: (default value)
+Property: (default value)<br>
+
 - **Show Voltage:** (yes)<br>
-   Show voltage value in circuit.<br>
+   Show voltage label. <br>
 
 - **Threshold:** (2.5 V)<br>
-   Digital threshold to determine High/Low states.
+   Digital threshold to determine High/Low states. <br>
 
 ---
-
-#Component

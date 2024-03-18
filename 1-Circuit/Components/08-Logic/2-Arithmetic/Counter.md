@@ -1,4 +1,4 @@
-Binary counter.
+Binary counter. <br>
 Sets the output High after a number of clock pulses.
 
 ---
@@ -7,24 +7,20 @@ Sets the output High after a number of clock pulses.
 Property: (default value)
 
 ### Main:
-- **Use Set Pin:** (no)
-   Shows/hides "Set" pin.
-<br>
-- **Clock Inverted:** (no)
-   Invert Clock pin.
-<br>
-- **Set/Reset Inverted:** (yes)
-   Invert Set and Reset pins.
-<br>
-- **Count to:** (1)
+- **Use Set Pin:** (no) <br>
+   Shows/hides "Set" pin. <br>
+
+- **Clock Inverted:** (no) <br>
+   Invert Clock pin. <br>
+
+- **Set/Reset Inverted:** (yes) <br>
+   Invert Set and Reset pins. <br>
+
+- **Count to:** (1) <br>
    Number of Clock pulses to set output High.
 
-
 ### Electric:
-![[Logic Components#Inputs]]
-![[Logic Components#Outputs]]
-![[Logic Components#Edges]]
+![[Logic Components#Inputs]] <br>
+![[Logic Components#Outputs]] <br>
+![[Logic Components#Timing]] <br>
 
----
-
-#Component 

@@ -1,4 +1,4 @@
-Configurable zener diode.
+Configurable zener diode. <br>
 
 See [[Diode]]
 
@@ -9,5 +9,3 @@ See [[Diode]]
 - [Wikipedia](https://en.wikipedia.org/wiki/Zener_diode)
 
 ---
-
-#Component 

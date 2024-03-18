@@ -1,23 +1,19 @@
-
-Demultiplexer.
+Digital Demultiplexer.
 
 ---
 
 ## Properties:
-
 Property: (default value)
 
 ### Main:
-- **Address Size:** (3 Bits)
-   Number of select pins.
-   Determines number of channels: n = 2^Address_Size
-<br>
-- **Invert Outputs:** (no)
-   Invert output pins.
+- **Address Size:** (3 Bits)<br>
+   Number of select pins.<br>
+   Determines number of channels: n = 2^Address_Size<br>
 
 ### Electric:
-![[Logic Components#Inputs]]
-![[Logic Components#Outputs]]
-![[Logic Components#Edges]]
+![[Logic Components#Inputs]]<br>
+![[Logic Components#Outputs]]<br>
+- **Invert Outputs:** (no)<br>
+   Invert output pins.<br>
 
-#Component 
+![[Logic Components#Timing]]<br>

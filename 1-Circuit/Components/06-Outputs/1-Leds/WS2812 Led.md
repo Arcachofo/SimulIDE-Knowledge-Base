@@ -6,12 +6,10 @@ WS2812 Led string.
 
 Property: (default value)
 
-- **Rows:** (1 Leds)
-   Number of rows.
+- **Rows:** (1 Leds) <br>
+   Number of rows. <br>
 
-- **Columns:** (1 Leds)
-   Number of columns.
+- **Columns:** (1 Leds) <br>
+   Number of columns. <br>
 
 ---
-
-#Component 

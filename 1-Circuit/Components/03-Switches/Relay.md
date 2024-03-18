@@ -6,41 +6,33 @@ Configurable electromagnetic relay.
 Property: (default value)
 
 ### Main:
-- **Normally Closed:** (no)
-   State with relay not active.
-<br>
+- **Normally Closed:** (no) <br>
+   State with relay not active. <br>
 
-- **Double Throw:** (no)
-   Yes: 2 throws per pole.
-   No: 1 throw per pole.
-<br>
+- **Double Throw:** (no) <br>
+   Yes: 2 throws per pole. <br>
+   No: 1 throw per pole. <br>
 
-- **Poles:** (1)
-   Number of poles controlled by this relay.
-
+- **Poles:** (1) <br>
+   Number of poles controlled by this relay. <br>
 
 ### Electric:
-- **IOn:** (0.02 A)
-   Minimun current that activates the relay.
-<br>
+- **IOn:** (0.02 A) <br>
+   Minimun current that activates the relay. <br>
 
-- **IOff:** (0.01 A)
-   Minimun current that holds the relay active.
+- **IOff:** (0.01 A) <br>
+   Minimun current that holds the relay active. <br>
 
 ### Coil:
-- **Inductance:** (0.1 H)
-   Coil inductance.
-<br>
+- **Inductance:** (0.1 H) <br>
+   Coil inductance. <br>
 
-- **Resistance:** (100 Ω)
-   Coil resistance.
-<br>
+- **Resistance:** (100 Ω) <br>
+   Coil resistance. <br>
 
-- **Auto Step:** (0 steps)
-   Resize Reactive step automatically.
-   The value sets the number of sub-steps.
-   0 to disable.
+- **Reactive Step:** (0 steps) <br>
+   Set custom Reactive step for this component. <br>
+   This value overrides general [[Settings#Simulation Settings|Simulation Settings]]. <br>
+   0 to use value set in [[Settings#Simulation Settings|Simulation Settings]]. <br>
 
 ---
-
-#Component

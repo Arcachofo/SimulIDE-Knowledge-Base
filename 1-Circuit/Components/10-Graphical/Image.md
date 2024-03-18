@@ -1,3 +1,6 @@
-#include shape
+Embedded Image.
 
-#Component 
+---
+
+![[Shape]]
+

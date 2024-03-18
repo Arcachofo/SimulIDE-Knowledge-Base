@@ -6,12 +6,10 @@ Simple incandescent lamp.
 
 Property: (default value)
 
-- **Resistance:** (5 Ω)
-   Resistance of the filament.
-<br>
-- **Max Current:** (0.2 A)
-   Maximum current.
+- **Resistance:** (5 Ω) <br>
+   Resistance of the filament. <br>
+
+- **Max Current:** (0.2 A) <br>
+   Current at maximum bright. <br>
    
 ---
-
-#Component 

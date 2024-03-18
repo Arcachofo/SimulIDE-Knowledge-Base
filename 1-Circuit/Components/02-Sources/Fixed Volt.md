@@ -1,15 +1,13 @@
-Simple voltage source.
+Simple voltage source. <br>
 
-Turn On/Off with the letf buttton.
+Turn On/Off with the letf button.
 
 ---
 
 ## Properties:
 Property: (default value)
 
-- **Voltage:** (5 V)
+- **Voltage:** (5 V) <br>
    Output voltage.
 
 ---
-
-#Component

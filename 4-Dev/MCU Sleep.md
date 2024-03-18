@@ -1,5 +1,3 @@
-# MCU sleep
-
 AVR use 8 sleep modes defined by a register.
 PIC use 1 sleep mode (just sleep or not sleep).
 
@@ -21,5 +19,3 @@ And which functionality works during sleep.
 Determine wakeups for each Interrupt in each device (Only AVR).
 
 ---
-
-#tutorial

@@ -6,6 +6,7 @@
       {
         "id": "1ac2a63e88e48384",
         "type": "tabs",
+        "dimension": 51.64319248826291,
         "children": [
           {
             "id": "9e33f8415384f602",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Circuit canvas.md",
+                "file": "Application/Basic use.md",
                 "mode": "source",
                 "source": true
               }
@@ -22,17 +23,18 @@
         ]
       },
       {
-        "id": "e0e7ff8e96eae704",
+        "id": "7a987bf3646eb0b4",
         "type": "tabs",
+        "dimension": 48.35680751173709,
         "children": [
           {
-            "id": "fd966dabbaaa8b54",
+            "id": "11be6e53d4f11c48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Circuit/Components/02-Sources/Wave Gen.md",
-                "mode": "source",
+                "file": "Application/Message panel.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -66,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "compi",
+                "query": "tag:#hub",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 234.5
   },
   "right": {
     "id": "c6a4303aeafd9f06",
@@ -103,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Circuit/Components/02-Sources/Wave Gen.md"
+                "file": "Application/Message panel.md"
               }
             }
           },
@@ -113,8 +115,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Circuit/Components/02-Sources/Wave Gen.md",
-                "collapseAll": true,
+                "file": "Application/Message panel.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -130,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Circuit/Components/02-Sources/Wave Gen.md",
+                "file": "Application/Message panel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,53 +167,53 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "fd966dabbaaa8b54",
+  "active": "11be6e53d4f11c48",
   "lastOpenFiles": [
-    "1-Circuit/Components/Component list.md",
-    "1-Circuit/Components/01-Meters/Probe.md",
-    "1-Circuit/Components/02-Sources/Wave Gen.md",
-    "1-Circuit/Components/01-Meters/Oscilloscope.md",
-    "1-Circuit/Components/01-Meters/Freqmeter.md",
-    "1-Circuit/Components/01-Meters/Ampmeter.md",
-    "1-Circuit/Components/01-Meters/Voltmeter.md",
-    "1-Circuit/Components/03-Switches/Push.md",
-    "1-Circuit/Components/03-Switches/Switch.md",
-    "1-Circuit/Components/03-Switches/Relay.md",
-    "1-Circuit/Components/02-Sources/Fixed Volt.md",
-    "1-Circuit/Circuit Tool bar.md",
-    "1-Circuit/Circuit canvas.md",
-    "Application/Circuit.md",
-    "Application/Settings.md",
-    "Application/Application Settings.md",
-    "1-Circuit/Component.md",
+    "4-Dev/Source Code.html",
+    "4-Dev/Scripted Dev.html",
+    "4-Dev/MCU dev.html",
+    "4-Dev/MCU Sleep.html",
+    "4-Dev/Linked Dev.html",
+    "4-Dev/MCU Clock.html",
+    "1-Circuit/Circuit canvas.html",
+    "1-Circuit/Circuit Tool bar.html",
+    "1-Circuit/Components/01-Meters/Oscilloscope.html",
+    "1-Circuit/Components/01-Meters/Freqmeter.html",
+    "1-Circuit/Components/01-Meters/Ampmeter.html",
     "Application/Basic use.md",
-    "1-Circuit/Components/Component context menu.md",
-    "1-Circuit/Components/Modular Components/Modular.md",
-    "1-Circuit/Circuit context menu.md",
-    "1-Circuit/Components/Custom Components.md",
-    "1-Circuit/Components/Subcircuits.md",
-    "1-Circuit/Components/11-Other/Package.md",
-    "simulidekb.md",
+    "Application/Message panel.md",
+    "1-Circuit/Components/Modular Components/MCUs.md",
+    "1-Circuit/Info panel.md",
+    "2-Editor/Debugger.md",
     "2-Editor/Code Editor.md",
-    "images/mainmcu.png",
-    "images/trafo3.png",
-    "images/trafo2.png",
-    "images/trafo1.png",
-    "images/trafo0.png",
-    "images/edit_toolbar.png",
-    "images/toolbe.png",
-    "images/circ_toolbar.png",
-    "images/toolbar.png",
-    "images/powerico.png",
-    "images",
-    "Application",
-    "4-Dev",
-    "3-Files",
-    "2-Editor",
-    "1-Circuit/Components/7-Micro/9-Peripherals",
-    "1-Circuit/Components/7-Micro/8-Sensors",
-    "1-Circuit/Components/7-Micro",
-    "1-Circuit/Components/06-Outputs/4-Other Output",
-    "1-Circuit/Components/06-Outputs/3-Motors"
+    "2-Editor/Compiler.md",
+    "Application/Settings.md",
+    "1-Circuit/Circuit canvas.md",
+    "1-Circuit/Circuit Tool bar.md",
+    "1-Circuit/Circuit animation.md",
+    "images/gui-basic-use.png",
+    "images/siminfo.png",
+    "images/msgpanel.png",
+    "1-Circuit/Component.md",
+    "1-Circuit/Linking Components.md",
+    "2-Editor/Find replace.md",
+    "3-Files/File explorer.md",
+    "3-Files/File organization.md",
+    "4-Dev/Linked Dev.md",
+    "4-Dev/MCU Clock.md",
+    "4-Dev/MCU dev.md",
+    "4-Dev/MCU Sleep.md",
+    "4-Dev/Scripted Dev.md",
+    "4-Dev/Source Code.md",
+    "Application/Circuit.md",
+    "1-Circuit/Components/Modular Components/Modular.md",
+    "simulidekb.md",
+    "images/unac.png",
+    "images/undef.png",
+    "images/oulo.png",
+    "images/ouhi.png",
+    "images/oplo.png",
+    "images/ophi.png",
+    "images/opdlo.png"
   ]
 }

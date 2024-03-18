@@ -3,24 +3,21 @@ Flipflop "RS" type.
 ---
 
 ## Properties:
-
 Property: (default value)
 
 ### Main:
-- **Set/Reset Inverted:** (yes)
-   Invert Set and Reset pins.
-<br>
-- **Clock Inverted:** (no)
-   Invert Clock pin.
-<br>
-- **Trigger Type:** (Clock)
-   "Clock" triggers every active edge.
-   "enable" any change during active state.
-   "None" hides Clock pin.
+- **Set/Reset Inverted:** (yes)<br>
+   Invert Set and Reset pins.<br>
+
+- **Clock Inverted:** (no)<br>
+   Invert Clock pin.<br>
+
+- **Trigger Type:** (Clock)<br>
+   "Clock" triggers every active edge.<br>
+   "enable" any change during active state.<br>
+   "None" hides Clock pin.<br>
 
 ### Electric:
-![[Logic Components#Inputs]]
-![[Logic Components#Outputs]]
-![[Logic Components#Edges]]
-
-#Component 
+![[Logic Components#Inputs]]<br>
+![[Logic Components#Outputs]]<br>
+![[Logic Components#Timing]]<br>

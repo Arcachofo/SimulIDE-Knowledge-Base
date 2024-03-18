@@ -3,19 +3,19 @@ Configurable Buffer Gate.
 ---
 
 ## Properties:
-
 Property: (default value)
 
-### Main:
-- **Tristate:** (no)
-   If yes, creates an enable pin (active Low).
-   When disabled, output is high impedance.
-
-#include gateinputs
 ### Electric:
-![[Logic Components#Inputs]]
-![[Logic Components#Outputs]]
-![[Logic Components#Edges]]
+![[Logic Components#Inputs]] <br>
+- **Invert Inputs:** (no) <br>
+   Invert input pins.<br>
 
+![[Logic Components#Outputs]] <br>
+![[Gate outputs]] <br>
+- **Tristate:** (no) <br>
+   If yes, creates an enable pin (active Low). <br>
+   When disabled, output is high impedance.
+   
+![[Gate timing]] <br>
 
-#Component 
+---

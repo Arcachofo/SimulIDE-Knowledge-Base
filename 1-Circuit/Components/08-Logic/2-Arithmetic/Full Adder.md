@@ -7,9 +7,7 @@ Configurable full adder.
 Property: (default value)
 
 ### Electric:
-![[Logic Components#Inputs]]
-![[Logic Components#Outputs]]
-![[Logic Components#Edges]]
+![[Logic Components#Inputs]] <br>
+![[Logic Components#Outputs]] <br>
+![[Logic Components#Timing]] <br>
 
-
-#Component 
