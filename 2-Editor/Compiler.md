@@ -1,38 +1,53 @@
-SimulIDE does not distribute any compiler, but you can use almost any compiler from the Editor if it is already installed in your system, configured and working properly.<br>
+SimulIDE does not distribute any compiler.<br>
+To use a compiler it must be installed in your system and working properly.<br>
 
-This is achieved by configuring the compiler command and options in XML files located at data/codeeditor/compilers/<br>
+Then SimulIDE can use it by executing it's command and arguments.<br>
+This is achieved by configuring the compiler command and options in XML files located at SimulIDE/data/codeeditor/compilers/ or User_data_folder/codeeditor/compilers/<br>
 
 There are some compilers already configured included in SimulIDE, but you might need to tweak some settings within the XML file according to your compiler's specifications (e.g., altering the executable name or extension for Windows).<br>
-See [[#File Structure]] below to know how these files work and how to edit them or add new compilers.<br>
+See [[#File Structure]] below to know how these files work and how to edit them or [[#Adding Compilers|add new compilers]].<br>
 If you have any questions please ask in our [forum](https://simulide.forumotion.com/)
 
 Some compilers are automatically loaded for some file extensions, for example:<br>
-**.ino** : Arduino compiler.<br>
-**.gcb**: GcBasic compiler.<br>
-**.as** : Script compiler <br>
+**.ino** : [[Arduino compiler]].<br>
+**.gcb**: [[GcBasic compiler]].<br>
+**.as** : [[Script compiler]]. <br>
 
-If your file has a different extension, you need to choose a compiler:<br>
+If your file has a different extension, you need to choose a compiler for that file or create a new one.<br>
 
-In version 1.0.0, open "Compiler Settings" in the tool bar by selecting it from the ![[settings.svg]] Settings menu.<br>
-Once there, choose a compiler from the list and customize any additional options (like 'Tool Path') if necessary.
+---
 
-![[comp_settings.png]]
+## Settings:
+
+In version 1.0.0, open "Compiler Settings" in the tool bar by selecting it from the ![[settings.svg]] Settings menu and choose a compiler from the list.<br>
 
 In version 1.1.0 first choose a compiler in "File Settings" then configure the compiler in "Compiler Settings".<br>
 
+Once there,  customize any options (like 'Tool Path') if necessary.<br>
+
+![[comp_settings.png]]
+
+Options can be different for each compiler and will be added depending on the fields used in the configuration file.
+
+<br>
+
+---
 
 ## Compiling:
 
 Once the compiler is configured you can compile the file by clicking in the compile button in the tool bar: ![[compile.svg]] <br>
-Have a look at the bottom panel to see if there is some error.
+Have a look at the bottom panel to see the output of the compiling process and check if there is some error.
 
-If there are no errors you can upload the hex file generated to a microcontroller in the circuit by clicking the upload button in tool bar: ![[upload.svg]] 
+If there are no errors you can upload the hex file generated to a microcontroller in the circuit by clicking the upload button in tool bar: ![[upload.svg]]  <br>
+If you click the upload button it will compile first and then upload.
 
+**Important!!** <br>
 Note that if there is more than one microcontroller in the circuit, the hex file will be uploaded to the "active" microcontroller, which is the one with a yellow dot:
 
 ![[mainmcu.png]]
 
 To change the "active" microcontroller, right-click on it to open context menu and select "Main Mcu"
+
 <br>
 
 ---
@@ -49,6 +64,7 @@ If the compiler you want is not included in the list, you can add new compilers.
 
 To add a compiler, just add an xml file in the folders mentioned above.<br>
 Your compiler will be added to the list in Compiler Settings dialog.
+
 <br>
 
 ---
@@ -74,6 +90,7 @@ The structure of the xml file is like this:
 
 First the compiler name, type and other characteristics are defined in the field "compiler".<br>
 Then you can add as many build steps as you want in fields "step".
+
 <br>
 
 ---
@@ -112,6 +129,7 @@ Note that you must use this path in your command arguments if needed  (see examp
 **syntax:** syntax file used for highlighting.<br>
 Syntax files are located at: SimulIDE_1.x.x/data/codeeditor/syntax/<br>
 You can add your custom syntax files in that folder and use in your compiler definitions.
+
 <br>
 
 ---
@@ -132,6 +150,7 @@ Each step need to have at least a "command".
 **command:** command to execute.<br>
 **arguments:** arguments to add to the command when compiling.<br>
 **argsDebug:** arguments to add to the command when compiling for debug.
+
 <br>
 
 ---
@@ -153,6 +172,7 @@ Then we can use these substitutions:
 | **\$inclPath**  | - |      include path (defined in Settings Dialog) |
 | **\$family**    | - |     device family (defined in Settings Dialog) |
 | **\$device**    | - |       device model (defined i Settings Dialog) |
+
 <br>
 
 ---
@@ -200,6 +220,7 @@ And the complete command it will execute for the first build step is this (all i
 ```xml
 "/path/to/myCompiler/avr-gcc" -mmcu=atmega8 -Os -o /path/toMyproject/build_mycode/mycode.elf "/path/toMyproject/mycode.c"
 ```
+
 <br>
 
 ---

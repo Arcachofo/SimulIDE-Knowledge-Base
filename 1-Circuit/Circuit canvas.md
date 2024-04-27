@@ -32,15 +32,20 @@ Options:
 
 ## Key actions:
 
-- **Copy:** Ctrl+C or Component contex menu.
+- **Copy:** Ctrl+C or Component context menu.
 - **Paste:** Ctrl+V or Circuit context menu.
 - **Cut:** Ctrl+X.
 - **Undo:** Ctrl+Z.
-- **Redo:** CTRL+Shift+Z or Ctrl+Y.
+- **Redo:** Ctrl+Shift+Z or Ctrl+Y.
 - **New circuit:** Ctrl+N.
 - **Open Circuit:** Ctrl+O.
+-  **Save Circuit:** Ctrl+S.
+- **Save Circuit as:** Ctrl+Shift+S.
 - **Select All:** Crtl+A.
-- **Rotate Component:** Ctrl+R
+- **Rotate Component CW:** Ctrl+R
+- **Rotate Component CCW:** Ctrl+Shift+R
+- **Flip Component Horizontal:** Ctrl+L
+- **Flip Component Vertical:** Ctrl+Shift+L
 - **Delete Components:** Del or Back_space.
 - **Create Component:** ALt+Shortcut.
 - **Cancel action:** Esc.

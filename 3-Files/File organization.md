@@ -1,5 +1,5 @@
 SimulIDE relies in a set of external files for different purposes.<br>
-In SimulIDE root folder you will see 2 folders:
+In SimulIDE root folder you will see 2 folders:<br>
 - **examples:** example circuits.<br>
 - **data:** configuration and auxiliar files.<br>
 
@@ -10,7 +10,7 @@ SimulIDE executable must be in the same folder than **examples** and **data** to
 ## Data folder:
 This folder contains configuration and other auxiliary files for Microcontrollers, subcircuits, compilers, etc.<br>
 
-Some dediated folders are:
+Some dedicated folders are:<br>
 - **codeeditor:** contains configuration files for the Editor and Compilers.<br>
     - **compilers:** here are configuration files for compilers.<br>
        You can edit some of these files if needed or add new ones.<br>

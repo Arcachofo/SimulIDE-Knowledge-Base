@@ -10,6 +10,7 @@ There are several types of subcircuits, but we can group them into 2 categories:
 
 - [[#Integrated Circuits]].
 - [[#Boards]].
+- [[#Modules]].
 
 An example of ICs already included in SimulIDE are all 74 and CD series.<br>
 And examples of Boards are Arduinos, and components in "Led displays" and "Tools" categories in the component list.
@@ -87,6 +88,30 @@ To return to normal mode just click in any empty space or right-click.
 Later, when you use this subcircuit in your circuits, you will be able to access exposed components from the subcircuit's context menu:
 
 ![[exp_ctx_men.png]]
+
+---
+
+## Modules:
+
+Modules are an special type of Board that can be stacked on top of Boards or other Modules. In a similar way to Shields but with more freedom and in a more general way.<br>
+
+To create a Module, select "Module" in Package type:
+
+![[module.png]]
+
+Modules are connected using Sockets and Headers.<br>
+The Board or Module below should use a Socket and the Module to be stacked on top should use a Header **pointing down**:
+
+![[header_down.png]]
+
+For example in this case "board2" can be stacked on top of "board1" and "board1" on top of "board0":
+
+![[module_stack.png]]
+
+Just by placing the Header aligned on top of a Socket it will connect and the simulation will work.<br>
+
+To get a Module "attached" to a Board or another Module, Right-Click on it and select "Attach". Then the Module will move with the board below it<br>
+To "free" the Module again, Right-Click on it and select "Detach".
 
 ---
 

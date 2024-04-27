@@ -14,6 +14,7 @@ When a file is modified, an asterisk: * will appear in the tab besides the file 
 - [[Debugger]]
 
 <br>
+
 ---
 
 ## Tool bar
@@ -23,9 +24,10 @@ At the top we find the tool bar with 5 sections (from left to right):
 ![[edit_toolbar.png]]
 
 ###  Settings:
->  ![[settings.svg]] **Settings:** open settings menu:<br>
+>  ![[settings.svg]] open settings menu:<br>
 > > [[#Editor settings]].<br>
-> > [[Compiler]] settings.<br>
+> > [[#File settings]].<br>
+> > [[Compiler#Settings|Compiler settings]].<br>
 
 ###  File actions:
  >  ![[lastfiles.svg]] **Recent files:** show a list of last files used.<br>
@@ -45,6 +47,7 @@ At the top we find the tool bar with 5 sections (from left to right):
  >  ![[debug.svg]] **Debug:** starts [[Debugger]].
 
 <br>
+
 ---
 
 ##  Text editor
@@ -52,6 +55,8 @@ At the top we find the tool bar with 5 sections (from left to right):
 In the middle, the text editor itself is the space where we can see an edit text files.
 
 ###  Editor Settings
+
+![[edit_settings.png]]
 
 - **Font Size:** sets the font size ( also ctrl+ and ctrl- works) ( default 9).
 - **Tab Size:** sets the tab size ( default 4 ).
@@ -62,9 +67,34 @@ In the middle, the text editor itself is the space where we can see an edit text
 
 ![[show_spaces.png]]
 
+<br>
+
+---
+
+### File settings
+
+![[file_settings.png]]
+
+- **Compiler:** compiler to use for this file.
+- **Save settings at file close:** whether to save file setting to a .cfg file.
+
+**Actions after opening this file:**<br>
+If you save configuration, choose which actions to perform next time this file is opened.<br>
+- **Load Compiler:** load compiler choosen above.
+- **Load Breakpoints:** load breakpoints used in Debugger.
+- **Restore files:** open circuit and Editor documents present when this file was closed.
+
+<br>
+
+---
+
 ###  Context menu:
 
 Open the context menu by Right-clicking to: Undo, Redo, Cut, Copy, Paste, Remove or Reload document.
+
+<br>
+
+---
 
 ###  Indentation:
 
@@ -73,6 +103,10 @@ To unindent use Shift + Tab key.<br>
 You can select a block of text and indent/unindent it.
 
 New lines follow the indentation of previous line.
+
+<br>
+
+---
 
 ###  Syntax highlighting:
 
@@ -92,9 +126,11 @@ There are some syntax already supported:
 - Xml.
 
 You can modify existing ones or add new syntax using the files at:<br>
-SimulIDE/data/codeeditor/syntax/
+**SimulIDE/data/codeeditor/syntax/**<br>
+Or: **User_data_folder/codeeditor/syntax/**
 
 <br>
+
 ---
 
 ##  Message Panel
@@ -102,6 +138,8 @@ SimulIDE/data/codeeditor/syntax/
 This [[Message panel]] below the Editor view shows messages from the Editor, [[Compiler]] and [[Debugger]].
 
 Errors will appear highlighted in yellow background and warnings in bold orange.
+
+<br>
 
 ---
 

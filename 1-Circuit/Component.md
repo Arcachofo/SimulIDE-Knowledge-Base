@@ -32,12 +32,12 @@ This is a group of components located in the [[Component list#Reactive|Reactive 
 You can [[Custom Components|create your own components]] for SimulIDE.<br>
 There are 2 main types of components you can create in SimulIDE:
 
-### [[Subcircuits]]:
+### 1- [[Subcircuits]]:
 These are just circuits hidden inside a package.<br>
 Check the [[Subcircuits|page specific for Subcircuits here]].
 
 
-### [[Modular]]:
+### 2- [[Modular]]:
 These are components created by combining different modules that already implemented in SimulIDE.<br>
 Check the [[Modular|page specific for Modular Components here]].
 

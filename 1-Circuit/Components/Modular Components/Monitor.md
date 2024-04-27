@@ -25,5 +25,3 @@ It is also possible to save the list of registers you are watching to a file, so
 - Video: [MCU Monitor SimulIDE 1.0.0](https://www.youtube.com/watch?v=uVwMEadtIEM)
 
 ---
-
-#tutorial

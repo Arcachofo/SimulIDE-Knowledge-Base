@@ -11,7 +11,7 @@ Wire color represents logic states:<br>
 - **Red:** High state (V > 2.5 V).<br>
 - **Blue:** Low state (V < 2.5 V).<br>
 
-Buses are always shown in green color.
+Buses are always shown in green color with a thicker line.
 
 ---
 

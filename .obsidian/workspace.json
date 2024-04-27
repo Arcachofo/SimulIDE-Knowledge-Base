@@ -6,7 +6,7 @@
       {
         "id": "1ac2a63e88e48384",
         "type": "tabs",
-        "dimension": 51.64319248826291,
+        "dimension": 37.48043818466354,
         "children": [
           {
             "id": "9e33f8415384f602",
@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Application/Basic use.md",
-                "mode": "source",
+                "file": "3-Files/File organization.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -25,7 +25,7 @@
       {
         "id": "7a987bf3646eb0b4",
         "type": "tabs",
-        "dimension": 48.35680751173709,
+        "dimension": 62.519561815336466,
         "children": [
           {
             "id": "11be6e53d4f11c48",
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Application/Message panel.md",
+                "file": "2-Editor/Code Editor.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Application/Message panel.md"
+                "file": "2-Editor/Code Editor.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Application/Message panel.md",
+                "file": "2-Editor/Code Editor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Application/Message panel.md",
+                "file": "2-Editor/Code Editor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,6 +169,24 @@
   },
   "active": "11be6e53d4f11c48",
   "lastOpenFiles": [
+    "3-Files/File organization.md",
+    "2-Editor/Compiler.md",
+    "2-Editor/Code Editor.md",
+    "1-Circuit/Components/Subcircuits.md",
+    "images/file_settings.png",
+    "images/edit_settings.png",
+    "1-Circuit/Components/Manage Components.md",
+    "2-Editor/Script compiler.md",
+    "2-Editor/GcBasic compiler.md",
+    "2-Editor/Arduino compiler.md",
+    "1-Circuit/Component.md",
+    "1-Circuit/Components/Component list.md",
+    "images/manage.png",
+    "1-Circuit/Components/Custom Components.md",
+    "1-Circuit/Components/Component context menu.md",
+    "1-Circuit/Circuit animation.md",
+    "1-Circuit/Circuit canvas.md",
+    "1-Circuit/Components/Modular Components/Monitor.md",
     "4-Dev/Source Code.html",
     "4-Dev/Scripted Dev.html",
     "4-Dev/MCU dev.html",
@@ -179,41 +197,23 @@
     "1-Circuit/Circuit Tool bar.html",
     "1-Circuit/Components/01-Meters/Oscilloscope.html",
     "1-Circuit/Components/01-Meters/Freqmeter.html",
-    "1-Circuit/Components/01-Meters/Ampmeter.html",
+    "images/header_down.png",
+    "images/module_stack.png",
+    "images/module.png",
+    "1-Circuit/Components/Modular Components/Modular.md",
+    "1-Circuit/Components/Modular Components/MCUs.md",
+    "Application/Circuit.md",
+    "simulidekb.md",
+    "Content.md",
     "Application/Basic use.md",
     "Application/Message panel.md",
-    "1-Circuit/Components/Modular Components/MCUs.md",
     "1-Circuit/Info panel.md",
     "2-Editor/Debugger.md",
-    "2-Editor/Code Editor.md",
-    "2-Editor/Compiler.md",
     "Application/Settings.md",
-    "1-Circuit/Circuit canvas.md",
     "1-Circuit/Circuit Tool bar.md",
-    "1-Circuit/Circuit animation.md",
     "images/gui-basic-use.png",
     "images/siminfo.png",
     "images/msgpanel.png",
-    "1-Circuit/Component.md",
-    "1-Circuit/Linking Components.md",
-    "2-Editor/Find replace.md",
-    "3-Files/File explorer.md",
-    "3-Files/File organization.md",
-    "4-Dev/Linked Dev.md",
-    "4-Dev/MCU Clock.md",
-    "4-Dev/MCU dev.md",
-    "4-Dev/MCU Sleep.md",
-    "4-Dev/Scripted Dev.md",
-    "4-Dev/Source Code.md",
-    "Application/Circuit.md",
-    "1-Circuit/Components/Modular Components/Modular.md",
-    "simulidekb.md",
-    "images/unac.png",
-    "images/undef.png",
-    "images/oulo.png",
-    "images/ouhi.png",
-    "images/oplo.png",
-    "images/ophi.png",
-    "images/opdlo.png"
+    "images/unac.png"
   ]
 }
