@@ -4,18 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1ac2a63e88e48384",
+        "id": "6d81fb5ddc00de26",
         "type": "tabs",
-        "dimension": 37.48043818466354,
         "children": [
           {
-            "id": "9e33f8415384f602",
+            "id": "ee8eee30490215a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-Files/File organization.md",
-                "mode": "preview",
+                "file": "Extra Components/16 Segment.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -23,17 +22,16 @@
         ]
       },
       {
-        "id": "7a987bf3646eb0b4",
+        "id": "a6915351821ee452",
         "type": "tabs",
-        "dimension": 62.519561815336466,
         "children": [
           {
-            "id": "11be6e53d4f11c48",
+            "id": "1ea366533655f849",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-Editor/Code Editor.md",
+                "file": "Extra Components/VCO.md",
                 "mode": "preview",
                 "source": true
               }
@@ -89,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 200
   },
   "right": {
     "id": "c6a4303aeafd9f06",
@@ -105,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Editor/Code Editor.md"
+                "file": "Extra Components/16 Segment.md"
               }
             }
           },
@@ -115,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Editor/Code Editor.md",
+                "file": "Extra Components/16 Segment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Editor/Code Editor.md",
+                "file": "Extra Components/16 Segment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,26 +165,31 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "11be6e53d4f11c48",
+  "active": "ee8eee30490215a4",
   "lastOpenFiles": [
-    "3-Files/File organization.md",
-    "2-Editor/Compiler.md",
-    "2-Editor/Code Editor.md",
-    "1-Circuit/Components/Subcircuits.md",
-    "images/file_settings.png",
-    "images/edit_settings.png",
-    "1-Circuit/Components/Manage Components.md",
-    "2-Editor/Script compiler.md",
-    "2-Editor/GcBasic compiler.md",
-    "2-Editor/Arduino compiler.md",
-    "1-Circuit/Component.md",
+    "Extra Components/Optocoupler.md",
+    "Extra Components/Spi Digipot.md",
+    "Extra Components/VCO.md",
+    "Extra Components/Parallel Digipot.md",
+    "Extra Components/I2C Digipot.md",
+    "Extra Components/Encoder.md",
+    "Extra Components/16 Segment.md",
+    "images/16_seg_test.png",
+    "images/16seg.png",
+    "images/000_16seg.png",
+    "images/vco_test.png",
+    "images/000_vco_test.png",
+    "images/vco.png",
+    "images/000_vco.png",
+    "images/enc_test.png",
+    "images/000_enc_test.png",
+    "images/encoder.png",
+    "1-Circuit/Components/04-Passive/1-Resistors/Potentiometer.md",
     "1-Circuit/Components/Component list.md",
-    "images/manage.png",
-    "1-Circuit/Components/Custom Components.md",
-    "1-Circuit/Components/Component context menu.md",
-    "1-Circuit/Circuit animation.md",
     "1-Circuit/Circuit canvas.md",
-    "1-Circuit/Components/Modular Components/Monitor.md",
+    "1-Circuit/Components/Modular Components/Scripted.md",
+    "Extra Components",
+    "1-Circuit/Linking Components.md",
     "4-Dev/Source Code.html",
     "4-Dev/Scripted Dev.html",
     "4-Dev/MCU dev.html",
@@ -196,24 +199,18 @@
     "1-Circuit/Circuit canvas.html",
     "1-Circuit/Circuit Tool bar.html",
     "1-Circuit/Components/01-Meters/Oscilloscope.html",
-    "1-Circuit/Components/01-Meters/Freqmeter.html",
-    "images/header_down.png",
-    "images/module_stack.png",
-    "images/module.png",
-    "1-Circuit/Components/Modular Components/Modular.md",
-    "1-Circuit/Components/Modular Components/MCUs.md",
-    "Application/Circuit.md",
-    "simulidekb.md",
-    "Content.md",
-    "Application/Basic use.md",
-    "Application/Message panel.md",
-    "1-Circuit/Info panel.md",
-    "2-Editor/Debugger.md",
-    "Application/Settings.md",
-    "1-Circuit/Circuit Tool bar.md",
-    "images/gui-basic-use.png",
-    "images/siminfo.png",
-    "images/msgpanel.png",
-    "images/unac.png"
+    "1-Circuit/Components/Subcircuits.md",
+    "1-Circuit/Components/09-Connectors/Bus.md",
+    "1-Circuit/Components/10-Graphical/Image.md",
+    "1-Circuit/Components/10-Graphical/Elipse.md",
+    "1-Circuit/Components/Manage Components.md",
+    "1-Circuit/Components/Dialed.md",
+    "1-Circuit/Components/Custom Components.md",
+    "1-Circuit/Components/04-Passive/1-Resistors/Variable Resistor.md",
+    "3-Files/File organization.md",
+    "2-Editor/Code Editor.md",
+    "2-Editor/Compiler.md",
+    "2-Editor/Script compiler.md",
+    "2-Editor/GcBasic compiler.md"
   ]
 }

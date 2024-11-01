@@ -244,11 +244,14 @@ These are functions you can implement in the script.
     void setPinMode( uint mode )
     void setOutState( bool state )
     void scheduleState( bool state, uint64 time )
+    void setStateZ( bool z )
     bool getInpState()
     double getVoltage()
     void setVoltage( double volt )
+    void setOutHighV( double volt )
     void setImpedance( double imp )
     void changeCallBack( eElement@ e, bool en )
+    bool isConnected()
 ```
 
 <br>

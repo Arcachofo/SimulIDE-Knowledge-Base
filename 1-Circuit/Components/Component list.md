@@ -131,7 +131,7 @@
 > ![[mux.png]] [[Mux]] <br>
 > ![[demux.png]] [[Demux]] <br>
 > ![[2to3g.png]] [[Decoder]] <br>
-> ![[3to2g.png]] [[Encoder]] <br>
+> ![[3to2g.png]] [[1-Circuit/Components/08-Logic/4-Converters/Encoder]] <br>
 > ![[2to3g.png]] [[BCD to 7S]] <br>
 > ![[2to3g.png]] [[I2C to Parallel]] <br>
 ### Other Logic

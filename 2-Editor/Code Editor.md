@@ -80,8 +80,9 @@ In the middle, the text editor itself is the space where we can see an edit text
 
 **Actions after opening this file:**<br>
 If you save configuration, choose which actions to perform next time this file is opened.<br>
-- **Load Compiler:** load compiler choosen above.
-- **Load Breakpoints:** load breakpoints used in Debugger.
+
+- **Load Compiler:** load compiler choosen above.<br>
+- **Load Breakpoints:** load breakpoints used in Debugger.<br>
 - **Restore files:** open circuit and Editor documents present when this file was closed.
 
 <br>

@@ -1,11 +1,27 @@
 This feature is only available from version 1.1.0.
 
-When you link two or more component, the "active" one will perform some action over the linked components, usually sending some data. <br>
+Linking is a way to make components interact without being connected in the circuit.<br>
+When you link two or more component, the linker or "active" one will perform some action over the linked components, usually sending some data. <br>
 
 For example you can link a dial to several potentiometers, then when you adjust the dial all the linked potentiometers will be automatically adjusted to the same position.
 
 - Only some components have the ability to link to other components.
 - Most component can be linked, but only some can perform actions.
+
+---
+
+To link two components:<br>
+
+- Right-click in the linker and select "Link to Component".<br>
+    Mouse cursor will change to: ![[link.png| 25]] <br>
+<br>
+- Select linked components by clicking on them.<br>
+    A blue square with the index number indicates that it is linked.<br>
+
+  ![[link1.png]] <br>
+<br>
+- To unlink click in any linked component again.<br>
+- To stop linking click on any empty part of the Circuit, cursor returns to normal.<br>
 
 ---
 
@@ -50,6 +66,11 @@ For example you can link a dial to several potentiometers, then when you adjust 
 
 - **[[Clock]] & [[Wave Gen]]**<br>
     Can receive a frequency value.<br>
+
+- **[[Potentiometer]]**<br>
+    Can receive a resistance value or a Dial value. <br>
+    i = 0:  Resistance value
+    else : Dial value
 
 - **[[Capacitor]]**<br>
     Can receive a percentage capacitance (0 to 1000 = 0 to 100%).<br>
